@@ -6,6 +6,7 @@ import model.components.Map;
 import model.components.MilitaryStatus;
 import util.database.DataModel;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -26,4 +27,36 @@ public class UserData extends DataModel {
         amountAvailableBuilder = GameConfig.INIT_GAME.getPlayer().getBuilderNumber();
     }
 
+    void updateAllArea(){
+        // update all building, obstacles, military each time user login
+
+    }
+    void updateMilitary(){
+
+    }
+
+    Area getAreaById(int id){
+        return this.objectById.getOrDefault(id,null);
+    }
+
+    ArrayList<Area> getObjectByType(int typeLevel1, int typeLevel2){
+        ArrayList<Area> ans = new ArrayList<Area>();
+
+        return ans;
+    }
+
+    int getCapacity(int type){
+
+        return 0;
+    }
+
+    int getLevelTownHall(){
+
+        return 1;
+    }
+
+    boolean addObject(int id, Area object){
+
+        return true;
+    }
 }

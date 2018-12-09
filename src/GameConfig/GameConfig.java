@@ -21,9 +21,9 @@ import java.io.FileReader;
  * Created by CPU11630_LOCAL on 12/8/2018.
  */
 public class GameConfig {
-    public static int boardWidth = 40;
-    public static int boardHeight = 40;
-    public static AreaType AREA_TYPE = new AreaType();
+    public static int boardWidth;
+    public static int boardHeight;
+    public static AreaType AREA_TYPE;
     public static ArmyCamp ARMYCAMP;
     public static Barrack BARRACK;
     public static BuilderHut BUILDERHUT;
@@ -41,6 +41,9 @@ public class GameConfig {
         Gson gson = new Gson();
         String folderName = "res\\Config json";
         try {
+            boardWidth = 40;
+            boardHeight = 40;
+            AREA_TYPE = new AreaType();
             ARMYCAMP = gson. fromJson(new FileReader(folderName + "\\ArmyCamp.json.txt"),ArmyCamp.class);
             BARRACK =  gson. fromJson(new FileReader(folderName + "\\Barrack.json.txt"),Barrack.class);
             BUILDERHUT = gson. fromJson(new FileReader(folderName + "\\BuilderHut.json.txt"),BuilderHut.class);
