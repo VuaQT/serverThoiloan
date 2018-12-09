@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Fresher_demo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Fresher_demo_jar</output-path>
+    <root id="archive" name="Fresher_demo.jar">
+      <element id="module-output" name="Fresher_demo" />
+    </root>
+  </artifact>
+</component>
