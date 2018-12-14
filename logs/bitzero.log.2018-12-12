@@ -1,0 +1,1431 @@
+12 Dec 2018 14:50:38,002 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 14:50:38,013 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 14:50:38,179 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 14:50:38,212 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 14:50:38,235 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 14:50:38,273 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 14:50:38,423 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+12 Dec 2018 14:51:19,365 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 14:51:19,371 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 14:51:19,495 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 14:51:19,511 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 14:51:19,520 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 14:51:19,525 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 14:51:19,631 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+12 Dec 2018 14:51:35,230 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 14:51:35,237 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 14:51:35,415 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 14:51:35,432 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 14:51:35,442 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 14:51:35,448 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 14:51:35,546 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 14:51:35,546 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 14:51:35,642 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 14:51:35,646 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 14:51:35,657 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 14:52:29,411 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 14:52:29,423 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 14:52:29,569 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 14:52:29,587 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 14:52:29,597 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 14:52:29,604 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 14:52:29,710 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+12 Dec 2018 14:55:17,781 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 14:55:17,792 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 14:55:17,983 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 14:55:18,010 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 14:55:18,033 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 14:55:18,044 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 14:56:32,665 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+12 Dec 2018 14:57:42,628 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 14:57:42,637 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 14:57:42,835 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 14:57:42,863 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 14:57:42,881 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 14:57:42,893 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 14:59:35,016 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+12 Dec 2018 15:01:28,551 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:01:28,563 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:01:28,778 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:01:28,852 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:01:28,865 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:01:28,872 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:02:10,017 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:02:10,025 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:02:10,215 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:02:10,240 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:02:10,259 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:02:10,265 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:03:30,056 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:03:30,064 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:03:30,265 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:03:30,291 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:03:30,304 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:03:30,311 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:03:35,795 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+12 Dec 2018 15:06:12,298 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:06:12,308 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:06:12,483 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:06:12,507 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:06:12,525 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:06:12,530 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:06:35,061 ERROR [main] bitzero.server.BitZeroServer     - java.lang.NullPointerException *** Null ***
+12 Dec 2018 15:09:58,085 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:09:58,092 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:09:58,217 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:09:58,233 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:09:58,243 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:09:58,249 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:09:58,347 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:09:58,347 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:09:58,472 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:09:58,472 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:09:58,477 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:10:10,103 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:10:10,113 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:10:10,358 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:10:10,376 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:10:10,386 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:10:10,392 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:10:10,500 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:10:10,500 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:10:10,606 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: 
+12 Dec 2018 15:10:10,607 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:10:10,609 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:10:23,476 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:10:23,483 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:10:23,630 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:10:23,647 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:10:23,680 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:10:23,692 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:10:24,019 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:10:24,019 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:10:24,168 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: 
+12 Dec 2018 15:10:24,170 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:10:24,173 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:39:17,776 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:39:17,782 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:39:17,922 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:39:17,939 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:39:17,949 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:39:17,955 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:39:18,053 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:39:18,053 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:39:18,151 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:39:18,151 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:39:18,152 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:40:16,217 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:40:16,224 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:40:16,390 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:40:16,408 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:40:16,418 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:40:16,426 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:40:16,533 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:40:16,533 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:40:16,645 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:40:16,660 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:40:16,663 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:42:08,898 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:42:08,905 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:42:09,049 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:42:09,076 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:42:09,085 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:42:09,093 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:42:09,196 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:42:09,196 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:42:09,290 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:42:09,291 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:42:09,292 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:44:53,735 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:44:53,741 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:44:53,876 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:44:53,901 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:44:53,910 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:44:53,916 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:44:54,016 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:44:54,016 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:44:54,124 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:44:54,124 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:44:54,126 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:45:12,793 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:45:12,802 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:45:12,966 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:45:12,983 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:45:12,993 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:45:12,999 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:45:13,199 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:45:13,199 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:45:13,312 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:45:13,312 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:45:13,313 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:45:27,870 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:45:27,877 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:45:28,005 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:45:28,020 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:45:28,030 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:45:28,035 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:45:28,132 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:45:28,136 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:45:28,248 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:45:28,248 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:45:28,251 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:45:48,050 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:45:48,057 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:45:48,170 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:45:48,187 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:45:48,196 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:45:48,202 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:45:48,293 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:45:48,297 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:45:48,399 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: 
+12 Dec 2018 15:45:48,399 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:45:48,401 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:45:54,856 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:45:54,864 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:45:54,996 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:45:55,014 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:45:55,025 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:45:55,032 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:45:55,127 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:45:55,132 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:45:55,231 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:45:55,232 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:45:55,234 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:47:13,650 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:47:13,657 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:47:13,768 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:47:13,785 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:47:13,794 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:47:13,801 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:47:13,888 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:47:13,895 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:47:14,001 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:47:14,002 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:47:14,006 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:47:22,569 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:47:22,591 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:47:22,726 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:47:22,749 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:47:22,765 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:47:22,771 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:47:22,882 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:47:22,887 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:47:22,992 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:47:22,993 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:47:22,994 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:47:32,651 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:47:32,658 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:47:32,778 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:47:32,794 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:47:32,804 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:47:32,810 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:47:32,902 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:47:32,907 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:47:33,016 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:47:33,016 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:47:33,020 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:47:39,174 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:47:39,181 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:47:39,319 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:47:39,348 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:47:39,613 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:47:39,620 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:47:39,725 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:47:39,729 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:47:39,919 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:47:39,925 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:47:39,932 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:47:43,474 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:47:43,481 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:47:43,605 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:47:43,625 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:47:43,637 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:47:43,644 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:47:43,755 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:47:43,760 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:47:43,891 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:47:43,893 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:47:43,897 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:47:54,214 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:47:54,221 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:47:54,351 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:47:54,367 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:47:54,376 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:47:54,381 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:47:54,479 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:47:54,484 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:47:54,592 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:47:54,593 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:47:54,598 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:48:10,402 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:48:10,409 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:48:10,561 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:48:10,578 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:48:10,588 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:48:10,594 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:48:10,708 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:48:10,712 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:48:10,814 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:48:10,815 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:48:10,818 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:50:12,551 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:50:12,559 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:50:12,689 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:50:12,707 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:50:12,717 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:50:12,723 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:50:12,817 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:50:12,823 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:50:12,950 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:50:12,951 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:50:12,953 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:51:00,329 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:51:00,337 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:51:00,470 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:51:00,489 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:51:00,500 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:51:00,510 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:51:00,628 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:51:00,632 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:51:00,731 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:51:00,732 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:51:00,733 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:51:15,581 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:51:15,591 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:51:15,753 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:51:15,775 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:51:15,799 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:51:15,813 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:51:15,926 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:51:15,934 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:51:16,048 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:51:16,049 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:51:16,050 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 15:51:32,088 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 15:51:32,095 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 15:51:32,254 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 15:51:32,271 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 15:51:32,295 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 15:51:32,303 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 15:51:32,413 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 15:51:32,425 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 15:51:32,576 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 15:51:32,588 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 15:51:32,589 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 16:00:23,051 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:00:23,059 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:00:23,205 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:00:23,222 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:00:23,233 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:00:23,239 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 16:00:23,355 INFO  [main] Extensions     - {Fresher}: befor showing map 
+12 Dec 2018 16:00:23,360 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 16:00:23,464 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 16:00:23,465 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 16:00:23,466 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 16:02:14,594 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:02:14,601 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:02:14,760 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:02:14,782 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:02:14,793 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:02:14,801 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 16:02:14,895 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 16:02:14,902 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 16:02:15,002 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 16:02:15,002 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 16:02:15,004 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 16:02:56,240 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:02:56,248 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:02:56,393 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:02:56,408 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:02:56,420 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:02:56,428 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 16:02:56,535 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 16:02:56,541 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 16:02:56,642 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 16:02:56,642 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 16:02:56,647 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 16:08:20,880 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:08:20,887 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:08:21,046 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:08:21,066 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:08:21,078 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:08:21,086 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 16:08:21,190 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 16:08:21,196 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 16:08:21,295 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 16:08:21,295 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 16:08:21,299 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 16:14:44,152 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:14:44,161 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:14:44,380 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:14:44,405 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:14:44,420 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:14:44,429 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 16:17:40,097 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:17:40,108 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:17:40,256 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:17:40,277 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:17:40,289 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:17:40,296 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 16:18:30,680 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:18:30,687 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:18:30,796 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:18:30,812 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:18:30,822 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:18:30,828 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 16:18:30,944 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 16:18:30,948 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 16:18:31,083 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 16:18:31,083 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 16:18:31,088 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 16:18:47,818 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:18:47,827 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:18:48,014 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:18:48,039 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:18:48,052 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:18:48,057 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 16:22:31,287 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:22:31,304 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:22:31,496 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:22:31,521 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:22:31,535 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:22:31,541 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 16:24:02,958 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:24:02,968 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:24:03,139 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:24:03,159 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:24:03,175 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:24:03,183 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 16:24:52,115 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:24:52,123 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:24:52,313 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:24:52,331 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:24:52,342 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:24:52,347 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 16:26:59,358 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 16:26:59,367 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 16:26:59,521 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 16:26:59,550 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 16:26:59,565 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 16:26:59,582 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:31:00,443 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:31:00,450 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:31:00,661 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:31:00,681 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:31:00,696 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:31:00,702 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:33:30,166 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:33:30,175 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:33:30,351 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:33:30,373 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:33:30,389 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:33:30,398 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:35:26,482 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:35:26,490 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:35:26,675 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:35:26,696 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:35:26,713 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:35:26,719 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:35:55,902 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:35:55,909 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:35:56,087 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:35:56,104 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:35:56,118 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:35:56,123 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:35:56,224 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 17:35:56,233 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 17:35:56,338 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: 
+12 Dec 2018 17:35:56,339 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:35:56,341 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:39:21,674 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:39:21,682 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:39:21,832 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:39:21,849 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:39:21,859 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:39:21,864 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:39:21,975 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 17:39:21,979 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 17:39:22,077 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: 
+12 Dec 2018 17:39:22,078 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:39:22,080 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:40:12,490 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:40:12,504 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:40:12,682 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:40:12,707 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:40:12,723 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:40:12,729 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:42:53,307 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:42:53,314 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:42:53,491 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:42:53,515 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:42:53,526 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:42:53,535 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:42:53,714 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 17:42:53,723 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 17:42:53,838 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: 
+12 Dec 2018 17:42:53,838 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:42:53,840 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:42:56,516 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:42:56,522 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:42:56,728 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:42:56,746 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:42:56,779 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:42:56,785 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:42:56,887 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 17:42:56,892 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 17:42:56,998 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: 
+12 Dec 2018 17:42:56,998 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:42:57,003 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:43:29,468 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:43:29,475 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:43:29,660 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:43:29,677 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:43:29,686 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:43:29,692 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:43:29,789 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 17:43:29,793 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 17:43:30,015 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: 
+12 Dec 2018 17:43:30,016 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:43:30,023 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:44:41,224 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:44:41,232 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:44:41,377 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:44:41,394 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:44:41,404 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:44:41,411 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:44:41,525 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 17:44:41,529 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 17:44:41,636 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 17:44:41,636 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:44:41,637 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:44:58,647 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:44:58,655 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:44:58,796 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:44:58,815 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:44:58,826 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:44:58,831 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:44:58,958 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 17:44:58,966 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 17:44:59,288 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 17:44:59,288 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:44:59,290 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:45:03,076 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:45:03,087 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:45:03,269 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:45:03,294 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:45:03,307 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:45:03,316 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:48:14,861 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:48:14,868 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:48:15,002 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:48:15,024 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:48:15,037 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:48:15,054 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:48:15,174 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 17:48:15,181 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 17:48:15,297 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 17:48:15,298 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:48:15,299 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:52:19,905 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:52:19,914 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:52:20,048 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:52:20,067 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:52:20,077 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:52:20,084 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:52:20,202 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 17:52:20,210 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 17:52:20,314 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 17:52:20,315 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:52:20,316 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:52:43,073 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:52:43,081 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:52:43,193 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:52:43,210 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:52:43,220 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:52:43,226 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:52:43,328 INFO  [main] Extensions     - {Fresher}: before showing map 
+12 Dec 2018 17:52:43,332 INFO  [main] Extensions     - {Fresher}: after showing map 
+12 Dec 2018 17:52:43,447 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 17:52:43,447 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:52:43,449 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:54:20,041 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:54:20,048 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:54:20,200 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:54:20,218 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:54:20,228 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:54:20,234 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:54:20,491 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 17:54:20,492 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:54:20,493 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:54:49,623 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:54:49,630 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:54:49,779 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:54:49,795 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:54:49,804 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:54:49,810 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:54:50,032 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 17:54:50,033 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:54:50,035 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:55:15,757 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:55:15,765 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:55:15,889 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:55:15,927 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:55:15,936 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:55:15,947 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:55:16,154 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 17:55:16,155 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:55:16,156 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:55:51,554 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:55:51,561 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:55:51,674 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:55:51,690 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:55:51,700 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:55:51,705 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:55:51,910 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 17:55:51,911 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:55:51,916 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 17:56:03,357 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 17:56:03,364 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 17:56:03,512 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 17:56:03,528 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 17:56:03,537 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 17:56:03,547 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 17:56:03,753 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 17:56:03,754 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 17:56:03,755 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 18:00:36,482 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 18:00:36,489 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 18:00:36,610 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 18:00:36,627 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 18:00:36,636 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 18:00:36,641 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 18:00:50,720 ERROR [main] bitzero.server.BitZeroServer     - java.util.NoSuchElementException *** Null ***
+12 Dec 2018 18:01:17,195 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 18:01:17,202 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 18:01:17,341 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 18:01:17,359 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 18:01:17,369 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 18:01:17,374 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 18:02:26,902 ERROR [main] bitzero.server.BitZeroServer     - java.util.NoSuchElementException *** Null ***
+12 Dec 2018 18:36:27,143 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 18:36:27,151 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 18:36:27,290 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 18:36:27,307 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 18:36:27,317 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 18:36:27,322 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 18:36:45,487 ERROR [main] bitzero.server.BitZeroServer     - java.util.NoSuchElementException *** Null ***
+12 Dec 2018 18:36:46,891 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+12 Dec 2018 18:36:46,898 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+12 Dec 2018 18:36:47,030 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+12 Dec 2018 18:36:47,046 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+12 Dec 2018 18:36:47,056 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+12 Dec 2018 18:36:47,062 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+12 Dec 2018 18:36:47,271 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:1101, TCP } 
+12 Dec 2018 18:36:47,271 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+12 Dec 2018 18:36:47,273 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+12 Dec 2018 18:36:59,715 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 10.198.36.71:14009 } on Server port: 1101 <---> 14009
+12 Dec 2018 18:36:59,735 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+12 Dec 2018 18:36:59,742 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+12 Dec 2018 18:36:59,779 DEBUG [bitzero.server.controllers.ExtensionController-1] request     - Extension call cmdId: 1 - from : { Id: 1, Type: DEFAULT, Logged: No, IP: 10.198.36.71:14009 }
+12 Dec 2018 18:36:59,802 INFO  [bitzero.server.controllers.ExtensionController-1] server.api.BZApi     - Login in, Fresher2, ( User Name: Fresher2, Id: 2, Priv: 0, Sess: 10.198.36.71:14009 ) 
+12 Dec 2018 18:36:59,804 DEBUG [pool-1-thread-1] Extensions     - {Fresher}: On Login Success  Fresher2 
+12 Dec 2018 18:36:59,835 DEBUG [pool-1-thread-1] request     -  {OUT} 1 - to : 1
+12 Dec 2018 18:36:59,892 DEBUG [bitzero.server.controllers.ExtensionController-2] request     - Extension call cmdId: 1001 - from : Fresher2
+12 Dec 2018 18:36:59,899 DEBUG [bitzero.server.controllers.ExtensionController-2] request     -  {OUT} 1001 - to : 1
+12 Dec 2018 18:37:09,268 DEBUG [bitzero.server.controllers.ExtensionController-3] request     - Extension call cmdId: 2001 - from : Fresher2
+12 Dec 2018 18:37:09,290 DEBUG [bitzero.server.controllers.ExtensionController-3] request     -  {OUT} 2001 - to : 1
+12 Dec 2018 18:37:10,229 DEBUG [bitzero.server.controllers.ExtensionController-4] request     - Extension call cmdId: 2001 - from : Fresher2
+12 Dec 2018 18:37:10,230 DEBUG [bitzero.server.controllers.ExtensionController-4] request     -  {OUT} 2001 - to : 1
+12 Dec 2018 18:37:11,776 DEBUG [bitzero.server.controllers.ExtensionController-5] request     - Extension call cmdId: 2001 - from : Fresher2
+12 Dec 2018 18:37:11,778 DEBUG [bitzero.server.controllers.ExtensionController-5] request     -  {OUT} 2001 - to : 1
+12 Dec 2018 18:37:12,960 DEBUG [bitzero.server.controllers.ExtensionController-6] request     - Extension call cmdId: 2001 - from : Fresher2
+12 Dec 2018 18:37:12,961 DEBUG [bitzero.server.controllers.ExtensionController-6] request     -  {OUT} 2001 - to : 1
+12 Dec 2018 18:37:13,914 DEBUG [bitzero.server.controllers.ExtensionController-7] request     - Extension call cmdId: 2001 - from : Fresher2
+12 Dec 2018 18:37:13,915 DEBUG [bitzero.server.controllers.ExtensionController-7] request     -  {OUT} 2001 - to : 1
+12 Dec 2018 18:37:14,076 DEBUG [bitzero.server.controllers.ExtensionController-8] request     - Extension call cmdId: 2001 - from : Fresher2
+12 Dec 2018 18:37:14,077 DEBUG [bitzero.server.controllers.ExtensionController-8] request     -  {OUT} 2001 - to : 1
+12 Dec 2018 18:47:17,358 DEBUG [Scheduler1-thread-1] request     -  {OUT} 37 - to : 1
+12 Dec 2018 18:47:27,381 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 10.198.36.71:14009 }
+12 Dec 2018 18:47:27,382 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher2, Id: 2, Priv: 0, Sess: 10.198.36.71:14009 ) 
+12 Dec 2018 18:47:27,383 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Terminated idle logged-in session: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 10.198.36.71:14009 }

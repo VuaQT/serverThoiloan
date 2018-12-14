@@ -7,6 +7,7 @@ import bitzero.server.extensions.BaseClientRequestHandler;
 import bitzero.server.extensions.data.DataCmd;
 
 import bitzero.util.ExtensionUtility;
+import bitzero.util.common.business.Debug;
 import cmd.CmdDefine;
 
 import cmd.receive.demo.RequestMove;
@@ -99,10 +100,14 @@ public class DemoHandler extends BaseClientRequestHandler {
             if (userInfo==null){
                 send(new ResponseMove(DemoError.PLAYERINFO_NULL.getValue(), new Point()), user);
             }
-            
+            Debug.info("111");
+            if(userInfo.position != null){
+                System.out.println("not null mat rui");
+            }
+            Debug.info("process move  : : : :" + move.getDirection());
             userInfo.move(move.getDirection());
-            userInfo.saveModel(user.getId()); 
-            
+            Debug.info("pos" + userInfo.position);
+            userInfo.saveModel(user.getId());
             send(new ResponseMove(DemoError.SUCCESS.getValue(), userInfo.position), user);
             
         } catch (Exception e) {

@@ -1,11 +1,16 @@
 package model.components.building.MilitaryBuildings;
 
+import GameConfig.GameConfig;
+import model.components.building.Building;
+import util.Key;
+
+import java.nio.ByteBuffer;
 import java.util.List;
 
 /**
  * Created by CPU11630_LOCAL on 12/8/2018.
  */
-public class Laboratory extends MilitaryBuilding {
+public class Laboratory extends Building {
     List<Integer> levelArmy;
     List<Integer> levelDarkArmy;
     List<Integer> levelSorcery;
@@ -15,15 +20,20 @@ public class Laboratory extends MilitaryBuilding {
 
 
     public Laboratory(int id) {
-        super(id, 1);
+        super(id, GameConfig.AreaType.LABORATORY);
     }
 
-    public void updateStatus(){
-        // update for building level and list length
-        if(this.levelUpgrading >0){
-//            if(TimeManager.getTime() - this.upgradedMoment >  ... ){
-//
-//            }
-        }
+    public int getMaxLevel(){
+        return GameConfig.LABORATORY.getLAB1().size();
+    }
+    public int getCurrentBuildTime(){
+        return GameConfig.LABORATORY.getLAB1().get(this.currentLevel-1).getBuildTime();
+    }
+    public Key getSize(){
+        return new Key(GameConfig.LABORATORY.getLAB1().get(this.currentLevel-1).getWidth(),GameConfig.LABORATORY.getLAB1().get(this.currentLevel-1).getHeight());
+    }
+    public void packToByteBuffer(ByteBuffer currentByteBuffer){
+        super.packToByteBuffer(currentByteBuffer);
+        // pack Lab infor later
     }
 }

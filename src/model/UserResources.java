@@ -3,6 +3,8 @@ package model;
 import GameConfig.GameConfig;
 import util.database.DataModel;
 
+import java.nio.ByteBuffer;
+
 public class UserResources extends DataModel{
     private int id;
     private String username;
@@ -105,4 +107,16 @@ public class UserResources extends DataModel{
         return coin;
     }
 
+    public void packToByteBuffer(ByteBuffer currentByteBuffer){
+        currentByteBuffer.putInt(id);
+//        currentByteBuffer.put ... username;
+        currentByteBuffer.putInt(levelPoint);
+        currentByteBuffer.putInt(exp);
+        currentByteBuffer.putInt(trophy);
+        currentByteBuffer.putInt(gold);
+        currentByteBuffer.putInt(elixir);
+        currentByteBuffer.putInt(darkElixir);
+        currentByteBuffer.putInt(shieldTime);
+        currentByteBuffer.putInt(coin);
+    }
 }
