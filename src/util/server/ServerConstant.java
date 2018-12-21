@@ -27,7 +27,14 @@ public class ServerConstant {
     public static final String GG_STORE = ConfigHandle.instance().get("gg_store_url").trim();
     public static final String SS_STORE = ConfigHandle.instance().get("ss_store_url").trim();
     
-    public static final int CUSTOM_LOGIN = ConfigHandle.instance().getLong("custom_login").intValue();
+//    public static final int CUSTOM_LOGIN = ConfigHandle.instance().getLong("custom_login").intValue();
+    public static final int CUSTOM_LOGIN = 2;
 
     public static final int CACHE_EXP_TIME = 259200;
+
+    // trungnq
+
+    public static final String USER_DATA = "user_data";
+    public static final String USER_RESOURCES = "user_resources";
+
 }

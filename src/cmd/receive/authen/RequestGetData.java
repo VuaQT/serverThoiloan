@@ -22,7 +22,7 @@ public class RequestGetData extends BaseCmd {
         try {
             isAccessToken = readBoolean(bf);
             accessToken = readString(bf);
-            sessionKey = readString(bf);
+            username = readString(bf);
             social = readString(bf);
             clientPortalVersion = readInt(bf);
         } catch (Exception e) {

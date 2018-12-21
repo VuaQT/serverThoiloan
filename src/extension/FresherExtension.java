@@ -16,10 +16,10 @@ import bitzero.util.socialcontroller.bean.UserInfo;
 import cmd.receive.authen.RequestLogin;
 import event.handler.LoginSuccessHandler;
 import event.handler.LogoutHandler;
+import model.UserData;
 import org.apache.commons.lang.exception.ExceptionUtils;
 import org.json.JSONObject;
-import service.DemoHandler;
-import service.UserHandler;
+import service.*;
 import util.GuestLogin;
 import util.metric.LogObject;
 import util.metric.MetricLog;
@@ -27,6 +27,7 @@ import util.server.ServerConstant;
 import util.server.ServerLoop;
 
 import java.util.List;
+import java.util.Scanner;
 
 
 public class FresherExtension extends BZExtension {
@@ -49,6 +50,10 @@ public class FresherExtension extends BZExtension {
         trace("  Register Handler ");
         addRequestHandler(UserHandler.USER_MULTI_IDS, UserHandler.class);
         addRequestHandler(DemoHandler.DEMO_MULTI_IDS, DemoHandler.class);
+        addRequestHandler(GameDataHandler.GAMEDATA_MULTI_IDS, GameDataHandler.class);
+        addRequestHandler(BuildingHandler.BUILDING_MULTI_IDS, BuildingHandler.class);
+        addRequestHandler(HarvestHandler.HARVEST_MULTI_IDS, HarvestHandler.class);
+
 
         /**
          * register new event
@@ -59,6 +64,24 @@ public class FresherExtension extends BZExtension {
         addEventHandler(BZEventType.USER_DISCONNECT, LogoutHandler.class);
 
         GameConfig.loadData();
+
+        // TEST UserData Model
+//        UserData userData  = null;
+//        userData = new UserData(1233);
+//        try {
+//            userData.saveModel(111);
+//            userData = null;
+//            userData = UserData.getModel(111);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        userData.userMap.showMap();
+//        while (true){
+//            Scanner sc = new Scanner(System.in);
+//            int i = sc.nextInt();
+//            userData.updateAfterGetModel();
+//            Debug.info("builder working : " + userData.builderWorkingAreas.size());
+//        }
     }
 
     public ServerLoop getServerLoop() {
@@ -118,7 +141,7 @@ public class FresherExtension extends BZExtension {
        
         try {
             
-            UserInfo uInfo = getUserInfo(reqGet.sessionKey, reqGet.userId, session.getAddress());
+            UserInfo uInfo = getUserInfo(reqGet, session.getAddress());
             User u = ExtensionUtility.instance().canLogin(uInfo, "", session);
             if (u!=null)
                 u.setProperty("userId", uInfo.getUserId());            
@@ -129,13 +152,14 @@ public class FresherExtension extends BZExtension {
 
     }
 
-    private UserInfo getUserInfo(String username, int userId, String ipAddress) throws Exception {
+    private UserInfo getUserInfo(RequestLogin requestLogin, String ipAddress) throws Exception {
         int customLogin = ServerConstant.CUSTOM_LOGIN;
         switch(customLogin){
             case 1: // login zingme
-                return ExtensionUtility.getUserInfoFormPortal(username);
+                return ExtensionUtility.getUserInfoFormPortal(requestLogin.username);
             case 2: // set direct userid
-                return GuestLogin.setInfo(userId, "Fresher_" + userId);
+                System.out.println(" get login set info " + requestLogin.uid + " : " + requestLogin.username);
+                return GuestLogin.setInfo(requestLogin.uid, requestLogin.username);
             default: // auto increment
                 return GuestLogin.newGuest();
         }        

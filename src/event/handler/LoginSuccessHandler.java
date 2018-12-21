@@ -12,9 +12,13 @@ import bitzero.util.ExtensionUtility;
 import java.util.HashMap;
 import java.util.Map;
 
+import bitzero.util.socialcontroller.bean.UserInfo;
 import event.eventType.DemoEventParam;
 import event.eventType.DemoEventType;
+import model.UserData;
+import model.UserResources;
 import model.oldclasses.PlayerInfo;
+import util.database.DataModel;
 import util.server.ServerConstant;
 
 public class LoginSuccessHandler extends BaseServerEventHandler {
@@ -32,6 +36,7 @@ public class LoginSuccessHandler extends BaseServerEventHandler {
      */
     private void onLoginSuccess(User user) {
         trace(ExtensionLogLevel.DEBUG, "On Login Success ", user.getName());
+
         PlayerInfo pInfo = null;
         try {
             pInfo = (PlayerInfo) PlayerInfo.getModel(user.getId(), PlayerInfo.class);
@@ -40,18 +45,49 @@ public class LoginSuccessHandler extends BaseServerEventHandler {
         }
 
         if (pInfo==null){
-            pInfo = new PlayerInfo(user.getId(), "username_" + user.getId());
+            pInfo = new PlayerInfo(user.getId(), user.getName());
             try {
                 pInfo.saveModel(user.getId());
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
+        user.setProperty(ServerConstant.PLAYER_INFO, pInfo);
+
+
+        UserData userData = null;
+        UserResources userResources = null;
+        try {
+            userData = UserData.getModel(user.getId());
+            userResources = (UserResources) DataModel.getModel(user.getId(), UserResources.class);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        if (userData==null){
+            userData = new UserData(user.getId());
+            try {
+                userData.saveModel(user.getId());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        user.setProperty(ServerConstant.USER_DATA, userData);
+
+        if(userResources == null){
+            userResources = new UserResources(user.getId(), user.getName());
+            try{
+                userResources.saveModel(user.getId());
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+        user.setProperty(ServerConstant.USER_RESOURCES, userResources);
 
         /**
          * cache playerinfo in RAM
          */
-        user.setProperty(ServerConstant.PLAYER_INFO, pInfo);
+
 
         /**
          * send login success to client
