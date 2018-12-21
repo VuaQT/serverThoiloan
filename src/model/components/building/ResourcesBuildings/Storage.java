@@ -4,6 +4,7 @@ import GameConfig.GameConfig;
 import bitzero.util.common.business.Debug;
 import model.components.building.Building;
 import util.Key;
+import util.ResourceType;
 
 import java.nio.ByteBuffer;
 
@@ -34,5 +35,8 @@ public class Storage extends Building{
     public void packToByteBuffer(ByteBuffer currentByteBuffer){
         super.packToByteBuffer(currentByteBuffer);
         currentByteBuffer.putInt(storageType);
+    }
+    public ResourceType getUpgradeResourceRequire(int level){
+        return new ResourceType(GameConfig.STORAGE.getSTO().get(storageType-1).get(level-1).getGold(),GameConfig.STORAGE.getSTO().get(storageType-1).get(level-1).getElixir(),GameConfig.STORAGE.getSTO().get(storageType-1).get(level-1).getDarkElixir(),0);
     }
 }

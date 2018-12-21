@@ -1,0 +1,197 @@
+17 Dec 2018 09:51:35,190 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 877
+17 Dec 2018 09:51:35,201 INFO  [pool-1-thread-1] debug     -  | !!!
+17 Dec 2018 09:51:35,215 INFO  [pool-1-thread-1] debug     -  | size : 0
+17 Dec 2018 09:51:35,215 INFO  [pool-1-thread-1] debug     -  | size : 0
+17 Dec 2018 09:51:35,227 INFO  [pool-1-thread-1] debug     -  | size : 0
+17 Dec 2018 09:51:35,228 INFO  [pool-1-thread-1] debug     -  | size : 1
+17 Dec 2018 09:51:35,230 INFO  [pool-1-thread-1] debug     -  | saveModel UserData with uId = 877
+17 Dec 2018 09:51:35,236 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 09:51:35,309 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  | go to getUserInfo
+17 Dec 2018 09:51:44,313 INFO  [bitzero.server.controllers.ExtensionController-3] debug     -  | get resources request received
+17 Dec 2018 09:53:47,780 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 877
+17 Dec 2018 09:53:47,784 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 09:53:47,842 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  | go to getUserInfo
+17 Dec 2018 10:46:09,597 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 877
+17 Dec 2018 10:46:09,609 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 10:46:09,665 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  | go to getUserInfo
+17 Dec 2018 10:46:12,803 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  | get resources request received
+17 Dec 2018 10:46:30,909 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  | get resources request received
+17 Dec 2018 10:46:40,670 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  | get resources request received
+17 Dec 2018 15:25:35,103 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 877
+17 Dec 2018 15:25:35,137 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 15:25:35,175 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  | go to getUserInfo
+17 Dec 2018 15:25:40,702 INFO  [bitzero.server.controllers.ExtensionController-3] debug     -  | get resources request received
+17 Dec 2018 15:26:00,370 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  | get resources request received
+17 Dec 2018 15:26:19,758 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 192
+17 Dec 2018 15:26:19,761 INFO  [pool-1-thread-3] debug     -  | !!!
+17 Dec 2018 15:26:19,761 INFO  [pool-1-thread-3] debug     -  | size : 0
+17 Dec 2018 15:26:19,761 INFO  [pool-1-thread-3] debug     -  | size : 0
+17 Dec 2018 15:26:19,761 INFO  [pool-1-thread-3] debug     -  | size : 0
+17 Dec 2018 15:26:19,762 INFO  [pool-1-thread-3] debug     -  | size : 1
+17 Dec 2018 15:26:19,763 INFO  [pool-1-thread-3] debug     -  | saveModel UserData with uId = 192
+17 Dec 2018 15:26:19,766 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = trungnq
+17 Dec 2018 15:26:19,823 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  | go to getUserInfo
+17 Dec 2018 15:26:26,340 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  | get resources request received
+17 Dec 2018 15:26:28,008 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  | get resources request received
+17 Dec 2018 15:26:30,957 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  | get resources request received
+17 Dec 2018 15:26:31,643 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  | get resources request received
+17 Dec 2018 15:26:32,307 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  | get resources request received
+17 Dec 2018 15:29:17,800 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 877
+17 Dec 2018 15:29:17,807 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 15:29:17,866 INFO  [bitzero.server.controllers.ExtensionController-3] debug     -  | go to getUserInfo
+17 Dec 2018 15:29:22,166 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  | get resources request received
+17 Dec 2018 16:11:38,637 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 16:11:38,638 INFO  [pool-1-thread-2] debug     -  | !!!
+17 Dec 2018 16:11:38,638 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 16:11:38,638 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 16:11:38,638 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 16:11:38,638 INFO  [pool-1-thread-2] debug     -  | size : 1
+17 Dec 2018 16:11:38,639 INFO  [pool-1-thread-2] debug     -  | saveModel UserData with uId = 0
+17 Dec 2018 16:11:38,640 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:11:38,700 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  | go to getUserInfo
+17 Dec 2018 16:12:47,989 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 16:12:47,997 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:12:50,403 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  | get resources request received
+17 Dec 2018 16:13:29,489 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 16:13:29,505 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:13:47,652 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 16:13:47,658 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:15:37,754 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 16:15:37,763 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:15:52,865 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 16:15:52,867 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:17:56,280 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 16:17:56,284 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:18:58,148 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 16:18:58,169 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:19:16,547 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 1111
+17 Dec 2018 16:19:16,550 INFO  [pool-1-thread-4] debug     -  | !!!
+17 Dec 2018 16:19:16,550 INFO  [pool-1-thread-4] debug     -  | size : 0
+17 Dec 2018 16:19:16,550 INFO  [pool-1-thread-4] debug     -  | size : 0
+17 Dec 2018 16:19:16,551 INFO  [pool-1-thread-4] debug     -  | size : 0
+17 Dec 2018 16:19:16,552 INFO  [pool-1-thread-4] debug     -  | size : 1
+17 Dec 2018 16:19:16,554 INFO  [pool-1-thread-4] debug     -  | saveModel UserData with uId = 1111
+17 Dec 2018 16:19:16,561 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:19:34,983 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 1111
+17 Dec 2018 16:19:34,988 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:20:17,447 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 16:20:17,452 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:21:02,981 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 16:21:02,986 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:22:19,812 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 3434
+17 Dec 2018 16:22:19,814 INFO  [pool-1-thread-2] debug     -  | !!!
+17 Dec 2018 16:22:19,815 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 16:22:19,815 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 16:22:19,815 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 16:22:19,816 INFO  [pool-1-thread-2] debug     -  | size : 1
+17 Dec 2018 16:22:19,817 INFO  [pool-1-thread-2] debug     -  | saveModel UserData with uId = 3434
+17 Dec 2018 16:22:19,825 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:22:26,579 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  | get resources request received
+17 Dec 2018 16:26:16,910 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 4444
+17 Dec 2018 16:26:16,913 INFO  [pool-1-thread-4] debug     -  | !!!
+17 Dec 2018 16:26:16,913 INFO  [pool-1-thread-4] debug     -  | size : 0
+17 Dec 2018 16:26:16,913 INFO  [pool-1-thread-4] debug     -  | size : 0
+17 Dec 2018 16:26:16,914 INFO  [pool-1-thread-4] debug     -  | size : 0
+17 Dec 2018 16:26:16,915 INFO  [pool-1-thread-4] debug     -  | size : 1
+17 Dec 2018 16:26:16,916 INFO  [pool-1-thread-4] debug     -  | saveModel UserData with uId = 4444
+17 Dec 2018 16:26:16,922 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:27:39,492 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 4444
+17 Dec 2018 16:27:39,497 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = fresher4444
+17 Dec 2018 16:27:52,245 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 45
+17 Dec 2018 16:27:52,248 INFO  [pool-1-thread-1] debug     -  | !!!
+17 Dec 2018 16:27:52,249 INFO  [pool-1-thread-1] debug     -  | size : 0
+17 Dec 2018 16:27:52,249 INFO  [pool-1-thread-1] debug     -  | size : 0
+17 Dec 2018 16:27:52,249 INFO  [pool-1-thread-1] debug     -  | size : 0
+17 Dec 2018 16:27:52,249 INFO  [pool-1-thread-1] debug     -  | size : 1
+17 Dec 2018 16:27:52,251 INFO  [pool-1-thread-1] debug     -  | saveModel UserData with uId = 45
+17 Dec 2018 16:27:52,254 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = fresher45
+17 Dec 2018 16:28:17,475 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 4444
+17 Dec 2018 16:28:17,476 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = hoangnh9
+17 Dec 2018 16:30:25,422 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 123452
+17 Dec 2018 16:30:25,423 INFO  [pool-1-thread-2] debug     -  | !!!
+17 Dec 2018 16:30:25,423 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 16:30:25,423 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 16:30:25,423 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 16:30:25,423 INFO  [pool-1-thread-2] debug     -  | size : 1
+17 Dec 2018 16:30:25,423 INFO  [pool-1-thread-2] debug     -  | saveModel UserData with uId = 123452
+17 Dec 2018 16:30:25,427 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = fresher 123452
+17 Dec 2018 16:30:28,886 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  | get resources request received
+17 Dec 2018 16:30:44,386 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  | get resources request received
+17 Dec 2018 16:30:44,866 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  | get resources request received
+17 Dec 2018 16:30:45,020 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  | get resources request received
+17 Dec 2018 16:30:45,765 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  | get resources request received
+17 Dec 2018 16:30:46,347 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  | get resources request received
+17 Dec 2018 17:05:53,941 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 333
+17 Dec 2018 17:05:53,941 INFO  [pool-1-thread-3] debug     -  | !!!
+17 Dec 2018 17:05:53,941 INFO  [pool-1-thread-3] debug     -  | size : 0
+17 Dec 2018 17:05:53,941 INFO  [pool-1-thread-3] debug     -  | size : 0
+17 Dec 2018 17:05:53,941 INFO  [pool-1-thread-3] debug     -  | size : 0
+17 Dec 2018 17:05:53,941 INFO  [pool-1-thread-3] debug     -  | size : 1
+17 Dec 2018 17:05:53,941 INFO  [pool-1-thread-3] debug     -  | saveModel UserData with uId = 333
+17 Dec 2018 17:05:53,950 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = fresher 333
+17 Dec 2018 17:07:14,040 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 333
+17 Dec 2018 17:07:14,048 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = fresher 333
+17 Dec 2018 17:07:24,194 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  | get resources request received
+17 Dec 2018 17:32:01,259 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 999
+17 Dec 2018 17:32:01,259 INFO  [pool-1-thread-2] debug     -  | !!!
+17 Dec 2018 17:32:01,260 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 17:32:01,260 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 17:32:01,260 INFO  [pool-1-thread-2] debug     -  | size : 0
+17 Dec 2018 17:32:01,260 INFO  [pool-1-thread-2] debug     -  | size : 1
+17 Dec 2018 17:32:01,261 INFO  [pool-1-thread-2] debug     -  | saveModel UserData with uId = 999
+17 Dec 2018 17:32:01,268 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = fresher 999
+17 Dec 2018 17:33:25,785 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 999
+17 Dec 2018 17:33:25,787 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = fresher 999
+17 Dec 2018 17:34:13,157 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 999
+17 Dec 2018 17:34:13,160 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = fresher 999
+17 Dec 2018 17:36:27,940 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 999
+17 Dec 2018 17:36:27,943 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = fresher 999
+17 Dec 2018 17:36:48,999 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 999
+17 Dec 2018 17:36:49,003 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = fresher 999
+17 Dec 2018 17:37:07,717 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  | get resources request received
+17 Dec 2018 17:44:59,010 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 17:44:59,012 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 17:45:18,228 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 17:45:18,231 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 17:46:51,441 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 17:46:51,457 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 17:48:21,976 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 17:48:21,978 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 17:51:34,589 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 17:51:34,591 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 17:52:02,192 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 17:52:02,195 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 17:52:13,553 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 11111
+17 Dec 2018 17:52:13,554 INFO  [pool-1-thread-4] debug     -  | !!!
+17 Dec 2018 17:52:13,554 INFO  [pool-1-thread-4] debug     -  | size : 0
+17 Dec 2018 17:52:13,554 INFO  [pool-1-thread-4] debug     -  | size : 0
+17 Dec 2018 17:52:13,555 INFO  [pool-1-thread-4] debug     -  | size : 0
+17 Dec 2018 17:52:13,555 INFO  [pool-1-thread-4] debug     -  | size : 1
+17 Dec 2018 17:52:13,555 INFO  [pool-1-thread-4] debug     -  | saveModel UserData with uId = 11111
+17 Dec 2018 17:52:13,556 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = fresher 11111
+17 Dec 2018 17:54:10,138 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 17:54:10,141 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 17:55:35,816 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 142541
+17 Dec 2018 17:55:35,816 INFO  [pool-1-thread-1] debug     -  | !!!
+17 Dec 2018 17:55:35,816 INFO  [pool-1-thread-1] debug     -  | size : 0
+17 Dec 2018 17:55:35,816 INFO  [pool-1-thread-1] debug     -  | size : 0
+17 Dec 2018 17:55:35,817 INFO  [pool-1-thread-1] debug     -  | size : 0
+17 Dec 2018 17:55:35,817 INFO  [pool-1-thread-1] debug     -  | size : 1
+17 Dec 2018 17:55:35,817 INFO  [pool-1-thread-1] debug     -  | saveModel UserData with uId = 142541
+17 Dec 2018 17:55:35,819 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = fresher 142541
+17 Dec 2018 17:55:42,815 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  | get resources request received
+17 Dec 2018 17:56:38,483 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 17:56:38,487 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 17:57:43,265 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 17:57:43,266 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 17:59:42,235 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 17:59:42,243 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 18:01:17,994 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 18:01:17,996 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 18:02:14,845 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 18:02:14,847 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 18:05:13,828 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 18:05:13,830 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 18:05:48,432 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 0
+17 Dec 2018 18:05:48,435 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = fresher 
+17 Dec 2018 18:05:52,190 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  | get resources request received

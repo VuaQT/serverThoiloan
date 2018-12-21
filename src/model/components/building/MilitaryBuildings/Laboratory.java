@@ -3,6 +3,7 @@ package model.components.building.MilitaryBuildings;
 import GameConfig.GameConfig;
 import model.components.building.Building;
 import util.Key;
+import util.ResourceType;
 
 import java.nio.ByteBuffer;
 import java.util.List;
@@ -35,5 +36,11 @@ public class Laboratory extends Building {
     public void packToByteBuffer(ByteBuffer currentByteBuffer){
         super.packToByteBuffer(currentByteBuffer);
         // pack Lab infor later
+    }
+    public ResourceType getUpgradeResourceRequire(int level){
+        return new ResourceType(0,GameConfig.LABORATORY.getLAB1().get(level-1).getElixir(),GameConfig.LABORATORY.getLAB1().get(level-1).getDarkElixir(),0);
+    }
+    public int getLevelTownHallRequiredToUpgrade(){
+        return GameConfig.LABORATORY.getLAB1().get(this.upgradingLevel -1).getTownHallLevelRequired() ;
     }
 }

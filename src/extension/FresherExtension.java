@@ -19,9 +19,7 @@ import event.handler.LogoutHandler;
 import model.UserData;
 import org.apache.commons.lang.exception.ExceptionUtils;
 import org.json.JSONObject;
-import service.DemoHandler;
-import service.GameDataHandler;
-import service.UserHandler;
+import service.*;
 import util.GuestLogin;
 import util.metric.LogObject;
 import util.metric.MetricLog;
@@ -53,6 +51,9 @@ public class FresherExtension extends BZExtension {
         addRequestHandler(UserHandler.USER_MULTI_IDS, UserHandler.class);
         addRequestHandler(DemoHandler.DEMO_MULTI_IDS, DemoHandler.class);
         addRequestHandler(GameDataHandler.GAMEDATA_MULTI_IDS, GameDataHandler.class);
+        addRequestHandler(BuildingHandler.BUILDING_MULTI_IDS, BuildingHandler.class);
+        addRequestHandler(HarvestHandler.HARVEST_MULTI_IDS, HarvestHandler.class);
+
 
         /**
          * register new event
@@ -66,7 +67,7 @@ public class FresherExtension extends BZExtension {
 
         // TEST UserData Model
 //        UserData userData  = null;
-//        userData = new UserData(133);
+//        userData = new UserData(1233);
 //        try {
 //            userData.saveModel(111);
 //            userData = null;

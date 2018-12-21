@@ -1,6 +1,8 @@
 package model;
 
 import GameConfig.GameConfig;
+import GameConfig.Resource.RE;
+import util.ResourceType;
 import util.database.DataModel;
 
 import java.nio.ByteBuffer;
@@ -27,6 +29,18 @@ public class UserResources extends DataModel{
         this.darkElixir = GameConfig.INIT_GAME.getPlayer().getDarkElixir();
     }
 
+    public void decreaseResource(ResourceType resourceType){
+        this.gold -= resourceType.gold;
+        this.elixir -= resourceType.elixir;
+        this.darkElixir -= resourceType.darkElixir;
+        this.coin -= resourceType.coin;
+    }
+    public void inreaseResource(ResourceType resourceType, float ratio){
+        this.gold += resourceType.gold * ratio;
+        this.elixir += resourceType.elixir * ratio;
+        this.darkElixir += resourceType.darkElixir * ratio;
+        this.coin += resourceType.coin * ratio;
+    }
     public void setId(int id) {
         this.id = id;
     }
@@ -99,17 +113,21 @@ public class UserResources extends DataModel{
         return shieldTime;
     }
 
-    public void setGCoin(int gCoin) {
-        this.coin = gCoin;
+    public void setCoin(int coin) {
+        this.coin = coin;
     }
 
-    public int getGCoin() {
+    public int getCoin() {
         return coin;
     }
 
     public void packToByteBuffer(ByteBuffer currentByteBuffer){
         currentByteBuffer.putInt(id);
 //        currentByteBuffer.put ... username;
+//        currentByteBuffer.putInt(username.length());
+//        for(int i=0;i<username.length();i++){
+//            currentByteBuffer.putChar(username.charAt(i));
+//        }
         currentByteBuffer.putInt(levelPoint);
         currentByteBuffer.putInt(exp);
         currentByteBuffer.putInt(trophy);

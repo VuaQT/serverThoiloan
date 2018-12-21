@@ -25,17 +25,60 @@ public class GameConfig {
     public static int boardHeight;
     public interface AreaType{
         public int ARMY_CAMP = 1;
-        public int BARRACK = 2;
+        public int BARRACK = 2; // type2
         public int BUILDER_HUT = 3;
         public int CLAN_CASTLE = 4;
-        public int DEFENSE = 5; // add a defenseType to DefenseBuilding class
+        public int DEFENSE = 5; // type2 : add a defenseType to DefenseBuilding class
         // WALL is a type of DEFENSE, need to add Wall.json to Defence.json
         public int LABORATORY = 6;
-        public int OBSTACLE = 7; // add an obstacleType ..
-        public int RESOURCE = 8; // add a resourceType
-        public int STORAGE = 9; // add a storageType
+        public int OBSTACLE = 7; // type2 : add an obstacleType ..
+        public int RESOURCE = 8; //type2 :  add a resourceType
+        public int STORAGE = 9; //type2 :  add a storageType
         public int TOWN_HALL = 10;
     }
+    public interface AddBuildingStatus {
+        public int SUCCESS = 0;
+        public int FAIL_NOT_ENOUGH_RESOURCES = 1;
+        public int FAIL_NO_WORKER_AVAILABLE = 2;
+        public int FAIL_NOT_VALID_POSITION = 3;
+        public int FAIL_ENOUGH_FOR_THIS_LEVEL = 4;
+        public int FAIL_NOT_VALID_TYPE = 5;
+        public int FAIL_UNKNOWN = 6;
+    }
+
+    public interface MoveBuildingStatus {
+        public int SUCCESS = 0;
+        public int FAIL_NOT_VALID_ID = 1;
+        public int FAIL_NOT_VALID_POSITION = 2;
+        public int FAIL_UNKNOWN = 4;
+    }
+
+    public interface StopUpgradingStatus {
+        public int SUCCESS = 0;
+        public int FAIL_NOT_VALID_ID = 1;
+        public int FAIL_NOT_UPGRADING = 2;
+        public int FAIL_UNKNOWN = 3;
+    }
+
+    public interface UpgradeStatus {
+        public int SUCCESS = 0;
+        public int FAIL_NOT_VALID_ID = 1;
+        public int UPGRADING_ALREADY = 2;
+        public int MAX_UPGRADE_LEVEL = 3;
+        public int FAIL_NOT_ENOUGH_RESOURCES = 4;
+        public int FAIL_NO_WORKER_AVAILABLE = 5;
+        public int FAIL_NOT_ENOUGH_LEVEL_TOWNHALL = 6;
+        public int FAIL_UNKNOWN = 7;
+    }
+
+    public interface UpgradeNowStatus {
+        public int SUCCESS = 0;
+        public int FAIL_NOT_VALID_ID = 1;
+        public int FAIL_NOT_UPGRADING = 4;
+        public int FAIL_UNKNOWN = 3;
+    }
+
+
     public static ArmyCamp ARMYCAMP;
     public static Barrack BARRACK;
     public static BuilderHut BUILDERHUT;
@@ -72,6 +115,21 @@ public class GameConfig {
             e.printStackTrace();
         }
     }
-
+    public static boolean checkHaveType2(int type1){
+        switch (type1){
+            case AreaType.BARRACK:
+                return true;
+            case AreaType.OBSTACLE:
+                return true;
+            case AreaType.RESOURCE:
+                return true;
+            case AreaType.STORAGE:
+                return true;
+            case AreaType.DEFENSE:
+                return true;
+            default:
+                return false;
+        }
+    }
 }
 

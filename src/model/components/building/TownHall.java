@@ -2,6 +2,7 @@ package model.components.building;
 
 import GameConfig.GameConfig;
 import util.Key;
+import util.ResourceType;
 
 import java.nio.ByteBuffer;
 
@@ -24,5 +25,8 @@ public class TownHall extends Building {
     }
     public void packToByteBuffer(ByteBuffer currentByteBuffer){
         super.packToByteBuffer(currentByteBuffer);
+    }
+    public ResourceType getUpgradeResourceRequire(int level){
+        return new ResourceType(GameConfig.TOWN_HALL.getTOW1().get(level-1).getGold(),0,GameConfig.TOWN_HALL.getTOW1().get(level-1).getDarkElixir(),0);
     }
 }

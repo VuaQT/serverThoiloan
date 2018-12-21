@@ -98,7 +98,20 @@ public class UserMap {
     public boolean deleteObject(int id){
         // update info of mapIdToPosition, mapIdToSize and mapGrid
         //...
-
+        Point pos = this.mapIdToPosition.get(id);
+        Key size = this.mapIdToSize.get(id);
+        this.mapIdToPosition.remove(id);
+        this.mapIdToSize.remove(id);
+        try {
+            for(int i=0;i<size.first;i++){
+                for(int j=0;j<size.second;j++){
+                    mapGrid[pos.x+i-1][pos.y+j-1]=false;
+                }
+            }
+        }   catch (Exception e){
+            e.printStackTrace();
+            return false;
+        }
         return true;
     }
 
@@ -122,14 +135,4 @@ public class UserMap {
             Debug.info(s);
         }
     }
-    public void packToByteBuffer(ByteBuffer currentByteBuffer){
-        currentByteBuffer.putInt(id);
-        currentByteBuffer.putInt(mapIdToPosition.size());
-        for (HashMap.Entry<Integer, Point> entry : mapIdToPosition.entrySet()){
-            currentByteBuffer.putInt(entry.getKey());
-            currentByteBuffer.putInt(entry.getValue().x);
-            currentByteBuffer.putInt(entry.getValue().y);
-        }
-    }
-
 }

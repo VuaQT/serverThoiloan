@@ -30,6 +30,7 @@ import java.util.HashSet;
  * Created by Trungnq4 on 12/9/2018.
  */
 public class UserData extends DataModel{
+    int idCounter = 1;
     static final Gson gson = new Gson();                                //save  unsave       sendToClient
     public int id;    // save to DB                                     //  1                     1
     public HashMap<Integer, Area> mapIdToArea;  // not save to DB       //           1            2
@@ -87,21 +88,19 @@ public class UserData extends DataModel{
         // init building
         Debug.info("!!!");
         this.createInitArea(new Key(GameConfig.AreaType.TOWN_HALL, 0), new Point(20, 19));
-        Debug.info("size : " + builderWorkingAreas.size());
-        Debug.info("size : " + builderWorkingAreas.size());
         this.createInitArea(new Key(GameConfig.AreaType.BUILDER_HUT, 0), new Point(18, 21));
-//        this.createInitArea(new Key(GameConfig.AreaType.BUILDER_HUT, 0), new Point(1, 5));
         this.createInitArea(new Key(GameConfig.AreaType.BARRACK, 1), new Point(30, 22));
-//        this.createInitArea(new Key(GameConfig.AreaType.RESOURCE, 1), new Point(25, 19));
-        Debug.info("size : " + builderWorkingAreas.size());
 //      for test working builder
-        this.createAndAddArea(new Key(GameConfig.AreaType.ARMY_CAMP, 0), new Point(20, 24));
-        this.createAndAddArea(new Key(GameConfig.AreaType.RESOURCE, 1), new Point(25, 19));
-//                Resource res = (Resource) this.userDataModel.mapIdToArea.get(5);
-//                res.finishUpgrade();
-
+        this.createInitArea(new Key(GameConfig.AreaType.ARMY_CAMP, 0), new Point(20, 24));
+        this.createInitArea(new Key(GameConfig.AreaType.RESOURCE, 1), new Point(25, 19));
         // init obstacles
-        Debug.info("size : " + builderWorkingAreas.size());
+//        this.createInitArea(new Key(GameConfig.AreaType.LABORATORY, 0), new Point(1, 1));
+//        this.createInitArea(new Key(GameConfig.AreaType.STORAGE, 1), new Point(1, 5));
+//        this.createInitArea(new Key(GameConfig.AreaType.CLAN_CASTLE, 0), new Point(1, 10));
+//        this.createInitArea(new Key(GameConfig.AreaType.DEFENSE, 6), new Point(11,1));
+
+
+        Debug.info("size : " + mapIdToArea.size());
         java.util.List<Ob> obs = GameConfig.INIT_GAME.getObs();
         for (int i = 0; i < obs.size(); i++) {
             String typeString = obs.get(i).getType();
@@ -225,6 +224,15 @@ public class UserData extends DataModel{
         this.mapTypeToIds.get(pairType).add(id);
     }
 
+    private void removeIdToListId(Key pairType, int id){
+        if(!this.mapTypeToIds.containsKey(pairType)){
+            this.mapTypeToIds.put(pairType, new ArrayList<Integer>());
+        }
+        if(this.mapTypeToIds.get(pairType).contains(id)){
+            this.mapTypeToIds.get(pairType).remove(id);
+        }
+    }
+
     public void updateBuilderWorkingAreas(){
         // update builderWorkingAreas (hashset) each time user send a request to server
         for (Area area : this.builderWorkingAreas) {
@@ -232,6 +240,9 @@ public class UserData extends DataModel{
             if(! isBuilderWorkingOn){
                 // a new builder is released
                 this.builderWorkingAreas.remove(area);
+                if(area.getType() == GameConfig.AreaType.OBSTACLE){
+                    this.removeArea(area.getId());
+                }
             }
         }
     }
@@ -255,32 +266,28 @@ public class UserData extends DataModel{
     }
 
     int getResourceCapacity(int type){
-
+        //TODO
         return 0;
-    }
-
-    int getLevelTownHall(){
-
-        return 1;
     }
 
     // need to be synchronized when create, delete Area
     // do it later
-    private boolean createInitArea(Key type, Point pos){
-        return createAndAddAreaWithCheck(type,pos,false);
+    private void createInitArea(Key type, Point pos){
+         createAndAddAreaWithCheck(type,pos,false);
     }
 
-    public boolean createAndAddArea(Key type, Point pos){
+    public int createAndAddArea(Key type, Point pos){
         return createAndAddAreaWithCheck(type,pos,true);
     }
 
-    private boolean createAndAddAreaWithCheck(Key type, Point pos, boolean init){
-        int newId = this.mapIdToArea.size()+1;
+    private int createAndAddAreaWithCheck(Key type, Point pos, boolean init){
+        // return objectId if ok, 0 otherwise
+        int newId = idCounter;
+        idCounter++;
         // create new Area
         Area area = null;
         int maxNumber = 10;
 
-        // TODO : switch case to get maxNumber, do it later
         switch (type.first){
             case GameConfig.AreaType.ARMY_CAMP:
                 System.out.println("create new armycamp" + type.first + " " + type.second + " " + newId);
@@ -316,7 +323,7 @@ public class UserData extends DataModel{
                 area = new Obstacle(newId, type.second);
                 break;
             default:
-                return false;
+                return 0;
         }
         if(!init){
             if(area.getType() != GameConfig.AreaType.OBSTACLE){
@@ -331,31 +338,26 @@ public class UserData extends DataModel{
             this.userMap.addObject(area,pos);
             this.addArea(newId, area);
             this.addIdToListId(type, newId);
-            return true;
+            return newId;
         }
-        // check worker available
-        int builderHutType = GameConfig.AreaType.BUILDER_HUT;
-        int n1 = this.getObjectIdsByType(builderHutType, 0).size();
-        this.updateBuilderWorkingAreas();
-        int n2 = this.builderWorkingAreas.size();
-        int numberBuilderAvailable =n1-n2;
 
+        int numberBuilderAvailable = getNumberWorkerAvailable();
         if(numberBuilderAvailable<0){
             Debug.warn("UserData - createInitArea : numberBuilderAvailable<0");
         }   else if(numberBuilderAvailable==0){
             // no builder available
-            return false;
+            return 0;
         }
         // check valid position
         if(!this.userMap.checkIfFreeSpace(pos, area.getSize())){
             // invalid position
-            return false;
+            return 0;
         }
 
         //check full building for this type
         if(this.getObjectIdsByType(type.first, type.second).size() >= maxNumber){
             // cannot add more for this type
-            return false;
+            return 0;
         }
 
         // add Area to data
@@ -366,7 +368,7 @@ public class UserData extends DataModel{
         if(isBuilderWorking){
             this.builderWorkingAreas.add(area);
         }
-        return true;
+        return newId;
     }
 
     private void addArea(int id, Area area){
@@ -375,13 +377,86 @@ public class UserData extends DataModel{
         this.mapIdToClassType.put(id, type);
         this.mapIdToJsonString.put(id, gson.toJson(area));
     }
+
+    public void removeArea(int id){
+
+        this.mapIdToClassType.remove(id);
+        this.mapIdToJsonString.remove(id);
+        Area area = this.mapIdToArea.get(id);
+        this.mapIdToArea.remove(id);
+        this.userMap.deleteObject(id);
+        int type = area.getType();
+        switch (type){
+            case GameConfig.AreaType.ARMY_CAMP:
+                this.removeIdToListId(new Key(type, 0),id );
+                break;
+            case GameConfig.AreaType.BARRACK:
+                Barrack barrack = (Barrack) area;
+                this.removeIdToListId(new Key(type, barrack.getBarrackType()), id );
+                break;
+            case GameConfig.AreaType.BUILDER_HUT:
+                this.removeIdToListId(new Key(type, 0), area.getId());
+                break;
+            case GameConfig.AreaType.DEFENSE:
+                DefenseBuilding defenseBuilding = (DefenseBuilding) area;
+                this.removeIdToListId(new Key(type, defenseBuilding.getDefenseType()), id);
+                break;
+            case GameConfig.AreaType.RESOURCE:
+                Resource resource = (Resource) area;
+                this.removeIdToListId(new Key(type, resource.getResourceType()),id );
+                break;
+            case GameConfig.AreaType.STORAGE:
+                Storage storage = (Storage) area;
+                this.removeIdToListId(new Key(type, storage.getStorageType()), id );
+                break;
+            case GameConfig.AreaType.TOWN_HALL:
+                this.removeIdToListId(new Key(type, 0), id );
+                break;
+            case GameConfig.AreaType.CLAN_CASTLE:
+                this.removeIdToListId(new Key(type, 0), id );
+                break;
+            case GameConfig.AreaType.LABORATORY:
+                this.removeIdToListId(new Key(type, 0), id );
+                break;
+            case GameConfig.AreaType.OBSTACLE:
+                this.removeIdToListId(new Key(type, 0), id );
+                break;
+            default:
+
+        }
+    }
+
     public void packToByteBuffer(ByteBuffer currentByteBuffer){
         currentByteBuffer.putInt(id);
         currentByteBuffer.putInt(mapIdToArea.size());
+        System.out.println("send to client number building + obstacle:" + mapIdToArea.size());
         for (HashMap.Entry<Integer, Area> entry : mapIdToArea.entrySet()){
+            int objectId = entry.getKey();
             entry.getValue().packToByteBuffer(currentByteBuffer);
+            currentByteBuffer.putInt(userMap.mapIdToPosition.get(objectId).x);
+            currentByteBuffer.putInt(userMap.mapIdToPosition.get(objectId).y);
         }
-        userMap.packToByteBuffer(currentByteBuffer);
+
+    }
+    public int getNumberWorkerAvailable(){
+        // check worker available
+        int builderHutType = GameConfig.AreaType.BUILDER_HUT;
+        int n1 = this.getObjectIdsByType(builderHutType, 0).size();
+        int n2 = this.builderWorkingAreas.size();
+        return n1-n2;
+    }
+    public int getTownHallLevel(){
+        try {
+            TownHall th = (TownHall) mapIdToArea.get(mapTypeToIds.get(new Key(GameConfig.AreaType.TOWN_HALL,0)));
+            th.updateStatus();
+            return th.getCurrentLevel();
+        } catch (Exception e){
+            e.printStackTrace();
+            return 0;
+        }
     }
 
+    public int getNumberByType(Key type){
+        return this.mapTypeToIds.get(type).size();
+    }
 }

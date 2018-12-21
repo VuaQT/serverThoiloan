@@ -3,6 +3,7 @@ package model.components.building.MilitaryBuildings;
 import GameConfig.GameConfig;
 import model.components.building.Building;
 import util.Key;
+import util.ResourceType;
 
 /**
  * Created by CPU11630_LOCAL on 12/8/2018.
@@ -21,4 +22,10 @@ public class ArmyCamp extends Building {
         return new Key(GameConfig.ARMYCAMP.getAMC1().get(this.currentLevel-1).getWidth(),GameConfig.ARMYCAMP.getAMC1().get(this.currentLevel-1).getWidth());
     }
 
+    public ResourceType getUpgradeResourceRequire(int level){
+        return new ResourceType(0,GameConfig.ARMYCAMP.getAMC1().get(level-1).getElixir(),GameConfig.ARMYCAMP.getAMC1().get(level-1).getDarkElixir(),0);
+    }
+    public int getLevelTownHallRequiredToUpgrade(){
+        return GameConfig.ARMYCAMP.getAMC1().get(this.upgradingLevel -1).getTownHallLevelRequired() ;
+    }
 }

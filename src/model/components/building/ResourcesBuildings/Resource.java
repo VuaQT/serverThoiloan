@@ -4,6 +4,7 @@ import GameConfig.GameConfig;
 import bitzero.util.common.business.Debug;
 import model.components.building.Building;
 import util.Key;
+import util.ResourceType;
 import util.TimeManager;
 
 import java.nio.ByteBuffer;
@@ -43,5 +44,8 @@ public class Resource extends Building {
         super.packToByteBuffer(currentByteBuffer);
         currentByteBuffer.putInt(resourceType);
         currentByteBuffer.putInt(harvestMoment);
+    }
+    public ResourceType getUpgradeResourceRequire(int level){
+        return new ResourceType(GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getGold(),GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getElixir(),GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getDarkElixir(),0);
     }
 }

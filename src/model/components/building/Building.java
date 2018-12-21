@@ -2,7 +2,9 @@ package model.components.building;
 
 import bitzero.util.common.business.Debug;
 import model.components.Area;
+import model.components.building.ResourcesBuildings.Resource;
 import util.Key;
+import util.ResourceType;
 import util.TimeManager;
 
 import java.nio.ByteBuffer;
@@ -86,6 +88,11 @@ public class Building extends Area {
         // default : buildTime = 0 (builderHut)
         return 0;
     }
+
+    public ResourceType getUpgradeResourceRequire(int level){
+        return null;
+    }
+
     public void setCurrentLevel(int currentLevel) {
         this.currentLevel = currentLevel;
     }
@@ -119,5 +126,8 @@ public class Building extends Area {
         currentByteBuffer.putInt(currentLevel);
         currentByteBuffer.putInt(upgradingLevel);
         currentByteBuffer.putInt(upgradedMoment);
+    }
+    public int getLevelTownHallRequiredToUpgrade(){
+        return 1;
     }
 }

@@ -4,6 +4,7 @@ import GameConfig.GameConfig;
 import bitzero.util.common.business.Debug;
 import model.components.building.Building;
 import util.Key;
+import util.ResourceType;
 
 import java.nio.ByteBuffer;
 
@@ -55,5 +56,11 @@ public class Barrack extends Building {
     public void packToByteBuffer(ByteBuffer currentByteBuffer){
         super.packToByteBuffer(currentByteBuffer);
         currentByteBuffer.putInt(barrackType);
+    }
+    public ResourceType getUpgradeResourceRequire(int level){
+        return new ResourceType(0,GameConfig.BARRACK.getBAR().get(barrackType-1).get(level-1).getElixir(),GameConfig.BARRACK.getBAR().get(barrackType-1).get(level-1).getDarkElixir(),0);
+    }
+    public int getLevelTownHallRequiredToUpgrade(){
+        return GameConfig.BARRACK.getBAR().get(barrackType-1).get(this.upgradingLevel -1).getTownHallLevelRequired() ;
     }
 }

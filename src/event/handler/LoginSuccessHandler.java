@@ -36,6 +36,7 @@ public class LoginSuccessHandler extends BaseServerEventHandler {
      */
     private void onLoginSuccess(User user) {
         trace(ExtensionLogLevel.DEBUG, "On Login Success ", user.getName());
+
         PlayerInfo pInfo = null;
         try {
             pInfo = (PlayerInfo) PlayerInfo.getModel(user.getId(), PlayerInfo.class);

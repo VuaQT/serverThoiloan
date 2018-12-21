@@ -3,6 +3,7 @@ package model.components.building.ResourcesBuildings;
 import GameConfig.GameConfig;
 import model.components.building.Building;
 import util.Key;
+import util.ResourceType;
 
 import java.nio.ByteBuffer;
 
@@ -27,5 +28,8 @@ public class BuilderHut extends Building {
     public void packToByteBuffer(ByteBuffer currentByteBuffer){
         super.packToByteBuffer(currentByteBuffer);
 //        currentByteBuffer.putInt(order);
+    }
+    public ResourceType getUpgradeResourceRequire(int order){
+        return new ResourceType(0,0,0,GameConfig.BUILDERHUT.getBDH1().get(order-1).getCoin());
     }
 }
