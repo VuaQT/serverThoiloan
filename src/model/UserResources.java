@@ -29,17 +29,18 @@ public class UserResources extends DataModel{
         this.darkElixir = GameConfig.INIT_GAME.getPlayer().getDarkElixir();
     }
 
+    public void decreaseCoin(int amount){
+        this.coin -= amount;
+    }
     public void decreaseResource(ResourceType resourceType){
         this.gold -= resourceType.gold;
         this.elixir -= resourceType.elixir;
         this.darkElixir -= resourceType.darkElixir;
-        this.coin -= resourceType.coin;
     }
     public void inreaseResource(ResourceType resourceType, float ratio){
         this.gold += resourceType.gold * ratio;
         this.elixir += resourceType.elixir * ratio;
         this.darkElixir += resourceType.darkElixir * ratio;
-        this.coin += resourceType.coin * ratio;
     }
     public void setId(int id) {
         this.id = id;

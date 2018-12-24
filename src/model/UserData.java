@@ -5,7 +5,6 @@ import GameConfig.InitGame.Ob;
 import bitzero.util.common.business.Debug;
 import com.google.gson.Gson;
 import model.components.Area;
-import model.components.MilitaryStatus;
 import model.components.UserMap;
 import model.components.building.Building;
 import model.components.building.ClanCastle;
@@ -30,16 +29,16 @@ import java.util.HashSet;
  * Created by Trungnq4 on 12/9/2018.
  */
 public class UserData extends DataModel{
-    int idCounter = 1;
+    private int idCounter = 1;
     static final Gson gson = new Gson();                                //save  unsave       sendToClient
     public int id;    // save to DB                                     //  1                     1
-    public HashMap<Integer, Area> mapIdToArea;  // not save to DB       //           1            2
-    HashMap<Integer,Integer> mapIdToClassType;    // save to DB         //  2
-    HashMap<Integer,String> mapIdToJsonString; // save to DB            //  3
+    private HashMap<Integer, Area> mapIdToArea;  // not save to DB       //           1            2
+    private HashMap<Integer,Integer> mapIdToClassType;    // save to DB         //  2
+    private HashMap<Integer,String> mapIdToJsonString; // save to DB            //  3
     public UserMap userMap; // save partly to DB, send partly           //  4    2(2.1,2.2)       3
     //MilitaryStatus militaryStatus;  // save to DB                       //  5
-    HashMap<Key,ArrayList<Integer>> mapTypeToIds; // not save to DB     //         3
-    public HashSet<Area> builderWorkingAreas;                           //         4
+    private HashMap<Key,ArrayList<Integer>> mapTypeToIds; // not save to DB     //         3
+    private HashSet<Area> builderWorkingAreas;                           //         4
 
 
     public void saveModel(int uId) throws Exception{
@@ -252,7 +251,7 @@ public class UserData extends DataModel{
 
     }
 
-    Area getAreaById(int id){
+    public Area getAreaById(int id){
         return this.mapIdToArea.getOrDefault(id,null);
     }
 
@@ -266,8 +265,18 @@ public class UserData extends DataModel{
     }
 
     int getResourceCapacity(int type){
-        //TODO
-        return 0;
+        if(type <1 || type > 3){
+            return 0;
+        }
+        int capacity = 0;
+        ArrayList<Integer> listIds = this.mapTypeToIds.get(new Key(GameConfig.AreaType.RESOURCE,type));
+        for(Integer ids : listIds){
+            Storage storage = (Storage) this.mapIdToArea.get(ids);
+            capacity += storage.getCapacity();
+        }
+        TownHall th = (TownHall) mapIdToArea.get(mapTypeToIds.get(new Key(GameConfig.AreaType.TOWN_HALL,0)));
+        capacity += th.getCapacity(type);
+        return capacity;
     }
 
     // need to be synchronized when create, delete Area
@@ -448,7 +457,6 @@ public class UserData extends DataModel{
     public int getTownHallLevel(){
         try {
             TownHall th = (TownHall) mapIdToArea.get(mapTypeToIds.get(new Key(GameConfig.AreaType.TOWN_HALL,0)));
-            th.updateStatus();
             return th.getCurrentLevel();
         } catch (Exception e){
             e.printStackTrace();
@@ -458,5 +466,77 @@ public class UserData extends DataModel{
 
     public int getNumberByType(Key type){
         return this.mapTypeToIds.get(type).size();
+    }
+
+    public int getMaxNumberCanBuild(Key type){
+        int levelTownHall = this.getTownHallLevel();
+        switch (type.first){
+            case GameConfig.AreaType.ARMY_CAMP:
+                return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getAMC1();
+            case GameConfig.AreaType.BARRACK:
+                switch (type.second){
+                    case 0:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getBAR1();
+                    case 1:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getBAR2();
+                }
+            case GameConfig.AreaType.BUILDER_HUT:
+                return GameConfig.BUILDERHUT.getBDH1().size();
+            case GameConfig.AreaType.DEFENSE:
+                switch (type.second){
+                    case 1:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF1();
+                    case 2:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF2();
+                    case 3:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF3();
+                    case 4:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF4();
+                    case 5:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF5();
+                    case 6:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF6();
+                    case 7:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF7();
+                    case 8:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF8();
+                    case 9:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF9();
+                    case 10:// no DEF10
+                        return 1;
+                    case 11:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF11();
+                    case 12:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF12();
+                    // TODO : case WALL ...
+                }
+
+            case GameConfig.AreaType.RESOURCE:
+                switch (type.second){
+                    case 1:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getRES1();
+                    case 2:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getRES2();
+                    case 3:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getRES3();
+                }
+
+            case GameConfig.AreaType.STORAGE:
+                switch (type.second){
+                    case 1:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getSTO1();
+                    case 2:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getSTO2();
+                    case 3:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getSTO3();
+                }
+            case GameConfig.AreaType.CLAN_CASTLE:
+                return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getCLC1();
+            case GameConfig.AreaType.LABORATORY:
+                return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getLAB1();
+            default:
+        }
+        // default is 1 building : type = townhall
+        return 1;
     }
 }

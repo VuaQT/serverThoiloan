@@ -104,13 +104,25 @@ public class BuildingHandler extends BaseClientRequestHandler {
                 send(new ResponseStatus(CmdDefine.ADD_BUILDING,GameConfig.AddBuildingStatus.FAIL_NOT_VALID_TYPE), user);
                 return;
             }
-
+            ResourceType resourceRequired = new ResourceType();
+            int coinRequired = 0;
             // check enough resources
-            ResourceType resourceRequired = AreaAttribute.getResourceBuildNew(type);
-            if(resourceRequired.checkEnough(userResources) == false) {
-                send(new ResponseStatus(CmdDefine.ADD_BUILDING ,GameConfig.AddBuildingStatus.FAIL_NOT_ENOUGH_RESOURCES), user);
-                return;
-            };
+            if(type.first == GameConfig.AreaType.BUILDER_HUT){
+                // use coin
+                int order = userData.getNumberByType(new Key(type.first,0));
+                coinRequired = GameConfig.BUILDERHUT.getBDH1().get(order-1).getCoin();
+                if(coinRequired > userResources.getCoin()){
+                    send(new ResponseStatus(CmdDefine.ADD_BUILDING ,GameConfig.AddBuildingStatus.FAIL_NOT_ENOUGH_RESOURCES), user);
+                    return;
+                }
+            }   else    {
+                resourceRequired = AreaAttribute.getResourceBuildNew(type);
+                if(resourceRequired.checkEnough(userResources) == false) {
+                    send(new ResponseStatus(CmdDefine.ADD_BUILDING ,GameConfig.AddBuildingStatus.FAIL_NOT_ENOUGH_RESOURCES), user);
+                    return;
+                };
+            }
+
             // check worker available
             if(userData.getNumberWorkerAvailable()<=0){
                 send(new ResponseStatus(CmdDefine.ADD_BUILDING ,GameConfig.AddBuildingStatus.FAIL_NO_WORKER_AVAILABLE), user);
@@ -122,12 +134,17 @@ public class BuildingHandler extends BaseClientRequestHandler {
             }
 
             // check enough level townhall
-            if(AreaAttribute.getMaxNumberCanBuild(type, userData.getTownHallLevel()) < userData.getNumberByType(type)){
+            if(userData.getMaxNumberCanBuild(type) < userData.getNumberByType(type)){
                 send(new ResponseStatus(CmdDefine.ADD_BUILDING ,GameConfig.AddBuildingStatus.FAIL_ENOUGH_FOR_THIS_LEVEL), user);
             }
 
             // update Resources
-            userResources.decreaseResource(resourceRequired);
+            if(type.first == GameConfig.AreaType.BUILDER_HUT){
+                userResources.decreaseCoin(coinRequired);
+            }   else    {
+                userResources.decreaseResource(resourceRequired);
+            }
+
             int buildingId = userData.createAndAddArea(type, pos);
             if(buildingId ==0){
                 send(new ResponseStatus(CmdDefine.ADD_BUILDING, GameConfig.AddBuildingStatus.FAIL_UNKNOWN), user);
@@ -149,7 +166,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
                 return;
             }
             userData.updateBuilderWorkingAreas();
-            Area area = userData.mapIdToArea.get(id);
+            Area area = userData.getAreaById(id);
             if(area == null || area.getType() == GameConfig.AreaType.OBSTACLE) {
                 send(new ResponseStatus(CmdDefine.MOVE_BUILDING ,GameConfig.MoveBuildingStatus.FAIL_NOT_VALID_ID), user);
                 return;
@@ -178,7 +195,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
                 return;
             }
             userData.updateBuilderWorkingAreas();
-            Area area = userData.mapIdToArea.get(id);
+            Area area = userData.getAreaById(id);
             if(area == null || area.getType()==GameConfig.AreaType.OBSTACLE) {
                 send(new ResponseStatus(CmdDefine.UPGRADE ,GameConfig.UpgradeStatus.FAIL_NOT_VALID_ID), user);
                 return;
@@ -232,7 +249,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
                 return;
             }
             userData.updateBuilderWorkingAreas();
-            Area area = userData.mapIdToArea.get(id);
+            Area area = userData.getAreaById(id);
             if(area == null || area.getType()==GameConfig.AreaType.OBSTACLE) {
                 send(new ResponseStatus(CmdDefine.STOP_UPGRADING ,GameConfig.StopUpgradingStatus.FAIL_NOT_VALID_ID), user);
                 return;
@@ -246,7 +263,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
 
             ResourceType resourceRequired = building.getUpgradeResourceRequire(building.getUpgradingLevel());
             userResources.inreaseResource(resourceRequired,0.5f);
-
+            // TODO: check overflow capacity
             if(building.getCurrentLevel()>1){
                 // upgrading, not constructing
                 building.stopUpgrade();
@@ -271,7 +288,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
                 return;
             }
             userData.updateBuilderWorkingAreas();
-            Area area = userData.mapIdToArea.get(id);
+            Area area = userData.getAreaById(id);
             if(area == null || area.getType()==GameConfig.AreaType.OBSTACLE) {
                 send(new ResponseStatus(CmdDefine.UPGRADE_NOW ,GameConfig.UpgradeNowStatus.FAIL_NOT_VALID_ID), user);
                 return;
