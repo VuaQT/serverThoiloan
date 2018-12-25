@@ -28,64 +28,53 @@ import java.util.HashSet;
 /**
  * Created by Trungnq4 on 12/9/2018.
  */
-public class UserData extends DataModel{
-    private int idCounter = 1;
+public class UserData{
+    //private int idCounter = 1;
     static final Gson gson = new Gson();                                //save  unsave       sendToClient
-    public int id;    // save to DB                                     //  1                     1
+    //public int id;    // save to DB                                     //  1                     1
     private HashMap<Integer, Area> mapIdToArea;  // not save to DB       //           1            2
-    private HashMap<Integer,Integer> mapIdToClassType;    // save to DB         //  2
-    private HashMap<Integer,String> mapIdToJsonString; // save to DB            //  3
+    //private HashMap<Integer,Integer> mapIdToClassType;    // save to DB         //  2
+    //private HashMap<Integer,String> mapIdToJsonString; // save to DB            //  3
     public UserMap userMap; // save partly to DB, send partly           //  4    2(2.1,2.2)       3
     //MilitaryStatus militaryStatus;  // save to DB                       //  5
-    private HashMap<Key,ArrayList<Integer>> mapTypeToIds; // not save to DB     //         3
+    private HashMap<Key,HashSet<Integer>> mapTypeToIds; // not save to DB     //         3
     private HashSet<Area> builderWorkingAreas;                           //         4
 
+    UserDataModel dataModel;
 
-    public void saveModel(int uId) throws Exception{
+    public void save(int uId) throws Exception{
         Debug.info("saveModel UserData with uId = " + uId);
-        // backup current data
-        HashMap<Integer, Area> tempMapIdToArea = mapIdToArea;
-        HashMap<Key,ArrayList<Integer>> tempMapTypeToIds = mapTypeToIds;
-        boolean [][] tempMapGrid = userMap.mapGrid;
-        HashMap<Integer, Key> tempMapIdToSize = userMap.mapIdToSize;
-        HashSet<Area> tempBuilderWorkingAreas = builderWorkingAreas;
-        // set data not save equal null
-        mapIdToArea = null;             // not save 1
-        userMap.mapGrid = null;         // not save 2.1
-        userMap.mapIdToSize = null;     // not save 2.2
-        mapTypeToIds = null;            // not save 3
-        builderWorkingAreas = null;     // not save 4
-
-        // save model
-        super.saveModel(uId);
-
-        // restore current data
-        mapIdToArea = tempMapIdToArea;
-        userMap.mapGrid = tempMapGrid;
-        userMap.mapIdToSize = tempMapIdToSize;
-        mapTypeToIds = tempMapTypeToIds;
-        builderWorkingAreas = tempBuilderWorkingAreas;
+        this.dataModel.saveModel(uId);
     }
 
-    public static UserData getModel(int uId) throws Exception{
+    public static UserData get(int uId) throws Exception{
         Debug.info("getModel UserData with uId = " + uId);
-        UserData userData = (UserData) DataModel.getModel(uId,UserData.class);
-        if(userData == null)
-            return null;
+        UserDataModel userDataModel = (UserDataModel) DataModel.getModel(uId,UserDataModel.class);
+        UserData userData;
+        if(userDataModel == null){
+            userDataModel = new UserDataModel(uId);
+            userData = new UserData(userDataModel);
+            userData.updateAfterGetModel();
+            userData.createInitArea();
+            userData.save(uId);
+            return userData;
+        }
+        userData = new UserData(userDataModel);
         userData.updateAfterGetModel();
         return userData;
     }
 
-    public UserData(int id){
-        this.id = id;
-        mapIdToClassType = new HashMap<Integer,Integer>();
-        mapIdToJsonString = new HashMap<Integer,String>();
-        userMap = new UserMap(id);
+    public UserData(UserDataModel userDataModel){
         //militaryStatus = new MilitaryStatus();
+        this.dataModel = userDataModel;
+        this.userMap = new UserMap(userDataModel.mapIdToPosition);
         this.updateAfterGetModel();
+    }
+
+    private void createInitArea(){
         // init areas for new user
         // init building
-        Debug.info("!!!");
+        Debug.info("createInitArea");
         this.createInitArea(new Key(GameConfig.AreaType.TOWN_HALL, 0), new Point(20, 19));
         this.createInitArea(new Key(GameConfig.AreaType.BUILDER_HUT, 0), new Point(18, 21));
         this.createInitArea(new Key(GameConfig.AreaType.BARRACK, 1), new Point(30, 22));
@@ -93,15 +82,14 @@ public class UserData extends DataModel{
         this.createInitArea(new Key(GameConfig.AreaType.ARMY_CAMP, 0), new Point(20, 24));
         this.createInitArea(new Key(GameConfig.AreaType.RESOURCE, 1), new Point(25, 19));
         // init obstacles
-//        this.createInitArea(new Key(GameConfig.AreaType.LABORATORY, 0), new Point(1, 1));
-//        this.createInitArea(new Key(GameConfig.AreaType.STORAGE, 1), new Point(1, 5));
-//        this.createInitArea(new Key(GameConfig.AreaType.CLAN_CASTLE, 0), new Point(1, 10));
-//        this.createInitArea(new Key(GameConfig.AreaType.DEFENSE, 6), new Point(11,1));
+//        this.createInitArea(new Key(GameConfig.AreaType.LABORATORY, 0), new Point(37, 30));
+//        this.createInitArea(new Key(GameConfig.AreaType.STORAGE, 1), new Point(9, 25));
+//        this.createInitArea(new Key(GameConfig.AreaType.CLAN_CASTLE, 0), new Point(32, 36));
+//        this.createInitArea(new Key(GameConfig.AreaType.DEFENSE, 6), new Point(17,35));
 
 
-        Debug.info("size : " + mapIdToArea.size());
         java.util.List<Ob> obs = GameConfig.INIT_GAME.getObs();
-        for (int i = 0; i < obs.size(); i++) {
+        for (int i = 0; i < 2; i++) { // obs.size()
             String typeString = obs.get(i).getType();
             try {
                 int typeObs = Character.getNumericValue(typeString.charAt(4));
@@ -111,19 +99,20 @@ public class UserData extends DataModel{
                 e.printStackTrace();
             }
         }
+        Debug.info("size : " + mapIdToArea.size());
     }
 
     public void updateAfterGetModel(){
         this.mapIdToArea = new HashMap<Integer, Area>();            // 1
-        this.mapTypeToIds = new HashMap<Key,ArrayList<Integer>>();  // 3
+        this.mapTypeToIds = new HashMap<Key,HashSet<Integer>>();  // 3
         this.builderWorkingAreas = new HashSet<Area>();             // 4
         // update all building, obstacles, military each time user login
         String jsonString = null;
         // restore 1
-        for(HashMap.Entry<Integer,Integer> entry : this.mapIdToClassType.entrySet()){
+        for(HashMap.Entry<Integer,Integer> entry : this.dataModel.mapIdToClassType.entrySet()){
             int id = entry.getKey();
             int type = entry.getValue();
-            jsonString = this.mapIdToJsonString.get(id);
+            jsonString = this.dataModel.mapIdToJsonString.get(id);
             switch (type){
                 case GameConfig.AreaType.ARMY_CAMP:
                     this.mapIdToArea.put(id, gson.fromJson(jsonString, ArmyCamp.class));
@@ -218,14 +207,14 @@ public class UserData extends DataModel{
 
     private void addIdToListId(Key pairType, int id){
         if(!this.mapTypeToIds.containsKey(pairType)){
-            this.mapTypeToIds.put(pairType, new ArrayList<Integer>());
+            this.mapTypeToIds.put(pairType, new HashSet<Integer>());
         }
         this.mapTypeToIds.get(pairType).add(id);
     }
 
     private void removeIdToListId(Key pairType, int id){
         if(!this.mapTypeToIds.containsKey(pairType)){
-            this.mapTypeToIds.put(pairType, new ArrayList<Integer>());
+            this.mapTypeToIds.put(pairType, new HashSet<Integer>());
         }
         if(this.mapTypeToIds.get(pairType).contains(id)){
             this.mapTypeToIds.get(pairType).remove(id);
@@ -255,26 +244,27 @@ public class UserData extends DataModel{
         return this.mapIdToArea.getOrDefault(id,null);
     }
 
-    public ArrayList<Integer> getObjectIdsByType(int typeLevel1, int typeLevel2){
+    public HashSet<Integer> getObjectIdsByType(int typeLevel1, int typeLevel2){
 //        if(!this.mapTypeToIds.containsKey(new Key(typeLevel1, typeLevel2))){
 ////            Debug.info("not contain key " + typeLevel1 + " " + typeLevel2);
 //        }   else {
 ////            Debug.info("contain key " + typeLevel1 + " " + typeLevel2);
 //        }
-        return this.mapTypeToIds.getOrDefault(new Key(typeLevel1, typeLevel2), new ArrayList<Integer>());
+        return this.mapTypeToIds.getOrDefault(new Key(typeLevel1, typeLevel2), new HashSet<Integer>());
     }
 
-    int getResourceCapacity(int type){
+    public int getResourceCapacity(int type){
         if(type <1 || type > 3){
             return 0;
         }
         int capacity = 0;
-        ArrayList<Integer> listIds = this.mapTypeToIds.get(new Key(GameConfig.AreaType.RESOURCE,type));
+        HashSet<Integer> listIds = this.mapTypeToIds.get(new Key(GameConfig.AreaType.STORAGE, type));
+        if(listIds!=null)
         for(Integer ids : listIds){
             Storage storage = (Storage) this.mapIdToArea.get(ids);
             capacity += storage.getCapacity();
         }
-        TownHall th = (TownHall) mapIdToArea.get(mapTypeToIds.get(new Key(GameConfig.AreaType.TOWN_HALL,0)));
+        TownHall th = (TownHall) mapIdToArea.get(mapTypeToIds.get(new Key(GameConfig.AreaType.TOWN_HALL,0)).iterator().next());
         capacity += th.getCapacity(type);
         return capacity;
     }
@@ -291,29 +281,25 @@ public class UserData extends DataModel{
 
     private int createAndAddAreaWithCheck(Key type, Point pos, boolean init){
         // return objectId if ok, 0 otherwise
-        int newId = idCounter;
-        idCounter++;
+        int newId = this.dataModel.idCounter;
+        this.dataModel.idCounter++;
         // create new Area
         Area area = null;
-        int maxNumber = 10;
 
         switch (type.first){
             case GameConfig.AreaType.ARMY_CAMP:
-                System.out.println("create new armycamp" + type.first + " " + type.second + " " + newId);
                 area = new ArmyCamp(newId);
                 break;
             case GameConfig.AreaType.BARRACK:
                 area = new Barrack(newId,type.second);
                 break;
             case GameConfig.AreaType.BUILDER_HUT:
-                System.out.println("create new builder hut");
                 area = new BuilderHut(newId, this.getObjectIdsByType(type.first, 0).size());
                 break;
             case GameConfig.AreaType.DEFENSE:
                 area = new DefenseBuilding(newId,type.second);
                 break;
             case GameConfig.AreaType.RESOURCE:
-                System.out.println("create new resource" + type.first + " " + type.second + " " + newId);
                 area = new Resource(newId,type.second);
                 break;
             case GameConfig.AreaType.STORAGE:
@@ -364,7 +350,7 @@ public class UserData extends DataModel{
         }
 
         //check full building for this type
-        if(this.getObjectIdsByType(type.first, type.second).size() >= maxNumber){
+        if(this.getObjectIdsByType(type.first, type.second).size() >= this.getMaxNumberCanBuild(type)){
             // cannot add more for this type
             return 0;
         }
@@ -383,17 +369,19 @@ public class UserData extends DataModel{
     private void addArea(int id, Area area){
         this.mapIdToArea.put(id, area);
         int type = area.getType();
-        this.mapIdToClassType.put(id, type);
-        this.mapIdToJsonString.put(id, gson.toJson(area));
+        this.dataModel.mapIdToClassType.put(id, type);
+        this.dataModel.mapIdToJsonString.put(id, gson.toJson(area));
     }
 
     public void removeArea(int id){
-
-        this.mapIdToClassType.remove(id);
-        this.mapIdToJsonString.remove(id);
+        this.dataModel.mapIdToClassType.remove(id);
+        this.dataModel.mapIdToJsonString.remove(id);
         Area area = this.mapIdToArea.get(id);
         this.mapIdToArea.remove(id);
         this.userMap.deleteObject(id);
+        if(this.builderWorkingAreas.contains(area)){
+            this.builderWorkingAreas.remove(area);
+        }
         int type = area.getType();
         switch (type){
             case GameConfig.AreaType.ARMY_CAMP:
@@ -431,12 +419,11 @@ public class UserData extends DataModel{
                 this.removeIdToListId(new Key(type, 0), id );
                 break;
             default:
-
         }
     }
 
     public void packToByteBuffer(ByteBuffer currentByteBuffer){
-        currentByteBuffer.putInt(id);
+        currentByteBuffer.putInt(this.dataModel.id);
         currentByteBuffer.putInt(mapIdToArea.size());
         System.out.println("send to client number building + obstacle:" + mapIdToArea.size());
         for (HashMap.Entry<Integer, Area> entry : mapIdToArea.entrySet()){
@@ -456,7 +443,7 @@ public class UserData extends DataModel{
     }
     public int getTownHallLevel(){
         try {
-            TownHall th = (TownHall) mapIdToArea.get(mapTypeToIds.get(new Key(GameConfig.AreaType.TOWN_HALL,0)));
+            TownHall th = (TownHall) mapIdToArea.get(mapTypeToIds.get(new Key(GameConfig.AreaType.TOWN_HALL,0)).iterator().next());
             return th.getCurrentLevel();
         } catch (Exception e){
             e.printStackTrace();
@@ -465,7 +452,11 @@ public class UserData extends DataModel{
     }
 
     public int getNumberByType(Key type){
-        return this.mapTypeToIds.get(type).size();
+        HashSet<Integer> ids = this.mapTypeToIds.get(type);
+        if(ids == null){
+            return 0;
+        }
+        return ids.size();
     }
 
     public int getMaxNumberCanBuild(Key type){
@@ -488,27 +479,26 @@ public class UserData extends DataModel{
                         return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF1();
                     case 2:
                         return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF2();
-                    case 3:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF3();
-                    case 4:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF4();
-                    case 5:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF5();
-                    case 6:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF6();
-                    case 7:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF7();
-                    case 8:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF8();
-                    case 9:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF9();
-                    case 10:// no DEF10
-                        return 1;
-                    case 11:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF11();
-                    case 12:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF12();
-                    // TODO : case WALL ...
+                    case 3:// case WALL ..., defenseType = 3
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getWAL1();
+//                    case 4:
+//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF4();
+//                    case 5:
+//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF5();
+//                    case 6:
+//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF6();
+//                    case 7:
+//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF7();
+//                    case 8:
+//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF8();
+//                    case 9:
+//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF9();
+//                    case 10:// no DEF10
+//                        return 1;
+//                    case 11:
+//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF11();
+//                    case 12:
+//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF12();
                 }
 
             case GameConfig.AreaType.RESOURCE:
@@ -539,4 +529,19 @@ public class UserData extends DataModel{
         // default is 1 building : type = townhall
         return 1;
     }
+
+    public void addAreaBuilderWorking(Area area){
+        this.builderWorkingAreas.add(area);
+    }
+    public void showInfo(){
+        this.userMap.showMap();
+        System.out.println("number Builder available :" + this.getNumberWorkerAvailable());
+        for(HashMap.Entry<Integer, Area> entry : mapIdToArea.entrySet()){
+            Area area = entry.getValue();
+            Point pos = this.userMap.mapIdToPosition.get(area.getId());
+            Key size = area.getSize();
+            System.out.println("At (" + (int) (pos.getX()) + "," + (int) pos.getY() + ")->(" + (int) (pos.getX()+size.first) + "," + (int) (pos.getY()+size.second) + ") has " + area.toString());
+        }
+    }
+
 }

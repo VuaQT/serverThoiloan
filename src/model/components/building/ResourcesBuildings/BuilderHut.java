@@ -32,4 +32,7 @@ public class BuilderHut extends Building {
     public ResourceType getUpgradeResourceRequire(int order){
         return new ResourceType(0,0,0,GameConfig.BUILDERHUT.getBDH1().get(order-1).getCoin());
     }
+    public String toString(){
+        return "BuliderHut "+ super.toString() + " order " + order;
+    }
 }

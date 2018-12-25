@@ -5,6 +5,7 @@ import bitzero.server.core.IBZEvent;
 import bitzero.server.entities.User;
 import bitzero.server.extensions.BaseClientRequestHandler;
 import bitzero.server.extensions.data.DataCmd;
+import bitzero.util.common.business.Debug;
 import cmd.CmdDefine;
 import cmd.receive.Building.RequestAddBuilding;
 import cmd.receive.Building.RequestBuildingId;
@@ -18,6 +19,7 @@ import model.UserResources;
 import model.components.Area;
 import model.components.building.Building;
 import org.apache.commons.lang.exception.ExceptionUtils;
+import org.omg.CORBA.MARSHAL;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import util.AreaAttribute;
@@ -62,26 +64,34 @@ public class BuildingHandler extends BaseClientRequestHandler {
             switch (dataCmd.getId()) {
                 case CmdDefine.ADD_BUILDING:
                     RequestAddBuilding requestAddBuilding = new RequestAddBuilding(dataCmd);
-                    addNewBuilding(user,requestAddBuilding.type, requestAddBuilding.pos);
+                    Debug.info(" NEW BUILDING " + requestAddBuilding.type.first + "," + requestAddBuilding.type.second + "|" + requestAddBuilding.pos);
+                    addNewBuilding(user, requestAddBuilding.type, requestAddBuilding.pos);
                     break;
                 case CmdDefine.MOVE_BUILDING:
                     RequestMoveBuilding requestMoveBuilding = new RequestMoveBuilding(dataCmd);
+                    Debug.info(" MOVE BUILDING " + requestMoveBuilding.id + " pos : " + requestMoveBuilding.pos);
                     moveBuilding(user, requestMoveBuilding.id, requestMoveBuilding.pos);
                     break;
                 case CmdDefine.STOP_UPGRADING:
                     RequestBuildingId buildingIdStopUpgrade = new RequestBuildingId(dataCmd);
+                    Debug.info(" STOP BUILDING " + buildingIdStopUpgrade.id);
                     stopUpgrading(user,buildingIdStopUpgrade.id);
                     break;
                 case CmdDefine.UPGRADE:
                     RequestBuildingId buildingIdUpgrade = new RequestBuildingId(dataCmd);
+                    Debug.info(" UPGRADE BUILDING " + buildingIdUpgrade.id);
                     upgrade(user,buildingIdUpgrade.id);
                     break;
                 case CmdDefine.UPGRADE_NOW:
                     RequestBuildingId buildingIdUpgradeNow = new RequestBuildingId(dataCmd);
+                    Debug.info(" UPGRADE BUILDING NOW " + buildingIdUpgradeNow.id);
                     upgradeNow(user, buildingIdUpgradeNow.id);
                     break;
 
             }
+            UserData userData = (UserData) user.getProperty(ServerConstant.USER_DATA);
+            userData.updateBuilderWorkingAreas();
+            userData.showInfo();
         } catch (Exception e) {
             logger.warn("USERHANDLER EXCEPTION " + e.getMessage());
             logger.warn(ExceptionUtils.getStackTrace(e));
@@ -110,17 +120,17 @@ public class BuildingHandler extends BaseClientRequestHandler {
             if(type.first == GameConfig.AreaType.BUILDER_HUT){
                 // use coin
                 int order = userData.getNumberByType(new Key(type.first,0));
-                coinRequired = GameConfig.BUILDERHUT.getBDH1().get(order-1).getCoin();
+                coinRequired = GameConfig.BUILDERHUT.getBDH1().get(order).getCoin();
                 if(coinRequired > userResources.getCoin()){
                     send(new ResponseStatus(CmdDefine.ADD_BUILDING ,GameConfig.AddBuildingStatus.FAIL_NOT_ENOUGH_RESOURCES), user);
                     return;
                 }
             }   else    {
                 resourceRequired = AreaAttribute.getResourceBuildNew(type);
-                if(resourceRequired.checkEnough(userResources) == false) {
+                if(!resourceRequired.checkEnough(userResources)) {
                     send(new ResponseStatus(CmdDefine.ADD_BUILDING ,GameConfig.AddBuildingStatus.FAIL_NOT_ENOUGH_RESOURCES), user);
                     return;
-                };
+                }
             }
 
             // check worker available
@@ -129,13 +139,15 @@ public class BuildingHandler extends BaseClientRequestHandler {
                 return;
             }
             // check valid position
-            if(userData.userMap.checkIfFreeSpace(pos,AreaAttribute.getSizeBuildNew(type)) == false){
+            if(!userData.userMap.checkIfFreeSpace(pos, AreaAttribute.getSizeBuildNew(type))){
                 send(new ResponseStatus(CmdDefine.ADD_BUILDING ,GameConfig.AddBuildingStatus.FAIL_NOT_VALID_POSITION), user);
+                return;
             }
 
             // check enough level townhall
-            if(userData.getMaxNumberCanBuild(type) < userData.getNumberByType(type)){
+            if(userData.getMaxNumberCanBuild(type) <= userData.getNumberByType(type)){
                 send(new ResponseStatus(CmdDefine.ADD_BUILDING ,GameConfig.AddBuildingStatus.FAIL_ENOUGH_FOR_THIS_LEVEL), user);
+                return;
             }
 
             // update Resources
@@ -148,9 +160,11 @@ public class BuildingHandler extends BaseClientRequestHandler {
             int buildingId = userData.createAndAddArea(type, pos);
             if(buildingId ==0){
                 send(new ResponseStatus(CmdDefine.ADD_BUILDING, GameConfig.AddBuildingStatus.FAIL_UNKNOWN), user);
+                return;
             }
-            userData.saveModel(user.getId());
+            userData.save(user.getId());
             userResources.saveModel(user.getId());
+            Debug.info(" building new success " + buildingId);
             send(new ResponseStatus2(CmdDefine.ADD_BUILDING, GameConfig.AddBuildingStatus.SUCCESS, buildingId), user);
         } catch (Exception e) {
             send(new ResponseStatus(CmdDefine.ADD_BUILDING, GameConfig.AddBuildingStatus.FAIL_UNKNOWN), user);
@@ -172,13 +186,13 @@ public class BuildingHandler extends BaseClientRequestHandler {
                 return;
             }
             // check valid position
-            if(!userData.userMap.checkIfFreeSpace(newPos, area.getSize())){
+            if(!userData.userMap.checkIfFreeSpaceToMove(area.getId(), newPos)){
                 send(new ResponseStatus(CmdDefine.MOVE_BUILDING ,GameConfig.MoveBuildingStatus.FAIL_NOT_VALID_POSITION), user);
                 return;
             }
 
             userData.userMap.moveObject(id, newPos);
-            userData.saveModel(user.getId());
+            userData.save(user.getId());
             send(new ResponseStatus(CmdDefine.MOVE_BUILDING, GameConfig.MoveBuildingStatus.SUCCESS), user);
         } catch (Exception e) {
             send(new ResponseStatus(CmdDefine.MOVE_BUILDING ,GameConfig.MoveBuildingStatus.FAIL_UNKNOWN), user);
@@ -212,7 +226,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
                 send(new ResponseStatus(CmdDefine.UPGRADE ,GameConfig.UpgradeStatus.MAX_UPGRADE_LEVEL), user);
                 return;
             }
-            ResourceType resourceRequired = building.getUpgradeResourceRequire(building.getCurrentLevel());
+            ResourceType resourceRequired = building.getUpgradeResourceRequire(building.getCurrentLevel()+1);
             if(!resourceRequired.checkEnough(userResources)){
                 // not enough resources
                 send(new ResponseStatus(CmdDefine.UPGRADE ,GameConfig.UpgradeStatus.FAIL_NOT_ENOUGH_RESOURCES), user);
@@ -231,8 +245,9 @@ public class BuildingHandler extends BaseClientRequestHandler {
             }
             userResources.decreaseResource(resourceRequired);
             building.startUpgrade();
+            userData.addAreaBuilderWorking(building);
             userResources.saveModel(user.getId());
-            userData.saveModel(user.getId());
+            userData.save(user.getId());
             send(new ResponseStatus(CmdDefine.UPGRADE ,GameConfig.UpgradeStatus.SUCCESS), user);
         } catch (Exception e) {
             send(new ResponseStatus(CmdDefine.UPGRADE ,GameConfig.UpgradeStatus.FAIL_UNKNOWN), user);
@@ -262,9 +277,17 @@ public class BuildingHandler extends BaseClientRequestHandler {
             }
 
             ResourceType resourceRequired = building.getUpgradeResourceRequire(building.getUpgradingLevel());
-            userResources.inreaseResource(resourceRequired,0.5f);
-            // TODO: check overflow capacity
-            if(building.getCurrentLevel()>1){
+            if(resourceRequired.gold>0){
+                resourceRequired.gold = Math.min((int)(resourceRequired.gold*GameConfig.StopUpgradeHarvestRatio), userData.getResourceCapacity(GameConfig.ResourceType.GOLD) - userResources.getGold());
+            }
+            if(resourceRequired.elixir>0){
+                resourceRequired.elixir = Math.min((int)(resourceRequired.elixir*GameConfig.StopUpgradeHarvestRatio),userData.getResourceCapacity(GameConfig.ResourceType.ELIXIR) - userResources.getElixir());
+            }
+            if(resourceRequired.darkElixir>0){
+                resourceRequired.darkElixir = Math.min((int)(resourceRequired.darkElixir*GameConfig.StopUpgradeHarvestRatio), userData.getResourceCapacity(GameConfig.ResourceType.DARK_ELIXIR) - userResources.getDarkElixir());
+            }
+            userResources.inreaseResource(resourceRequired);
+            if(building.getUpgradingLevel()>1){
                 // upgrading, not constructing
                 building.stopUpgrade();
             }   else    {
@@ -272,7 +295,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
                 userData.removeArea(building.getId());
             }
             userResources.saveModel(user.getId());
-            userData.saveModel(user.getId());
+            userData.save(user.getId());
             send(new ResponseStatus(CmdDefine.STOP_UPGRADING ,GameConfig.StopUpgradingStatus.SUCCESS), user);
         } catch (Exception e) {
             send(new ResponseStatus(CmdDefine.STOP_UPGRADING ,GameConfig.UpgradeStatus.FAIL_UNKNOWN), user);
@@ -303,7 +326,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
             // TODO : current allow finish upgrade without checking and decrease coin, need to check and decrease later
             building.finishUpgrade();
             userResources.saveModel(user.getId());
-            userData.saveModel(user.getId());
+            userData.save(user.getId());
             send(new ResponseStatus(CmdDefine.UPGRADE_NOW ,GameConfig.UpgradeNowStatus.SUCCESS), user);
         } catch (Exception e) {
             send(new ResponseStatus(CmdDefine.UPGRADE_NOW ,GameConfig.UpgradeStatus.FAIL_UNKNOWN), user);

@@ -10,7 +10,7 @@ import java.nio.ByteBuffer;
 public class ResponseStatus2 extends BaseMsg {
     int status;
     int num;
-    public ResponseStatus2(short packetCode, int status1, int num) {
+    public ResponseStatus2(short packetCode, int status, int num) {
         super(packetCode);
         this.status =status;
         this.num = num;

@@ -24,7 +24,7 @@ public class ResourceType {
     }
 
     public boolean checkEnough(UserResources userResources){
-        if(userResources.getCoin()< this.gold) return false;
+        if(userResources.getGold()< this.gold) return false;
         if(userResources.getElixir()< this.elixir) return false;
         if(userResources.getDarkElixir()< this.darkElixir) return false;
         return true;

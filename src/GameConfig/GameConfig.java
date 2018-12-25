@@ -23,6 +23,12 @@ import java.io.FileReader;
 public class GameConfig {
     public static int boardWidth;
     public static int boardHeight;
+    public static float StopUpgradeHarvestRatio = 0.5f;
+    public interface ResourceType{
+        public int GOLD = 1;
+        public int ELIXIR = 2;
+        public int DARK_ELIXIR = 3;
+    }
     public interface AreaType{
         public int ARMY_CAMP = 1;
         public int BARRACK = 2; // type2
@@ -78,6 +84,13 @@ public class GameConfig {
         public int FAIL_UNKNOWN = 3;
     }
 
+    public interface HarvestStatus {
+        public int SUCCESS = 0;
+        public int FAIL_NOT_VALID_ID = 1;
+        public int FAIL_UPGRADING = 4; // upgrading khong sinh ra tai nguyen
+        public int FAIL_UNKNOWN = 3;
+    }
+
 
     public static ArmyCamp ARMYCAMP;
     public static Barrack BARRACK;
@@ -96,8 +109,8 @@ public class GameConfig {
         Gson gson = new Gson();
         String folderName = "res\\Config json";
         try {
-            boardWidth = 40;
-            boardHeight = 40;
+            boardWidth = 42;
+            boardHeight = 42;
             ARMYCAMP = gson. fromJson(new FileReader(folderName + "\\ArmyCamp.json.txt"),ArmyCamp.class);
             BARRACK =  gson. fromJson(new FileReader(folderName + "\\Barrack.json.txt"),Barrack.class);
             BUILDERHUT = gson. fromJson(new FileReader(folderName + "\\BuilderHut.json.txt"),BuilderHut.class);

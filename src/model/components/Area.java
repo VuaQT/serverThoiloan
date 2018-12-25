@@ -45,5 +45,8 @@ public class Area {
         currentByteBuffer.putInt(type);
         System.out.println("id " + id + "type " + type);
     }
+    public String toString(){
+        return "id : " + id + " type : " + type ;
+    }
 }
 

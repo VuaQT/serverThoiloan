@@ -25,6 +25,10 @@ public class ClanCastle extends Building {
         super.packToByteBuffer(currentByteBuffer);
     }
     public int getLevelTownHallRequiredToUpgrade(){
-        return GameConfig.CLANCASTLE.getCLC1().get(this.upgradingLevel-1).getTownHallLevelRequired() ;
+        return GameConfig.CLANCASTLE.getCLC1().get(this.currentLevel).getTownHallLevelRequired() ;
     }
+    public String toString(){
+        return "ClanCastle " + super.toString();
+    }
+
 }

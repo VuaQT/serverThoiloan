@@ -13,6 +13,7 @@ import java.nio.ByteBuffer;
  * Created by CPU11630_LOCAL on 12/8/2018.
  */
 public class Resource extends Building {
+    private static float harvestRatio;
     int resourceType;
     int harvestMoment;
     public Resource(int id, int resourceType) {
@@ -27,9 +28,13 @@ public class Resource extends Building {
     }
 
     public int harvest(){
+        // return the amount harvested
         int intervalTime =  TimeManager.getTime() - this.harvestMoment;
         this.harvestMoment = TimeManager.getTime();
-        return intervalTime; //  the amount of resource
+        return (int) (intervalTime * getProductivity() * harvestRatio); //  the amount of resource
+    }
+    public int getMaxLevel(){
+        return GameConfig.RESOURCE.getRES().get(this.resourceType-1).size();
     }
     public int getResourceType() {
         return resourceType;
@@ -47,5 +52,14 @@ public class Resource extends Building {
     }
     public ResourceType getUpgradeResourceRequire(int level){
         return new ResourceType(GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getGold(),GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getElixir(),GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getDarkElixir(),0);
+    }
+    public String toString(){
+        return "Resource " + super.toString() + " resourceType : " + resourceType + " harvestMoment :" + harvestMoment;
+    }
+    public int getLevelTownHallRequiredToUpgrade(){
+        return GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(this.currentLevel).getTownHallLevelRequired() ;
+    }
+    public int getProductivity(){
+        return GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(this.currentLevel-1).getProductivity();
     }
 }
