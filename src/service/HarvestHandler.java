@@ -95,7 +95,11 @@ public class HarvestHandler  extends BaseClientRequestHandler {
                 send(new ResponseStatus2(CmdDefine.HARVEST, GameConfig.HarvestStatus.FAIL_NOT_VALID_ID,0), user);
                 return;
             }
-
+            if(resource.getUpgradingLevel()!=0){
+                // upgrading
+                send(new ResponseStatus2(CmdDefine.HARVEST, GameConfig.HarvestStatus.FAIL_UPGRADING,0), user);
+                return;
+            }
             amountHarvested = resource.harvest();
             int typeHarvested = resource.getResourceType();
             int maximumCanHarvest = userData.getResourceCapacity(typeHarvested) - userResources.getCurrentResource(typeHarvested);

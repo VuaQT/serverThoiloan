@@ -5,7 +5,6 @@ import bitzero.util.common.business.Debug;
 import util.Key;
 
 import java.awt.*;
-import java.nio.ByteBuffer;
 import java.util.HashMap;
 
 /**
@@ -38,7 +37,7 @@ public class UserMap {
                 try {
                     for(int i=0;i<size.first;i++){
                         for(int j=0;j<size.second;j++){
-                            if(mapGrid[pos.x+i-1][pos.y+j-1]==false){
+                            if(!mapGrid[pos.x + i - 1][pos.y + j - 1]){
                                 mapGrid[pos.x+i-1][pos.y+j-1]=true;
                             }   else    {
                                 Debug.warn("UserMap - loadObjectSizeAndMapGrid : Area OverLap each other");
@@ -76,7 +75,7 @@ public class UserMap {
         try {
             for(int i=0;i<size.first;i++){
                 for(int j=0;j<size.second;j++){
-                    if(mapGrid[pos.x+i-1][pos.y+j-1]==true){
+                    if(mapGrid[pos.x + i - 1][pos.y + j - 1]){
                         return false;
                     }
                 }
@@ -168,7 +167,7 @@ public class UserMap {
         for (int i=0;i<GameConfig.boardWidth;i++){
             s = "  " + ((i+1)%10) + " |";
             for(int j=0;j<GameConfig.boardHeight;j++){
-                if(mapGrid[i][j]==true){
+                if(mapGrid[i][j]){
                     s += "1";
                 }   else {
                     s += "0";

@@ -56,7 +56,7 @@ public class GameConfig {
         public int SUCCESS = 0;
         public int FAIL_NOT_VALID_ID = 1;
         public int FAIL_NOT_VALID_POSITION = 2;
-        public int FAIL_UNKNOWN = 4;
+        public int FAIL_UNKNOWN = 3;
     }
 
     public interface StopUpgradingStatus {
@@ -80,14 +80,14 @@ public class GameConfig {
     public interface UpgradeNowStatus {
         public int SUCCESS = 0;
         public int FAIL_NOT_VALID_ID = 1;
-        public int FAIL_NOT_UPGRADING = 4;
+        public int FAIL_NOT_UPGRADING = 2;
         public int FAIL_UNKNOWN = 3;
     }
 
     public interface HarvestStatus {
         public int SUCCESS = 0;
         public int FAIL_NOT_VALID_ID = 1;
-        public int FAIL_UPGRADING = 4; // upgrading khong sinh ra tai nguyen
+        public int FAIL_UPGRADING = 2; // upgrading khong sinh ra tai nguyen
         public int FAIL_UNKNOWN = 3;
     }
 
