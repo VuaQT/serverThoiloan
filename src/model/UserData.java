@@ -18,6 +18,7 @@ import model.components.building.ResourcesBuildings.Storage;
 import model.components.building.TownHall;
 import model.components.obstacle.Obstacle;
 import util.Key;
+import util.TimeManager;
 import util.database.DataModel;
 
 import java.awt.*;
@@ -423,6 +424,7 @@ public class UserData{
     }
 
     public void packToByteBuffer(ByteBuffer currentByteBuffer){
+        currentByteBuffer.putInt(TimeManager.getTime());
         currentByteBuffer.putInt(this.dataModel.id);
         currentByteBuffer.putInt(mapIdToArea.size());
         System.out.println("send to client number building + obstacle:" + mapIdToArea.size());
