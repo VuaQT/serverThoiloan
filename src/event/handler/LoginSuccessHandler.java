@@ -64,7 +64,7 @@ public class LoginSuccessHandler extends BaseServerEventHandler {
             e.printStackTrace();
         }
 
-
+        userData.showInfo();
         user.setProperty(ServerConstant.USER_DATA, userData);
 
         if(userResources == null){

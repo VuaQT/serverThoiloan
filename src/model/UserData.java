@@ -427,12 +427,11 @@ public class UserData{
         currentByteBuffer.putInt(TimeManager.getTime());
         currentByteBuffer.putInt(this.dataModel.id);
         currentByteBuffer.putInt(mapIdToArea.size());
-        System.out.println("send to client number building + obstacle:" + mapIdToArea.size());
         for (HashMap.Entry<Integer, Area> entry : mapIdToArea.entrySet()){
             int objectId = entry.getKey();
-            entry.getValue().packToByteBuffer(currentByteBuffer);
             currentByteBuffer.putInt(userMap.mapIdToPosition.get(objectId).x);
             currentByteBuffer.putInt(userMap.mapIdToPosition.get(objectId).y);
+            entry.getValue().packToByteBuffer(currentByteBuffer);
         }
 
     }
@@ -481,7 +480,7 @@ public class UserData{
                         return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF1();
                     case 2:
                         return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF2();
-                    case 3:// case WALL ..., defenseType = 3
+                    case 4:// case WALL ..., defenseType = 4
                         return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getWAL1();
 //                    case 4:
 //                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF4();

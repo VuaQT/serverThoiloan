@@ -1,0 +1,452 @@
+29 Dec 2018 09:28:54,521 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+29 Dec 2018 09:28:54,620 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+29 Dec 2018 09:28:55,547 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+29 Dec 2018 09:28:55,832 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+29 Dec 2018 09:28:55,921 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+29 Dec 2018 09:28:55,952 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+29 Dec 2018 09:28:59,175 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:443, TCP } 
+29 Dec 2018 09:28:59,194 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+29 Dec 2018 09:28:59,200 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+29 Dec 2018 09:34:31,670 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+29 Dec 2018 09:34:31,754 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+29 Dec 2018 09:34:33,528 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+29 Dec 2018 09:34:34,105 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+29 Dec 2018 09:34:34,184 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+29 Dec 2018 09:34:34,252 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+29 Dec 2018 09:34:37,998 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:443, TCP } 
+29 Dec 2018 09:34:38,001 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+29 Dec 2018 09:34:38,012 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+29 Dec 2018 09:52:30,268 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50231 } on Server port: 443 <---> 50231
+29 Dec 2018 09:52:33,298 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 09:52:33,394 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+29 Dec 2018 09:52:33,427 DEBUG [bitzero.server.controllers.ExtensionController-1] request     - Extension call cmdId: 1 - from : { Id: 1, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50231 }
+29 Dec 2018 09:52:33,514 INFO  [bitzero.server.controllers.ExtensionController-1] server.api.BZApi     - Login in, Fresher 1, ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:50231 ) 
+29 Dec 2018 09:52:33,545 DEBUG [pool-1-thread-1] Extensions     - {Fresher}: On Login Success  Fresher 1 
+29 Dec 2018 09:52:33,941 DEBUG [pool-1-thread-1] request     -  {OUT} 1 - to : 1
+29 Dec 2018 09:52:33,977 DEBUG [bitzero.server.controllers.ExtensionController-2] request     - Extension call cmdId: 3001 - from : Fresher 1
+29 Dec 2018 09:52:33,990 DEBUG [bitzero.server.controllers.ExtensionController-2] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 09:52:34,064 DEBUG [bitzero.server.controllers.ExtensionController-3] request     - Extension call cmdId: 3002 - from : Fresher 1
+29 Dec 2018 09:52:34,066 DEBUG [bitzero.server.controllers.ExtensionController-3] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 09:59:10,617 DEBUG [bitzero.server.controllers.ExtensionController-4] request     - Extension call cmdId: 5001 - from : Fresher 1
+29 Dec 2018 09:59:10,625 DEBUG [bitzero.server.controllers.ExtensionController-4] request     -  {OUT} 5001 - to : 1
+29 Dec 2018 09:59:10,852 DEBUG [bitzero.server.controllers.ExtensionController-6] request     - Extension call cmdId: 5001 - from : Fresher 1
+29 Dec 2018 09:59:10,855 DEBUG [bitzero.server.controllers.ExtensionController-6] request     -  {OUT} 5001 - to : 1
+29 Dec 2018 09:59:21,192 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 09:59:29,212 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:50231 }
+29 Dec 2018 09:59:29,217 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:50231 ) 
+29 Dec 2018 09:59:49,645 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50390 } on Server port: 443 <---> 50390
+29 Dec 2018 09:59:51,697 INFO  [bitzero.server.controllers.SystemController-2] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 09:59:51,699 DEBUG [bitzero.server.controllers.SystemController-2] request     -  {OUT} 0 - to : 1
+29 Dec 2018 09:59:51,747 DEBUG [bitzero.server.controllers.ExtensionController-8] request     - Extension call cmdId: 1 - from : { Id: 2, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50390 }
+29 Dec 2018 09:59:51,750 INFO  [bitzero.server.controllers.ExtensionController-8] server.api.BZApi     - Login in, Fresher 2, ( User Name: Fresher 2, Id: 2, Priv: 0, Sess: 192.168.0.104:50390 ) 
+29 Dec 2018 09:59:51,755 DEBUG [pool-1-thread-3] Extensions     - {Fresher}: On Login Success  Fresher 2 
+29 Dec 2018 09:59:51,825 DEBUG [pool-1-thread-3] request     -  {OUT} 1 - to : 1
+29 Dec 2018 09:59:51,858 DEBUG [bitzero.server.controllers.ExtensionController-5] request     - Extension call cmdId: 3001 - from : Fresher 2
+29 Dec 2018 09:59:51,870 DEBUG [bitzero.server.controllers.ExtensionController-5] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 09:59:51,927 DEBUG [bitzero.server.controllers.ExtensionController-7] request     - Extension call cmdId: 3002 - from : Fresher 2
+29 Dec 2018 09:59:51,928 DEBUG [bitzero.server.controllers.ExtensionController-7] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 09:59:58,071 DEBUG [bitzero.server.controllers.ExtensionController-9] request     - Extension call cmdId: 5001 - from : Fresher 2
+29 Dec 2018 09:59:58,072 DEBUG [bitzero.server.controllers.ExtensionController-9] request     -  {OUT} 5001 - to : 1
+29 Dec 2018 10:00:03,662 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 10:00:11,141 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:50390 }
+29 Dec 2018 10:00:11,142 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 2, Id: 2, Priv: 0, Sess: 192.168.0.104:50390 ) 
+29 Dec 2018 10:01:42,203 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50410 } on Server port: 443 <---> 50410
+29 Dec 2018 10:01:45,188 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 10:01:45,190 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+29 Dec 2018 10:01:45,307 DEBUG [bitzero.server.controllers.ExtensionController-10] request     - Extension call cmdId: 1 - from : { Id: 3, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50410 }
+29 Dec 2018 10:01:45,310 INFO  [bitzero.server.controllers.ExtensionController-10] server.api.BZApi     - Login in, Fresher 1, ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:50410 ) 
+29 Dec 2018 10:01:45,311 DEBUG [pool-1-thread-3] Extensions     - {Fresher}: On Login Success  Fresher 1 
+29 Dec 2018 10:01:45,358 DEBUG [pool-1-thread-3] request     -  {OUT} 1 - to : 1
+29 Dec 2018 10:01:45,506 DEBUG [bitzero.server.controllers.ExtensionController-1] request     - Extension call cmdId: 3001 - from : Fresher 1
+29 Dec 2018 10:01:45,521 DEBUG [bitzero.server.controllers.ExtensionController-1] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 10:01:45,912 DEBUG [bitzero.server.controllers.ExtensionController-2] request     - Extension call cmdId: 3002 - from : Fresher 1
+29 Dec 2018 10:01:45,914 DEBUG [bitzero.server.controllers.ExtensionController-2] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 10:01:52,796 DEBUG [bitzero.server.controllers.ExtensionController-3] request     - Extension call cmdId: 4001 - from : Fresher 1
+29 Dec 2018 10:01:52,810 DEBUG [bitzero.server.controllers.ExtensionController-3] request     -  {OUT} 4001 - to : 1
+29 Dec 2018 10:01:56,370 DEBUG [bitzero.server.controllers.ExtensionController-4] request     - Extension call cmdId: 5001 - from : Fresher 1
+29 Dec 2018 10:01:56,371 DEBUG [bitzero.server.controllers.ExtensionController-4] request     -  {OUT} 5001 - to : 1
+29 Dec 2018 10:02:09,458 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 10:02:17,047 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:50410 }
+29 Dec 2018 10:02:17,048 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:50410 ) 
+29 Dec 2018 10:04:17,582 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50432 } on Server port: 443 <---> 50432
+29 Dec 2018 10:04:23,464 INFO  [bitzero.server.controllers.SystemController-2] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 10:04:23,466 DEBUG [bitzero.server.controllers.SystemController-2] request     -  {OUT} 0 - to : 1
+29 Dec 2018 10:04:23,712 DEBUG [bitzero.server.controllers.ExtensionController-6] request     - Extension call cmdId: 1 - from : { Id: 4, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50432 }
+29 Dec 2018 10:04:23,713 INFO  [bitzero.server.controllers.ExtensionController-6] server.api.BZApi     - Login in, Fresher 1, ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:50432 ) 
+29 Dec 2018 10:04:23,714 DEBUG [pool-1-thread-1] Extensions     - {Fresher}: On Login Success  Fresher 1 
+29 Dec 2018 10:04:23,738 DEBUG [pool-1-thread-1] request     -  {OUT} 1 - to : 1
+29 Dec 2018 10:04:23,811 DEBUG [bitzero.server.controllers.ExtensionController-8] request     - Extension call cmdId: 3001 - from : Fresher 1
+29 Dec 2018 10:04:23,817 DEBUG [bitzero.server.controllers.ExtensionController-8] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 10:04:23,948 DEBUG [bitzero.server.controllers.ExtensionController-5] request     - Extension call cmdId: 3002 - from : Fresher 1
+29 Dec 2018 10:04:23,949 DEBUG [bitzero.server.controllers.ExtensionController-5] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 10:13:59,619 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+29 Dec 2018 10:13:59,708 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+29 Dec 2018 10:14:00,831 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+29 Dec 2018 10:14:01,306 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+29 Dec 2018 10:14:01,392 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+29 Dec 2018 10:14:01,443 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+29 Dec 2018 10:14:04,965 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:443, TCP } 
+29 Dec 2018 10:14:04,967 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+29 Dec 2018 10:14:04,980 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+29 Dec 2018 10:14:24,144 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50632 } on Server port: 443 <---> 50632
+29 Dec 2018 10:14:27,038 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 10:14:27,294 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+29 Dec 2018 10:14:27,389 DEBUG [bitzero.server.controllers.ExtensionController-1] request     - Extension call cmdId: 1 - from : { Id: 1, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50632 }
+29 Dec 2018 10:14:27,493 INFO  [bitzero.server.controllers.ExtensionController-1] server.api.BZApi     - Login in, Fresher 1, ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:50632 ) 
+29 Dec 2018 10:14:27,548 DEBUG [pool-1-thread-1] Extensions     - {Fresher}: On Login Success  Fresher 1 
+29 Dec 2018 10:14:28,152 DEBUG [pool-1-thread-1] request     -  {OUT} 1 - to : 1
+29 Dec 2018 10:14:28,197 DEBUG [bitzero.server.controllers.ExtensionController-2] request     - Extension call cmdId: 3001 - from : Fresher 1
+29 Dec 2018 10:14:28,200 DEBUG [bitzero.server.controllers.ExtensionController-2] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 10:14:28,261 DEBUG [bitzero.server.controllers.ExtensionController-4] request     - Extension call cmdId: 3002 - from : Fresher 1
+29 Dec 2018 10:14:28,264 DEBUG [bitzero.server.controllers.ExtensionController-4] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 10:14:33,359 DEBUG [bitzero.server.controllers.ExtensionController-3] request     - Extension call cmdId: 5001 - from : Fresher 1
+29 Dec 2018 10:14:33,364 DEBUG [bitzero.server.controllers.ExtensionController-3] request     -  {OUT} 5001 - to : 1
+29 Dec 2018 10:14:36,541 DEBUG [bitzero.server.controllers.ExtensionController-6] request     - Extension call cmdId: 4004 - from : Fresher 1
+29 Dec 2018 10:14:36,592 DEBUG [bitzero.server.controllers.ExtensionController-6] request     -  {OUT} 4004 - to : 1
+29 Dec 2018 10:14:37,706 DEBUG [bitzero.server.controllers.ExtensionController-7] request     - Extension call cmdId: 4005 - from : Fresher 1
+29 Dec 2018 10:14:37,720 DEBUG [bitzero.server.controllers.ExtensionController-7] request     -  {OUT} 4005 - to : 1
+29 Dec 2018 10:15:56,595 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 10:16:05,037 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:50632 }
+29 Dec 2018 10:16:05,045 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:50632 ) 
+29 Dec 2018 10:16:08,256 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50658 } on Server port: 443 <---> 50658
+29 Dec 2018 10:16:11,370 INFO  [bitzero.server.controllers.SystemController-2] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 10:16:11,372 DEBUG [bitzero.server.controllers.SystemController-2] request     -  {OUT} 0 - to : 1
+29 Dec 2018 10:16:11,468 DEBUG [bitzero.server.controllers.ExtensionController-5] request     - Extension call cmdId: 1 - from : { Id: 2, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50658 }
+29 Dec 2018 10:16:11,472 INFO  [bitzero.server.controllers.ExtensionController-5] server.api.BZApi     - Login in, Fresher 1, ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:50658 ) 
+29 Dec 2018 10:16:11,473 DEBUG [pool-1-thread-3] Extensions     - {Fresher}: On Login Success  Fresher 1 
+29 Dec 2018 10:16:11,493 DEBUG [pool-1-thread-3] request     -  {OUT} 1 - to : 1
+29 Dec 2018 10:16:11,554 DEBUG [bitzero.server.controllers.ExtensionController-10] request     - Extension call cmdId: 3001 - from : Fresher 1
+29 Dec 2018 10:16:11,562 DEBUG [bitzero.server.controllers.ExtensionController-10] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 10:16:11,645 DEBUG [bitzero.server.controllers.ExtensionController-8] request     - Extension call cmdId: 3002 - from : Fresher 1
+29 Dec 2018 10:16:11,647 DEBUG [bitzero.server.controllers.ExtensionController-8] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 10:16:31,091 DEBUG [bitzero.server.controllers.ExtensionController-9] request     - Extension call cmdId: 4004 - from : Fresher 1
+29 Dec 2018 10:16:31,093 DEBUG [bitzero.server.controllers.ExtensionController-9] request     -  {OUT} 4004 - to : 1
+29 Dec 2018 10:16:35,436 DEBUG [bitzero.server.controllers.ExtensionController-1] request     - Extension call cmdId: 5001 - from : Fresher 1
+29 Dec 2018 10:16:35,441 DEBUG [bitzero.server.controllers.ExtensionController-1] request     -  {OUT} 5001 - to : 1
+29 Dec 2018 10:16:36,434 DEBUG [bitzero.server.controllers.ExtensionController-2] request     - Extension call cmdId: 4004 - from : Fresher 1
+29 Dec 2018 10:16:36,440 DEBUG [bitzero.server.controllers.ExtensionController-2] request     -  {OUT} 4004 - to : 1
+29 Dec 2018 10:16:38,960 DEBUG [bitzero.server.controllers.ExtensionController-4] request     - Extension call cmdId: 4005 - from : Fresher 1
+29 Dec 2018 10:16:38,965 DEBUG [bitzero.server.controllers.ExtensionController-4] request     -  {OUT} 4005 - to : 1
+29 Dec 2018 10:16:43,201 DEBUG [bitzero.server.controllers.ExtensionController-3] request     - Extension call cmdId: 5001 - from : Fresher 1
+29 Dec 2018 10:16:43,202 DEBUG [bitzero.server.controllers.ExtensionController-3] request     -  {OUT} 5001 - to : 1
+29 Dec 2018 10:16:46,058 DEBUG [bitzero.server.controllers.ExtensionController-6] request     - Extension call cmdId: 5001 - from : Fresher 1
+29 Dec 2018 10:16:46,059 DEBUG [bitzero.server.controllers.ExtensionController-6] request     -  {OUT} 5001 - to : 1
+29 Dec 2018 10:16:51,747 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 10:16:59,060 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:50658 }
+29 Dec 2018 10:16:59,062 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:50658 ) 
+29 Dec 2018 10:17:06,929 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50670 } on Server port: 443 <---> 50670
+29 Dec 2018 10:17:10,387 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 10:17:10,388 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+29 Dec 2018 10:17:10,487 DEBUG [bitzero.server.controllers.ExtensionController-7] request     - Extension call cmdId: 1 - from : { Id: 3, Type: DEFAULT, Logged: No, IP: 192.168.0.104:50670 }
+29 Dec 2018 10:17:10,494 INFO  [bitzero.server.controllers.ExtensionController-7] server.api.BZApi     - Login in, Fresher 1, ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:50670 ) 
+29 Dec 2018 10:17:10,500 DEBUG [pool-1-thread-3] Extensions     - {Fresher}: On Login Success  Fresher 1 
+29 Dec 2018 10:17:10,565 DEBUG [pool-1-thread-3] request     -  {OUT} 1 - to : 1
+29 Dec 2018 10:17:10,660 DEBUG [bitzero.server.controllers.ExtensionController-5] request     - Extension call cmdId: 3001 - from : Fresher 1
+29 Dec 2018 10:17:10,662 DEBUG [bitzero.server.controllers.ExtensionController-5] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 10:17:10,750 DEBUG [bitzero.server.controllers.ExtensionController-10] request     - Extension call cmdId: 3002 - from : Fresher 1
+29 Dec 2018 10:17:10,753 DEBUG [bitzero.server.controllers.ExtensionController-10] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 10:17:19,585 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 10:17:25,971 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:50670 }
+29 Dec 2018 10:17:25,972 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:50670 ) 
+29 Dec 2018 14:25:41,330 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+29 Dec 2018 14:25:41,394 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+29 Dec 2018 14:25:42,887 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+29 Dec 2018 14:25:43,285 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+29 Dec 2018 14:25:43,366 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+29 Dec 2018 14:25:43,426 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+29 Dec 2018 14:25:47,000 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:443, TCP } 
+29 Dec 2018 14:25:47,004 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+29 Dec 2018 14:25:47,013 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+29 Dec 2018 14:26:12,386 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51051 } on Server port: 443 <---> 51051
+29 Dec 2018 14:26:14,256 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:26:14,332 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:26:14,354 DEBUG [bitzero.server.controllers.ExtensionController-1] request     - Extension call cmdId: 1 - from : { Id: 1, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51051 }
+29 Dec 2018 14:26:14,454 INFO  [bitzero.server.controllers.ExtensionController-1] server.api.BZApi     - Login in, Fresher 3, ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51051 ) 
+29 Dec 2018 14:26:14,482 DEBUG [pool-1-thread-1] Extensions     - {Fresher}: On Login Success  Fresher 3 
+29 Dec 2018 14:26:14,790 DEBUG [pool-1-thread-1] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:26:14,819 DEBUG [bitzero.server.controllers.ExtensionController-2] request     - Extension call cmdId: 3001 - from : Fresher 3
+29 Dec 2018 14:26:14,823 DEBUG [bitzero.server.controllers.ExtensionController-2] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:26:14,856 DEBUG [bitzero.server.controllers.ExtensionController-3] request     - Extension call cmdId: 3002 - from : Fresher 3
+29 Dec 2018 14:26:14,858 DEBUG [bitzero.server.controllers.ExtensionController-3] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 14:26:57,905 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:27:05,132 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51051 }
+29 Dec 2018 14:27:05,153 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51051 ) 
+29 Dec 2018 14:27:23,905 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51059 } on Server port: 443 <---> 51059
+29 Dec 2018 14:27:26,701 INFO  [bitzero.server.controllers.SystemController-2] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:27:26,704 DEBUG [bitzero.server.controllers.SystemController-2] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:27:26,752 DEBUG [bitzero.server.controllers.ExtensionController-10] request     - Extension call cmdId: 1 - from : { Id: 2, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51059 }
+29 Dec 2018 14:27:26,860 INFO  [bitzero.server.controllers.ExtensionController-10] server.api.BZApi     - Login in, Fresher 3, ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51059 ) 
+29 Dec 2018 14:27:26,861 DEBUG [pool-1-thread-3] Extensions     - {Fresher}: On Login Success  Fresher 3 
+29 Dec 2018 14:27:26,917 DEBUG [pool-1-thread-3] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:27:26,939 DEBUG [bitzero.server.controllers.ExtensionController-9] request     - Extension call cmdId: 3001 - from : Fresher 3
+29 Dec 2018 14:27:26,941 DEBUG [bitzero.server.controllers.ExtensionController-9] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:30:32,124 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:30:38,155 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51059 }
+29 Dec 2018 14:30:38,157 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51059 ) 
+29 Dec 2018 14:30:42,298 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51069 } on Server port: 443 <---> 51069
+29 Dec 2018 14:30:44,657 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:30:44,697 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:30:44,954 DEBUG [bitzero.server.controllers.ExtensionController-8] request     - Extension call cmdId: 1 - from : { Id: 3, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51069 }
+29 Dec 2018 14:30:44,955 INFO  [bitzero.server.controllers.ExtensionController-8] server.api.BZApi     - Login in, Fresher 3, ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51069 ) 
+29 Dec 2018 14:30:44,957 DEBUG [pool-1-thread-4] Extensions     - {Fresher}: On Login Success  Fresher 3 
+29 Dec 2018 14:30:45,052 DEBUG [pool-1-thread-4] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:30:45,236 DEBUG [bitzero.server.controllers.ExtensionController-6] request     - Extension call cmdId: 3001 - from : Fresher 3
+29 Dec 2018 14:30:45,240 DEBUG [bitzero.server.controllers.ExtensionController-6] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:31:15,122 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:31:23,143 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51069 }
+29 Dec 2018 14:31:23,144 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51069 ) 
+29 Dec 2018 14:34:34,279 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51104 } on Server port: 443 <---> 51104
+29 Dec 2018 14:34:36,929 INFO  [bitzero.server.controllers.SystemController-2] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:34:36,930 DEBUG [bitzero.server.controllers.SystemController-2] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:34:36,964 DEBUG [bitzero.server.controllers.ExtensionController-5] request     - Extension call cmdId: 1 - from : { Id: 4, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51104 }
+29 Dec 2018 14:34:36,968 INFO  [bitzero.server.controllers.ExtensionController-5] server.api.BZApi     - Login in, Fresher 4, ( User Name: Fresher 4, Id: 4, Priv: 0, Sess: 192.168.0.104:51104 ) 
+29 Dec 2018 14:34:36,970 DEBUG [pool-1-thread-3] Extensions     - {Fresher}: On Login Success  Fresher 4 
+29 Dec 2018 14:34:36,991 DEBUG [pool-1-thread-3] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:34:37,019 DEBUG [bitzero.server.controllers.ExtensionController-7] request     - Extension call cmdId: 3001 - from : Fresher 4
+29 Dec 2018 14:34:37,021 DEBUG [bitzero.server.controllers.ExtensionController-7] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:34:39,961 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:34:47,146 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51104 }
+29 Dec 2018 14:34:47,151 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 4, Id: 4, Priv: 0, Sess: 192.168.0.104:51104 ) 
+29 Dec 2018 14:37:14,063 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+29 Dec 2018 14:37:14,104 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+29 Dec 2018 14:37:15,108 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+29 Dec 2018 14:37:15,349 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+29 Dec 2018 14:37:15,407 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+29 Dec 2018 14:37:15,446 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+29 Dec 2018 14:37:17,965 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:443, TCP } 
+29 Dec 2018 14:37:17,967 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+29 Dec 2018 14:37:17,973 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+29 Dec 2018 14:37:35,614 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51125 } on Server port: 443 <---> 51125
+29 Dec 2018 14:37:37,705 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:37:37,770 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:37:37,804 DEBUG [bitzero.server.controllers.ExtensionController-1] request     - Extension call cmdId: 1 - from : { Id: 1, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51125 }
+29 Dec 2018 14:37:37,860 INFO  [bitzero.server.controllers.ExtensionController-1] server.api.BZApi     - Login in, Fresher 3, ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51125 ) 
+29 Dec 2018 14:37:37,872 DEBUG [pool-1-thread-1] Extensions     - {Fresher}: On Login Success  Fresher 3 
+29 Dec 2018 14:37:38,040 DEBUG [pool-1-thread-1] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:37:38,089 DEBUG [bitzero.server.controllers.ExtensionController-2] request     - Extension call cmdId: 3001 - from : Fresher 3
+29 Dec 2018 14:37:38,097 DEBUG [bitzero.server.controllers.ExtensionController-2] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:40:01,006 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:40:09,290 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51125 }
+29 Dec 2018 14:40:09,516 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51125 ) 
+29 Dec 2018 14:40:12,965 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51134 } on Server port: 443 <---> 51134
+29 Dec 2018 14:40:14,901 INFO  [bitzero.server.controllers.SystemController-2] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:40:14,903 DEBUG [bitzero.server.controllers.SystemController-2] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:40:14,927 DEBUG [bitzero.server.controllers.ExtensionController-4] request     - Extension call cmdId: 1 - from : { Id: 2, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51134 }
+29 Dec 2018 14:40:14,930 INFO  [bitzero.server.controllers.ExtensionController-4] server.api.BZApi     - Login in, Fresher 3, ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51134 ) 
+29 Dec 2018 14:40:14,931 DEBUG [pool-1-thread-3] Extensions     - {Fresher}: On Login Success  Fresher 3 
+29 Dec 2018 14:40:15,001 DEBUG [pool-1-thread-3] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:40:15,032 DEBUG [bitzero.server.controllers.ExtensionController-3] request     - Extension call cmdId: 3001 - from : Fresher 3
+29 Dec 2018 14:40:15,034 DEBUG [bitzero.server.controllers.ExtensionController-3] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:40:18,917 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:40:27,123 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51134 }
+29 Dec 2018 14:40:27,125 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51134 ) 
+29 Dec 2018 14:41:57,207 INFO  [main] bitzero.server.BitZeroServer     - Boot sequence starts...
+29 Dec 2018 14:41:57,264 INFO  [main] bitzero.server.BitZeroServer     - 
+ _____ _____ _____    ___ __ __    _____ _____ _____ _____ 
+|     |     |     |  |   |  |  |  | __  |     |     |_   _|
+| Bit  Zero | @   |  |  gsn |  |  | __ -|  |  |    | |  
+|_____|_____|_____|  |___|__|__|  |_____|_____|_____| |_|
+
+29 Dec 2018 14:41:58,459 INFO  [main] entities.managers.BZBannedUserStorage     - BanUserStorage initialized
+29 Dec 2018 14:41:58,903 INFO  [main] entities.managers.BZBannedUserManager     - BanUser data loaded: 0 records.
+29 Dec 2018 14:41:58,985 INFO  [main] Extensions     - {Fresher}:   Register Handler  
+29 Dec 2018 14:41:59,035 INFO  [main] Extensions     - {Fresher}:  Event Handler  
+29 Dec 2018 14:42:02,455 INFO  [main] bitzero.server.BitZeroServer     - Listening Sockets: { 0.0.0.0:443, TCP } 
+29 Dec 2018 14:42:02,457 INFO  [main] bitzero.server.BitZeroServer     -  
+ _____ _____ _____    ___ __ __    
+|     |     |     |  |   |  |  | 
+| Bit  Zero | @   |  |   gsn   |   
+|_____|_____|_____|  |___|__|__|                                       
+ _____ _____ _____ ____  __ __ 
+| __  |   __|  _  |    \|  |  |
+|    -|   __|     |  |  |_   _|
+|__|__|_____|__|__|____/  |_|  
+[ alpha RC ] 
+
+29 Dec 2018 14:42:02,463 INFO  [main] bitzero.server.BitZeroServer     - BitZeroServer Max (alpha RC-READY!
+29 Dec 2018 14:42:17,637 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51156 } on Server port: 443 <---> 51156
+29 Dec 2018 14:42:28,751 INFO  [EngineReader-0] engine.sessions.DefaultSessionManager     - Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51156 }
+29 Dec 2018 14:42:28,753 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:42:42,199 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51163 } on Server port: 443 <---> 51163
+29 Dec 2018 14:42:44,050 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:42:44,104 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:42:44,118 DEBUG [bitzero.server.controllers.ExtensionController-1] request     - Extension call cmdId: 1 - from : { Id: 2, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51163 }
+29 Dec 2018 14:42:44,170 INFO  [bitzero.server.controllers.ExtensionController-1] server.api.BZApi     - Login in, Fresher 3, ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51163 ) 
+29 Dec 2018 14:42:44,181 DEBUG [pool-1-thread-1] Extensions     - {Fresher}: On Login Success  Fresher 3 
+29 Dec 2018 14:42:44,409 DEBUG [pool-1-thread-1] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:42:44,452 DEBUG [bitzero.server.controllers.ExtensionController-2] request     - Extension call cmdId: 3001 - from : Fresher 3
+29 Dec 2018 14:42:44,455 DEBUG [bitzero.server.controllers.ExtensionController-2] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:46:01,745 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:46:08,545 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51163 }
+29 Dec 2018 14:46:08,550 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51163 ) 
+29 Dec 2018 14:46:11,124 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51171 } on Server port: 443 <---> 51171
+29 Dec 2018 14:46:13,128 INFO  [bitzero.server.controllers.SystemController-2] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:46:13,129 DEBUG [bitzero.server.controllers.SystemController-2] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:46:13,155 DEBUG [bitzero.server.controllers.ExtensionController-3] request     - Extension call cmdId: 1 - from : { Id: 3, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51171 }
+29 Dec 2018 14:46:13,158 INFO  [bitzero.server.controllers.ExtensionController-3] server.api.BZApi     - Login in, Fresher 1, ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:51171 ) 
+29 Dec 2018 14:46:13,159 DEBUG [pool-1-thread-3] Extensions     - {Fresher}: On Login Success  Fresher 1 
+29 Dec 2018 14:46:13,211 DEBUG [pool-1-thread-3] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:46:13,237 DEBUG [bitzero.server.controllers.ExtensionController-4] request     - Extension call cmdId: 3001 - from : Fresher 1
+29 Dec 2018 14:46:13,237 DEBUG [bitzero.server.controllers.ExtensionController-4] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:46:25,900 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:46:32,598 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51171 }
+29 Dec 2018 14:46:32,600 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 1, Id: 1, Priv: 0, Sess: 192.168.0.104:51171 ) 
+29 Dec 2018 14:47:22,866 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51178 } on Server port: 443 <---> 51178
+29 Dec 2018 14:47:24,873 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:47:24,874 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:47:24,903 DEBUG [bitzero.server.controllers.ExtensionController-5] request     - Extension call cmdId: 1 - from : { Id: 4, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51178 }
+29 Dec 2018 14:47:24,905 INFO  [bitzero.server.controllers.ExtensionController-5] server.api.BZApi     - Login in, Fresher 3, ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51178 ) 
+29 Dec 2018 14:47:24,906 DEBUG [pool-1-thread-3] Extensions     - {Fresher}: On Login Success  Fresher 3 
+29 Dec 2018 14:47:24,949 DEBUG [pool-1-thread-3] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:47:24,997 DEBUG [bitzero.server.controllers.ExtensionController-6] request     - Extension call cmdId: 3001 - from : Fresher 3
+29 Dec 2018 14:47:24,998 DEBUG [bitzero.server.controllers.ExtensionController-6] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:47:25,069 DEBUG [bitzero.server.controllers.ExtensionController-7] request     - Extension call cmdId: 3002 - from : Fresher 3
+29 Dec 2018 14:47:25,074 DEBUG [bitzero.server.controllers.ExtensionController-7] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 14:47:32,869 DEBUG [bitzero.server.controllers.ExtensionController-8] request     - Extension call cmdId: 4004 - from : Fresher 3
+29 Dec 2018 14:47:32,873 DEBUG [bitzero.server.controllers.ExtensionController-8] request     -  {OUT} 4004 - to : 1
+29 Dec 2018 14:47:34,383 DEBUG [bitzero.server.controllers.ExtensionController-9] request     - Extension call cmdId: 5001 - from : Fresher 3
+29 Dec 2018 14:47:34,405 DEBUG [bitzero.server.controllers.ExtensionController-9] request     -  {OUT} 5001 - to : 1
+29 Dec 2018 14:47:36,301 DEBUG [bitzero.server.controllers.ExtensionController-10] request     - Extension call cmdId: 4004 - from : Fresher 3
+29 Dec 2018 14:47:36,308 DEBUG [bitzero.server.controllers.ExtensionController-10] request     -  {OUT} 4004 - to : 1
+29 Dec 2018 14:47:38,127 DEBUG [bitzero.server.controllers.ExtensionController-1] request     - Extension call cmdId: 4005 - from : Fresher 3
+29 Dec 2018 14:47:38,137 DEBUG [bitzero.server.controllers.ExtensionController-1] request     -  {OUT} 4005 - to : 1
+29 Dec 2018 14:49:03,065 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:49:11,454 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51178 }
+29 Dec 2018 14:49:11,456 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51178 ) 
+29 Dec 2018 14:49:12,534 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51185 } on Server port: 443 <---> 51185
+29 Dec 2018 14:49:14,554 INFO  [bitzero.server.controllers.SystemController-2] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:49:14,555 DEBUG [bitzero.server.controllers.SystemController-2] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:49:14,602 DEBUG [bitzero.server.controllers.ExtensionController-2] request     - Extension call cmdId: 1 - from : { Id: 5, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51185 }
+29 Dec 2018 14:49:14,603 INFO  [bitzero.server.controllers.ExtensionController-2] server.api.BZApi     - Login in, Fresher 3, ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51185 ) 
+29 Dec 2018 14:49:14,605 DEBUG [pool-1-thread-1] Extensions     - {Fresher}: On Login Success  Fresher 3 
+29 Dec 2018 14:49:14,652 DEBUG [pool-1-thread-1] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:49:14,688 DEBUG [bitzero.server.controllers.ExtensionController-3] request     - Extension call cmdId: 3001 - from : Fresher 3
+29 Dec 2018 14:49:14,689 DEBUG [bitzero.server.controllers.ExtensionController-3] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:49:14,740 DEBUG [bitzero.server.controllers.ExtensionController-4] request     - Extension call cmdId: 3002 - from : Fresher 3
+29 Dec 2018 14:49:14,742 DEBUG [bitzero.server.controllers.ExtensionController-4] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 14:49:28,195 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:49:35,561 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51185 }
+29 Dec 2018 14:49:35,562 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51185 ) 
+29 Dec 2018 14:51:53,831 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51192 } on Server port: 443 <---> 51192
+29 Dec 2018 14:51:56,547 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:51:56,548 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:51:56,568 DEBUG [bitzero.server.controllers.ExtensionController-5] request     - Extension call cmdId: 1 - from : { Id: 6, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51192 }
+29 Dec 2018 14:51:56,569 INFO  [bitzero.server.controllers.ExtensionController-5] server.api.BZApi     - Login in, Fresher 3, ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51192 ) 
+29 Dec 2018 14:51:56,569 DEBUG [pool-1-thread-4] Extensions     - {Fresher}: On Login Success  Fresher 3 
+29 Dec 2018 14:51:56,792 DEBUG [pool-1-thread-4] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:51:56,816 DEBUG [bitzero.server.controllers.ExtensionController-6] request     - Extension call cmdId: 3001 - from : Fresher 3
+29 Dec 2018 14:51:56,817 DEBUG [bitzero.server.controllers.ExtensionController-6] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:51:56,856 DEBUG [bitzero.server.controllers.ExtensionController-7] request     - Extension call cmdId: 3002 - from : Fresher 3
+29 Dec 2018 14:51:56,857 DEBUG [bitzero.server.controllers.ExtensionController-7] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 14:52:08,115 DEBUG [bitzero.server.controllers.ExtensionController-8] request     - Extension call cmdId: 4001 - from : Fresher 3
+29 Dec 2018 14:52:08,138 DEBUG [bitzero.server.controllers.ExtensionController-8] request     -  {OUT} 4001 - to : 1
+29 Dec 2018 14:52:16,864 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:52:23,516 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51192 }
+29 Dec 2018 14:52:23,517 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51192 ) 
+29 Dec 2018 14:52:27,240 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51199 } on Server port: 443 <---> 51199
+29 Dec 2018 14:52:29,584 INFO  [bitzero.server.controllers.SystemController-2] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:52:29,585 DEBUG [bitzero.server.controllers.SystemController-2] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:52:29,646 DEBUG [bitzero.server.controllers.ExtensionController-9] request     - Extension call cmdId: 1 - from : { Id: 7, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51199 }
+29 Dec 2018 14:52:29,647 INFO  [bitzero.server.controllers.ExtensionController-9] server.api.BZApi     - Login in, Fresher 3, ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51199 ) 
+29 Dec 2018 14:52:29,648 DEBUG [pool-1-thread-1] Extensions     - {Fresher}: On Login Success  Fresher 3 
+29 Dec 2018 14:52:29,725 DEBUG [pool-1-thread-1] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:52:29,800 DEBUG [bitzero.server.controllers.ExtensionController-10] request     - Extension call cmdId: 3001 - from : Fresher 3
+29 Dec 2018 14:52:29,801 DEBUG [bitzero.server.controllers.ExtensionController-10] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:52:29,863 DEBUG [bitzero.server.controllers.ExtensionController-1] request     - Extension call cmdId: 3002 - from : Fresher 3
+29 Dec 2018 14:52:29,865 DEBUG [bitzero.server.controllers.ExtensionController-1] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 14:52:48,372 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:52:56,513 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51199 }
+29 Dec 2018 14:52:56,514 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51199 ) 
+29 Dec 2018 14:53:57,198 INFO  [EngineReader-0] engine.core.EngineAcceptor     - Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51206 } on Server port: 443 <---> 51206
+29 Dec 2018 14:53:59,494 INFO  [bitzero.server.controllers.SystemController-1] server.controllers.SystemController     - {IN}: Handshake
+29 Dec 2018 14:53:59,495 DEBUG [bitzero.server.controllers.SystemController-1] request     -  {OUT} 0 - to : 1
+29 Dec 2018 14:53:59,533 DEBUG [bitzero.server.controllers.ExtensionController-2] request     - Extension call cmdId: 1 - from : { Id: 8, Type: DEFAULT, Logged: No, IP: 192.168.0.104:51206 }
+29 Dec 2018 14:53:59,535 INFO  [bitzero.server.controllers.ExtensionController-2] server.api.BZApi     - Login in, Fresher 3, ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51206 ) 
+29 Dec 2018 14:53:59,536 DEBUG [pool-1-thread-2] Extensions     - {Fresher}: On Login Success  Fresher 3 
+29 Dec 2018 14:53:59,607 DEBUG [pool-1-thread-2] request     -  {OUT} 1 - to : 1
+29 Dec 2018 14:53:59,632 DEBUG [bitzero.server.controllers.ExtensionController-3] request     - Extension call cmdId: 3001 - from : Fresher 3
+29 Dec 2018 14:53:59,633 DEBUG [bitzero.server.controllers.ExtensionController-3] request     -  {OUT} 3001 - to : 1
+29 Dec 2018 14:53:59,680 DEBUG [bitzero.server.controllers.ExtensionController-4] request     - Extension call cmdId: 3002 - from : Fresher 3
+29 Dec 2018 14:53:59,683 DEBUG [bitzero.server.controllers.ExtensionController-4] request     -  {OUT} 3002 - to : 1
+29 Dec 2018 14:54:30,259 DEBUG [bitzero.server.controllers.ExtensionController-5] request     - Extension call cmdId: 4004 - from : Fresher 3
+29 Dec 2018 14:54:30,260 DEBUG [bitzero.server.controllers.ExtensionController-5] request     -  {OUT} 4004 - to : 1
+29 Dec 2018 14:54:32,179 DEBUG [bitzero.server.controllers.ExtensionController-6] request     - Extension call cmdId: 4005 - from : Fresher 3
+29 Dec 2018 14:54:32,183 DEBUG [bitzero.server.controllers.ExtensionController-6] request     -  {OUT} 4005 - to : 1
+29 Dec 2018 14:54:41,326 INFO  [EngineReader-0] engine.core.EngineReader     - Socket closed: java.nio.channels.SocketChannel[closed]
+29 Dec 2018 14:54:47,676 INFO  [Scheduler1-thread-1] engine.sessions.DefaultSessionManager     - Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 192.168.0.104:51206 }
+29 Dec 2018 14:54:47,683 INFO  [Scheduler1-thread-1] server.api.BZApi     - User disconnected: ( User Name: Fresher 3, Id: 3, Priv: 0, Sess: 192.168.0.104:51206 ) 

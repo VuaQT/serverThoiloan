@@ -1,0 +1,988 @@
+29 Dec 2018 09:52:33,730 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 1
+29 Dec 2018 09:52:33,744 INFO  [pool-1-thread-1] debug     -  | !!!
+29 Dec 2018 09:52:33,787 INFO  [pool-1-thread-1] debug     -  | size : 5
+29 Dec 2018 09:52:33,875 INFO  [pool-1-thread-1] debug     -  | saveModel UserData with uId = 1
+29 Dec 2018 09:52:33,952 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 1
+29 Dec 2018 09:52:34,065 INFO  [bitzero.server.controllers.ExtensionController-3] debug     -  | get resources request received
+29 Dec 2018 09:59:51,759 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 2
+29 Dec 2018 09:59:51,772 INFO  [pool-1-thread-3] debug     -  | !!!
+29 Dec 2018 09:59:51,777 INFO  [pool-1-thread-3] debug     -  | size : 5
+29 Dec 2018 09:59:51,808 INFO  [pool-1-thread-3] debug     -  | saveModel UserData with uId = 2
+29 Dec 2018 09:59:51,826 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 2
+29 Dec 2018 09:59:51,928 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  | get resources request received
+29 Dec 2018 10:01:45,324 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 1
+29 Dec 2018 10:01:45,359 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 1
+29 Dec 2018 10:01:45,913 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  | get resources request received
+29 Dec 2018 10:04:23,720 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 1
+29 Dec 2018 10:04:23,739 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = Fresher 1
+29 Dec 2018 10:04:23,949 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  | get resources request received
+29 Dec 2018 10:14:27,792 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 1
+29 Dec 2018 10:14:27,808 INFO  [pool-1-thread-1] debug     -  | createInitArea
+29 Dec 2018 10:14:28,120 INFO  [pool-1-thread-1] debug     -  | size : 7
+29 Dec 2018 10:14:28,120 INFO  [pool-1-thread-1] debug     -  | saveModel UserData with uId = 1
+29 Dec 2018 10:14:28,197 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 1
+29 Dec 2018 10:14:28,262 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  | get resources request received
+29 Dec 2018 10:14:36,545 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |  UPGRADE BUILDING 1
+29 Dec 2018 10:14:36,558 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  | saveModel UserData with uId = 1
+29 Dec 2018 10:14:36,595 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  | UserMap - showMap:
+29 Dec 2018 10:14:36,606 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 10:14:36,608 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |     ----------------------------------------
+29 Dec 2018 10:14:36,609 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,610 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,611 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 10:14:36,611 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 10:14:36,612 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,612 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,623 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,624 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,626 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,627 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,628 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,629 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,641 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,641 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,642 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,643 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,644 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,644 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 10:14:36,658 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 10:14:36,659 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 10:14:36,660 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 10:14:36,660 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 10:14:36,661 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 10:14:36,661 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 10:14:36,662 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 10:14:36,662 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 10:14:36,669 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 10:14:36,670 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,671 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,671 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 10:14:36,672 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 10:14:36,701 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 10:14:36,701 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,702 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,702 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,705 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,706 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,706 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,707 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,707 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,708 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:36,708 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,708 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |  UPGRADE BUILDING NOW 1
+29 Dec 2018 10:14:37,711 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  | saveModel UserData with uId = 1
+29 Dec 2018 10:14:37,723 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  | UserMap - showMap:
+29 Dec 2018 10:14:37,723 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 10:14:37,724 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |     ----------------------------------------
+29 Dec 2018 10:14:37,725 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,725 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,725 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 10:14:37,726 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 10:14:37,727 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,727 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,727 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,728 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,729 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,730 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,731 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,731 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,733 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,734 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,734 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,735 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,735 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,737 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 10:14:37,739 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 10:14:37,741 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 10:14:37,742 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 10:14:37,743 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 10:14:37,743 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 10:14:37,744 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 10:14:37,746 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 10:14:37,747 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 10:14:37,750 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 10:14:37,750 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,842 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,843 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 10:14:37,843 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 10:14:37,844 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 10:14:37,845 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,846 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,847 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,860 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,867 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,897 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,898 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,898 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,899 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:14:37,901 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:11,477 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 1
+29 Dec 2018 10:16:11,494 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 1
+29 Dec 2018 10:16:11,646 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  | get resources request received
+29 Dec 2018 10:16:31,092 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |  UPGRADE BUILDING 1
+29 Dec 2018 10:16:31,094 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  | UserMap - showMap:
+29 Dec 2018 10:16:31,094 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 10:16:31,095 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |     ----------------------------------------
+29 Dec 2018 10:16:31,096 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,096 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,097 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 10:16:31,097 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 10:16:31,097 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,098 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,098 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,098 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,099 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,099 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,099 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,099 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,100 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,100 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,101 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,101 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,102 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,102 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 10:16:31,103 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 10:16:31,103 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:31,104 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:31,105 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:31,105 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:31,105 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 10:16:31,106 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 10:16:31,106 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 10:16:31,106 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 10:16:31,107 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,107 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,108 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 10:16:31,109 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 10:16:31,109 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 10:16:31,109 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,109 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,110 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,110 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,111 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,111 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,112 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,112 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,113 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:31,113 INFO  [bitzero.server.controllers.ExtensionController-9] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,435 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |  UPGRADE BUILDING 1
+29 Dec 2018 10:16:36,437 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  | saveModel UserData with uId = 1
+29 Dec 2018 10:16:36,442 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  | UserMap - showMap:
+29 Dec 2018 10:16:36,443 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 10:16:36,443 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |     ----------------------------------------
+29 Dec 2018 10:16:36,443 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,443 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,444 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 10:16:36,444 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 10:16:36,444 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,445 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,445 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,446 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,446 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,446 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,446 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,447 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,448 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,448 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,449 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,449 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,449 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,450 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 10:16:36,450 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 10:16:36,451 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:36,451 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:36,451 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:36,451 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:36,451 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 10:16:36,451 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 10:16:36,452 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 10:16:36,452 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 10:16:36,453 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,453 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,453 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 10:16:36,454 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 10:16:36,454 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 10:16:36,454 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,454 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,455 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,455 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,455 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,455 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,456 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,456 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,456 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:36,456 INFO  [bitzero.server.controllers.ExtensionController-2] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,960 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |  UPGRADE BUILDING NOW 1
+29 Dec 2018 10:16:38,962 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  | saveModel UserData with uId = 1
+29 Dec 2018 10:16:38,966 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  | UserMap - showMap:
+29 Dec 2018 10:16:38,967 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 10:16:38,967 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |     ----------------------------------------
+29 Dec 2018 10:16:38,968 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,968 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,969 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 10:16:38,969 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 10:16:38,969 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,970 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,970 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,970 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,971 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,972 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,972 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,972 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,973 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,973 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,973 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,974 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,974 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,974 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 10:16:38,974 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 10:16:38,975 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:38,975 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:38,975 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:38,975 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 10:16:38,975 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 10:16:38,975 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 10:16:38,976 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 10:16:38,976 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 10:16:38,976 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,976 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,977 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 10:16:38,977 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 10:16:38,977 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 10:16:38,977 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,978 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,978 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,978 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,979 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,979 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,979 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,979 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,980 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 10:16:38,980 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 10:17:10,544 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 1
+29 Dec 2018 10:17:10,569 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 1
+29 Dec 2018 10:17:10,752 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  | get resources request received
+29 Dec 2018 14:26:14,592 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 3
+29 Dec 2018 14:26:14,717 INFO  [pool-1-thread-1] debug     -  | createInitArea
+29 Dec 2018 14:26:14,757 INFO  [pool-1-thread-1] debug     -  | size : 7
+29 Dec 2018 14:26:14,758 INFO  [pool-1-thread-1] debug     -  | saveModel UserData with uId = 3
+29 Dec 2018 14:26:14,799 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 3
+29 Dec 2018 14:26:14,857 INFO  [bitzero.server.controllers.ExtensionController-3] debug     -  | get resources request received
+29 Dec 2018 14:27:26,903 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 3
+29 Dec 2018 14:27:26,918 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 3
+29 Dec 2018 14:30:44,990 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 3
+29 Dec 2018 14:30:45,053 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = Fresher 3
+29 Dec 2018 14:34:36,974 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 4
+29 Dec 2018 14:34:36,979 INFO  [pool-1-thread-3] debug     -  | createInitArea
+29 Dec 2018 14:34:36,982 INFO  [pool-1-thread-3] debug     -  | size : 7
+29 Dec 2018 14:34:36,983 INFO  [pool-1-thread-3] debug     -  | saveModel UserData with uId = 4
+29 Dec 2018 14:34:36,993 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 4
+29 Dec 2018 14:37:37,957 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 3
+29 Dec 2018 14:37:38,004 INFO  [pool-1-thread-1] debug     -  | UserMap - showMap:
+29 Dec 2018 14:37:38,005 INFO  [pool-1-thread-1] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:37:38,005 INFO  [pool-1-thread-1] debug     -  |     ----------------------------------------
+29 Dec 2018 14:37:38,006 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,006 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,006 INFO  [pool-1-thread-1] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 14:37:38,007 INFO  [pool-1-thread-1] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:37:38,007 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,008 INFO  [pool-1-thread-1] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,008 INFO  [pool-1-thread-1] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,009 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,011 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,012 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,013 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,014 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,015 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,016 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,017 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,018 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,019 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,020 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:37:38,020 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:37:38,021 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:37:38,021 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:37:38,022 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:37:38,022 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:37:38,023 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:37:38,023 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:37:38,024 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:37:38,024 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:37:38,025 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,025 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,026 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:37:38,027 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:37:38,027 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:37:38,028 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,031 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,032 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,034 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,035 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,035 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,036 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,036 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,037 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,037 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:37:38,052 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 3
+29 Dec 2018 14:40:14,947 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 3
+29 Dec 2018 14:40:14,971 INFO  [pool-1-thread-3] debug     -  | UserMap - showMap:
+29 Dec 2018 14:40:14,973 INFO  [pool-1-thread-3] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:40:14,974 INFO  [pool-1-thread-3] debug     -  |     ----------------------------------------
+29 Dec 2018 14:40:14,974 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,975 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,975 INFO  [pool-1-thread-3] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 14:40:14,976 INFO  [pool-1-thread-3] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:40:14,976 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,977 INFO  [pool-1-thread-3] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,977 INFO  [pool-1-thread-3] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,978 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,979 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,980 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,981 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,981 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,982 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,983 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,983 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,984 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,984 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,985 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:40:14,985 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:40:14,986 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:40:14,986 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:40:14,987 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:40:14,987 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:40:14,988 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:40:14,988 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:40:14,989 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:40:14,989 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:40:14,989 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,990 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,991 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:40:14,991 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:40:14,992 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:40:14,992 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,993 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,993 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,994 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,995 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,996 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,997 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,998 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,998 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:14,999 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:40:15,002 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 3
+29 Dec 2018 14:42:44,296 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 3
+29 Dec 2018 14:42:44,357 INFO  [pool-1-thread-1] debug     -  | UserMap - showMap:
+29 Dec 2018 14:42:44,358 INFO  [pool-1-thread-1] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:42:44,359 INFO  [pool-1-thread-1] debug     -  |     ----------------------------------------
+29 Dec 2018 14:42:44,360 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,365 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,365 INFO  [pool-1-thread-1] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 14:42:44,367 INFO  [pool-1-thread-1] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:42:44,367 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,368 INFO  [pool-1-thread-1] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,369 INFO  [pool-1-thread-1] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,370 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,371 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,372 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,372 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,373 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,374 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,374 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,375 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,378 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,379 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,381 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:42:44,383 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:42:44,384 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:42:44,385 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:42:44,385 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:42:44,385 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:42:44,386 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:42:44,386 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:42:44,387 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:42:44,388 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:42:44,388 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,388 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,389 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:42:44,390 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:42:44,392 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:42:44,394 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,395 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,398 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,398 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,399 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,400 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,401 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,401 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,402 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,404 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:42:44,420 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 3
+29 Dec 2018 14:46:13,165 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 1
+29 Dec 2018 14:46:13,177 INFO  [pool-1-thread-3] debug     -  | UserMap - showMap:
+29 Dec 2018 14:46:13,178 INFO  [pool-1-thread-3] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:46:13,179 INFO  [pool-1-thread-3] debug     -  |     ----------------------------------------
+29 Dec 2018 14:46:13,179 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,180 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,180 INFO  [pool-1-thread-3] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 14:46:13,181 INFO  [pool-1-thread-3] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:46:13,181 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,182 INFO  [pool-1-thread-3] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,183 INFO  [pool-1-thread-3] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,184 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,185 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,185 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,186 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,187 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,188 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,189 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,189 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,191 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,191 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,193 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:46:13,193 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:46:13,194 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:46:13,194 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:46:13,195 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:46:13,195 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:46:13,196 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:46:13,197 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:46:13,198 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:46:13,199 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:46:13,200 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,200 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,201 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:46:13,201 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:46:13,201 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:46:13,202 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,202 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,203 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,203 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,204 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,204 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,204 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,205 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,205 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,206 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:46:13,214 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 1
+29 Dec 2018 14:47:24,910 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 3
+29 Dec 2018 14:47:24,918 INFO  [pool-1-thread-3] debug     -  | UserMap - showMap:
+29 Dec 2018 14:47:24,919 INFO  [pool-1-thread-3] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:47:24,919 INFO  [pool-1-thread-3] debug     -  |     ----------------------------------------
+29 Dec 2018 14:47:24,920 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,920 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,921 INFO  [pool-1-thread-3] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 14:47:24,921 INFO  [pool-1-thread-3] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:47:24,921 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,922 INFO  [pool-1-thread-3] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,922 INFO  [pool-1-thread-3] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,922 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,924 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,924 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,925 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,926 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,928 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,929 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,930 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,931 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,932 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,933 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:47:24,933 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:47:24,934 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:24,935 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:24,935 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:24,936 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:24,937 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:47:24,937 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:24,938 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:24,938 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:24,939 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,939 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,940 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:24,941 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:24,941 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:24,942 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,942 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,942 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,943 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,944 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,944 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,945 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,945 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,946 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,947 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:24,949 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 3
+29 Dec 2018 14:47:25,070 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  | get resources request received
+29 Dec 2018 14:47:32,871 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |  UPGRADE BUILDING 1
+29 Dec 2018 14:47:32,873 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  | UserMap - showMap:
+29 Dec 2018 14:47:32,873 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:47:32,874 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |     ----------------------------------------
+29 Dec 2018 14:47:32,874 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,874 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,875 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 14:47:32,875 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:47:32,875 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,875 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,875 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,876 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,876 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,876 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,877 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,877 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,877 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,877 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,877 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,878 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,878 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,878 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:47:32,879 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:47:32,879 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:32,879 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:32,880 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:32,880 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:32,880 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:47:32,881 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:32,881 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:32,881 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:32,881 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,882 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,882 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:32,883 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:32,883 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:32,883 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,884 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,884 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,884 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,884 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,885 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,885 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,886 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,886 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:32,886 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,301 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |  UPGRADE BUILDING 1
+29 Dec 2018 14:47:36,303 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  | saveModel UserData with uId = 3
+29 Dec 2018 14:47:36,310 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  | UserMap - showMap:
+29 Dec 2018 14:47:36,310 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:47:36,310 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |     ----------------------------------------
+29 Dec 2018 14:47:36,311 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,311 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,311 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 14:47:36,311 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:47:36,312 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,312 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,312 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,312 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,312 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,313 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,313 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,313 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,314 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,314 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,314 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,314 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,315 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,315 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:47:36,315 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:47:36,315 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:36,316 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:36,316 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:36,317 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:36,317 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:47:36,318 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:36,319 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:36,319 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:36,320 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,321 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,321 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:36,322 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:36,323 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:36,323 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,324 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,324 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,324 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,325 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,325 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,325 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,325 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,326 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:36,326 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,127 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |  UPGRADE BUILDING NOW 1
+29 Dec 2018 14:47:38,128 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  | saveModel UserData with uId = 3
+29 Dec 2018 14:47:38,138 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  | UserMap - showMap:
+29 Dec 2018 14:47:38,139 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:47:38,139 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |     ----------------------------------------
+29 Dec 2018 14:47:38,139 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,140 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,140 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 14:47:38,140 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:47:38,140 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,141 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,142 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,142 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,142 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,143 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,143 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,144 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,144 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,145 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,145 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,146 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,146 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,147 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:47:38,148 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:47:38,148 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:38,149 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:38,151 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:38,151 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:47:38,151 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:47:38,152 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:38,152 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:38,153 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:47:38,153 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,154 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,154 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:38,155 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:38,155 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:47:38,156 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,156 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,156 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,157 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,157 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,158 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,158 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,158 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,159 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:47:38,159 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,610 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 3
+29 Dec 2018 14:49:14,621 INFO  [pool-1-thread-1] debug     -  | UserMap - showMap:
+29 Dec 2018 14:49:14,621 INFO  [pool-1-thread-1] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:49:14,621 INFO  [pool-1-thread-1] debug     -  |     ----------------------------------------
+29 Dec 2018 14:49:14,622 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,622 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,622 INFO  [pool-1-thread-1] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 14:49:14,623 INFO  [pool-1-thread-1] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:49:14,623 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,624 INFO  [pool-1-thread-1] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,624 INFO  [pool-1-thread-1] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,625 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,625 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,625 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,626 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,627 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,627 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,628 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,629 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,629 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,630 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,630 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:49:14,631 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:49:14,631 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:49:14,631 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:49:14,632 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:49:14,632 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:49:14,633 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:49:14,633 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:49:14,635 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:49:14,636 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:49:14,636 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,636 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,637 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:49:14,637 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:49:14,638 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:49:14,638 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,648 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,648 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,649 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,649 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,649 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,649 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,650 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,650 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,651 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:49:14,652 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = Fresher 3
+29 Dec 2018 14:49:14,742 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  | get resources request received
+29 Dec 2018 14:51:56,574 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 3
+29 Dec 2018 14:51:56,581 INFO  [pool-1-thread-4] debug     -  | UserMap - showMap:
+29 Dec 2018 14:51:56,581 INFO  [pool-1-thread-4] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:51:56,581 INFO  [pool-1-thread-4] debug     -  |     ----------------------------------------
+29 Dec 2018 14:51:56,581 INFO  [pool-1-thread-4] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,582 INFO  [pool-1-thread-4] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,582 INFO  [pool-1-thread-4] debug     -  |   3 |000000001100000000000000000000000000000000
+29 Dec 2018 14:51:56,582 INFO  [pool-1-thread-4] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:51:56,582 INFO  [pool-1-thread-4] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,582 INFO  [pool-1-thread-4] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,582 INFO  [pool-1-thread-4] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,583 INFO  [pool-1-thread-4] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,583 INFO  [pool-1-thread-4] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,583 INFO  [pool-1-thread-4] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,583 INFO  [pool-1-thread-4] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,583 INFO  [pool-1-thread-4] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,584 INFO  [pool-1-thread-4] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,584 INFO  [pool-1-thread-4] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,584 INFO  [pool-1-thread-4] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,584 INFO  [pool-1-thread-4] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,585 INFO  [pool-1-thread-4] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,585 INFO  [pool-1-thread-4] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:51:56,585 INFO  [pool-1-thread-4] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:51:56,585 INFO  [pool-1-thread-4] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:51:56,585 INFO  [pool-1-thread-4] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:51:56,585 INFO  [pool-1-thread-4] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:51:56,586 INFO  [pool-1-thread-4] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:51:56,586 INFO  [pool-1-thread-4] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:51:56,586 INFO  [pool-1-thread-4] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:51:56,586 INFO  [pool-1-thread-4] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:51:56,587 INFO  [pool-1-thread-4] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:51:56,587 INFO  [pool-1-thread-4] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,587 INFO  [pool-1-thread-4] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,587 INFO  [pool-1-thread-4] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:51:56,588 INFO  [pool-1-thread-4] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:51:56,786 INFO  [pool-1-thread-4] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:51:56,787 INFO  [pool-1-thread-4] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,787 INFO  [pool-1-thread-4] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,787 INFO  [pool-1-thread-4] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,789 INFO  [pool-1-thread-4] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,790 INFO  [pool-1-thread-4] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,790 INFO  [pool-1-thread-4] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,790 INFO  [pool-1-thread-4] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,790 INFO  [pool-1-thread-4] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,791 INFO  [pool-1-thread-4] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,791 INFO  [pool-1-thread-4] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:51:56,793 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = Fresher 3
+29 Dec 2018 14:51:56,857 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  | get resources request received
+29 Dec 2018 14:52:08,119 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |  NEW BUILDING 9,2|java.awt.Point[x=1,y=30]
+29 Dec 2018 14:52:08,127 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  | saveModel UserData with uId = 3
+29 Dec 2018 14:52:08,136 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |  building new success 8
+29 Dec 2018 14:52:08,139 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  | UserMap - showMap:
+29 Dec 2018 14:52:08,139 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:52:08,140 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |     ----------------------------------------
+29 Dec 2018 14:52:08,143 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000000000000001110000000000
+29 Dec 2018 14:52:08,143 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000000000000001110000000000
+29 Dec 2018 14:52:08,144 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000000001100000000000000000001110000000000
+29 Dec 2018 14:52:08,151 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:52:08,151 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,152 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,152 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,152 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,153 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,153 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,153 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,153 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,154 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,154 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,154 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,154 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,155 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,155 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:52:08,155 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:52:08,155 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:52:08,156 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:52:08,156 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:52:08,157 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:52:08,157 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:52:08,158 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:52:08,158 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:52:08,159 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:52:08,159 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,160 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,160 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:52:08,161 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:52:08,161 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:52:08,161 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,162 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,162 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,164 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,168 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,168 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,169 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,169 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,170 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:08,170 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,664 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 3
+29 Dec 2018 14:52:29,672 INFO  [pool-1-thread-1] debug     -  | UserMap - showMap:
+29 Dec 2018 14:52:29,672 INFO  [pool-1-thread-1] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:52:29,673 INFO  [pool-1-thread-1] debug     -  |     ----------------------------------------
+29 Dec 2018 14:52:29,675 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000001110000000000
+29 Dec 2018 14:52:29,675 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000001110000000000
+29 Dec 2018 14:52:29,675 INFO  [pool-1-thread-1] debug     -  |   3 |000000001100000000000000000001110000000000
+29 Dec 2018 14:52:29,676 INFO  [pool-1-thread-1] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:52:29,676 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,676 INFO  [pool-1-thread-1] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,676 INFO  [pool-1-thread-1] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,677 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,677 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,677 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,677 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,678 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,678 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,678 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,679 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,679 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,680 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,680 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:52:29,681 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:52:29,681 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:52:29,681 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:52:29,682 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:52:29,682 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:52:29,682 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:52:29,682 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:52:29,683 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:52:29,683 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:52:29,683 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,683 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,684 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:52:29,684 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:52:29,684 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:52:29,685 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,721 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,721 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,722 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,722 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,722 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,722 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,723 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,723 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,723 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:52:29,726 WARN  [pool-1-thread-1] DemoHandler     - processUserLoginSuccess, name = Fresher 3
+29 Dec 2018 14:52:29,864 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  | get resources request received
+29 Dec 2018 14:53:59,546 INFO  [pool-1-thread-2] debug     -  | getModel UserData with uId = 3
+29 Dec 2018 14:53:59,567 INFO  [pool-1-thread-2] debug     -  | UserMap - showMap:
+29 Dec 2018 14:53:59,567 INFO  [pool-1-thread-2] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:53:59,567 INFO  [pool-1-thread-2] debug     -  |     ----------------------------------------
+29 Dec 2018 14:53:59,568 INFO  [pool-1-thread-2] debug     -  |   1 |000000000000000000000000000001110000000000
+29 Dec 2018 14:53:59,568 INFO  [pool-1-thread-2] debug     -  |   2 |000000000000000000000000000001110000000000
+29 Dec 2018 14:53:59,568 INFO  [pool-1-thread-2] debug     -  |   3 |000000001100000000000000000001110000000000
+29 Dec 2018 14:53:59,568 INFO  [pool-1-thread-2] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:53:59,569 INFO  [pool-1-thread-2] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,569 INFO  [pool-1-thread-2] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,569 INFO  [pool-1-thread-2] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,569 INFO  [pool-1-thread-2] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,570 INFO  [pool-1-thread-2] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,570 INFO  [pool-1-thread-2] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,570 INFO  [pool-1-thread-2] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,570 INFO  [pool-1-thread-2] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,571 INFO  [pool-1-thread-2] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,571 INFO  [pool-1-thread-2] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,571 INFO  [pool-1-thread-2] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,571 INFO  [pool-1-thread-2] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,572 INFO  [pool-1-thread-2] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,572 INFO  [pool-1-thread-2] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:53:59,572 INFO  [pool-1-thread-2] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:53:59,572 INFO  [pool-1-thread-2] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:53:59,573 INFO  [pool-1-thread-2] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:53:59,573 INFO  [pool-1-thread-2] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:53:59,573 INFO  [pool-1-thread-2] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:53:59,574 INFO  [pool-1-thread-2] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:53:59,574 INFO  [pool-1-thread-2] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:53:59,574 INFO  [pool-1-thread-2] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:53:59,575 INFO  [pool-1-thread-2] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:53:59,575 INFO  [pool-1-thread-2] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,575 INFO  [pool-1-thread-2] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,577 INFO  [pool-1-thread-2] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:53:59,579 INFO  [pool-1-thread-2] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:53:59,603 INFO  [pool-1-thread-2] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:53:59,604 INFO  [pool-1-thread-2] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,604 INFO  [pool-1-thread-2] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,604 INFO  [pool-1-thread-2] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,605 INFO  [pool-1-thread-2] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,605 INFO  [pool-1-thread-2] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,605 INFO  [pool-1-thread-2] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,605 INFO  [pool-1-thread-2] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,606 INFO  [pool-1-thread-2] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,606 INFO  [pool-1-thread-2] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,606 INFO  [pool-1-thread-2] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:53:59,608 WARN  [pool-1-thread-2] DemoHandler     - processUserLoginSuccess, name = Fresher 3
+29 Dec 2018 14:53:59,683 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  | get resources request received
+29 Dec 2018 14:54:30,259 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |  UPGRADE BUILDING 8
+29 Dec 2018 14:54:30,260 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  | UserMap - showMap:
+29 Dec 2018 14:54:30,261 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:54:30,262 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |     ----------------------------------------
+29 Dec 2018 14:54:30,263 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   1 |000000000000000000000000000001110000000000
+29 Dec 2018 14:54:30,263 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   2 |000000000000000000000000000001110000000000
+29 Dec 2018 14:54:30,264 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   3 |000000001100000000000000000001110000000000
+29 Dec 2018 14:54:30,265 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:54:30,265 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,265 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,266 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,266 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,267 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,267 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,268 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,268 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,269 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,269 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,269 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,269 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,270 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,270 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:54:30,270 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:54:30,271 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:54:30,271 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:54:30,271 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:54:30,271 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:54:30,272 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:54:30,272 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:54:30,272 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:54:30,273 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:54:30,273 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,274 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,274 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:54:30,274 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:54:30,274 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:54:30,275 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,275 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,276 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,276 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,276 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,276 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,277 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,277 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,277 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:30,278 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,179 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |  UPGRADE BUILDING NOW 8
+29 Dec 2018 14:54:32,180 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  | saveModel UserData with uId = 3
+29 Dec 2018 14:54:32,184 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  | UserMap - showMap:
+29 Dec 2018 14:54:32,185 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |      123456789012345678901234567890123456789012
+29 Dec 2018 14:54:32,185 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |     ----------------------------------------
+29 Dec 2018 14:54:32,186 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000000000000001110000000000
+29 Dec 2018 14:54:32,186 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000000000000001110000000000
+29 Dec 2018 14:54:32,186 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000000001100000000000000000001110000000000
+29 Dec 2018 14:54:32,186 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000001100000000000000000000000000000000
+29 Dec 2018 14:54:32,186 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,187 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |011000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,187 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |011000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,187 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,187 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,187 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,188 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,188 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,188 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,188 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,189 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,189 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,189 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,189 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000001100000000000000000000
+29 Dec 2018 14:54:32,190 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000001100000000000000000000
+29 Dec 2018 14:54:32,190 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000111101111100000000000000
+29 Dec 2018 14:54:32,190 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000111101111100000000000000
+29 Dec 2018 14:54:32,191 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000111101111100000000000000
+29 Dec 2018 14:54:32,191 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000000000000000000111101111100000000000000
+29 Dec 2018 14:54:32,191 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000000000000000000001111100000000000000
+29 Dec 2018 14:54:32,192 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000111000000000000000000000
+29 Dec 2018 14:54:32,192 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |000000000000000000111000000000000000000000
+29 Dec 2018 14:54:32,193 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |000000000000000000111000000000000000000000
+29 Dec 2018 14:54:32,193 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,193 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,193 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000000111000000000000000000
+29 Dec 2018 14:54:32,195 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000000111000000000000000000
+29 Dec 2018 14:54:32,196 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000000111000000000000000000
+29 Dec 2018 14:54:32,196 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,196 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,197 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,197 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,198 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,198 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,199 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,201 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,202 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000000000000000000000000000
+29 Dec 2018 14:54:32,202 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000000000000000000000000000
