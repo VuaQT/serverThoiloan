@@ -86,10 +86,6 @@ public class GameDataHandler extends BaseClientRequestHandler {
     private void getUserData(User user) {
         try {
             UserData userData = (UserData) user.getProperty(ServerConstant.USER_DATA);
-            if (userData == null) {
-                userData = new UserData(user.getId());
-                userData.saveModel(user.getId());
-            }
             send(new ResponseGetUserData(userData), user);
         } catch (Exception e) {
 

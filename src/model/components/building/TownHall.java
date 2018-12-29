@@ -17,7 +17,7 @@ public class TownHall extends Building {
     public int getMaxLevel(){
         return GameConfig.TOWN_HALL.getTOW1().size();
     }
-    public int getCurrentBuildsTime(){
+    public int getCurrentBuildTime(){
         return GameConfig.TOWN_HALL.getTOW1().get(upgradingLevel -1).getBuildTime();
     }
     public Key getSize(){
@@ -28,5 +28,19 @@ public class TownHall extends Building {
     }
     public ResourceType getUpgradeResourceRequire(int level){
         return new ResourceType(GameConfig.TOWN_HALL.getTOW1().get(level-1).getGold(),0,GameConfig.TOWN_HALL.getTOW1().get(level-1).getDarkElixir(),0);
+    }
+    public int getCapacity(int type){
+        switch (type){
+            case GameConfig.ResourceType.GOLD:
+                return GameConfig.TOWN_HALL.getTOW1().get(this.currentLevel-1).getCapacityGold();
+            case GameConfig.ResourceType.ELIXIR:
+                return GameConfig.TOWN_HALL.getTOW1().get(this.currentLevel-1).getCapacityElixir();
+            case GameConfig.ResourceType.DARK_ELIXIR:
+                return GameConfig.TOWN_HALL.getTOW1().get(this.currentLevel-1).getCapacityDarkElixir();
+        }
+        return 0;
+    }
+    public String toString(){
+        return "TownHall " + super.toString();
     }
 }

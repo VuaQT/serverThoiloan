@@ -46,6 +46,9 @@ public class DefenseBuilding extends Building {
         currentByteBuffer.putInt(defenseType);
     }
     public int getLevelTownHallRequiredToUpgrade(){
-        return GameConfig.DEFENSE.getDEF().get(defenseType-1).get(this.upgradingLevel -1).getTownHallLevelRequired() ;
+        return GameConfig.DEFENSE.getDEF().get(defenseType-1).get(this.currentLevel).getTownHallLevelRequired() ;
+    }
+    public String toString(){
+        return "Defense " + super.toString() + " defenseType : " + defenseType;
     }
 }

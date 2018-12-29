@@ -32,6 +32,7 @@ public class Building extends Area {
                 Debug.warn("Building updateStatus fail:" + this.getType() + " error upgradingLevel > maxLevel");
             }   else if(TimeManager.getTime()-this.upgradedMoment >= this.getCurrentBuildTime()){
                 this.currentLevel = this.upgradingLevel;
+                this.upgradedMoment = 0;
                 this.upgradingLevel = 0;
                 // a builder is released
                 return false;
@@ -43,7 +44,7 @@ public class Building extends Area {
         return false;
     }
     public boolean startUpgrade(){
-        this.updateStatus();
+        //this.updateStatus();
         if(this.upgradingLevel != 0){
             // upgrading
             return false;
@@ -68,7 +69,7 @@ public class Building extends Area {
 
     private boolean actionUpgrade(int type){
         // type = 1 : finishUpgradeNow , type = 0 : stopUpgradeNow
-        this.updateStatus();
+        //this.updateStatus();
         if(this.upgradingLevel ==0){
             //not upgrading
             return false;
@@ -77,6 +78,7 @@ public class Building extends Area {
             this.currentLevel = this.upgradingLevel;
         }
         this.upgradingLevel = 0;
+        this.upgradedMoment = 0;
         return true;
     }
 
@@ -101,18 +103,6 @@ public class Building extends Area {
         return currentLevel;
     }
 
-    public int getUpgradedMoment() {
-        return upgradedMoment;
-    }
-
-    public void setUpgradedMoment(int upgradedMoment) {
-        this.upgradedMoment = upgradedMoment;
-    }
-
-    public void setUpgradingLevel(int upgradingLevel) {
-        this.upgradingLevel = upgradingLevel;
-    }
-
     public int getUpgradingLevel() {
         return upgradingLevel;
     }
@@ -129,5 +119,10 @@ public class Building extends Area {
     }
     public int getLevelTownHallRequiredToUpgrade(){
         return 1;
+    }
+
+    public String toString(){
+        String s = super.toString() + " currentLevel : " + this.currentLevel + " upgradingLevel : " + upgradingLevel + "  upgradedMoment : " + upgradedMoment;
+        return s;
     }
 }

@@ -26,6 +26,9 @@ public class ArmyCamp extends Building {
         return new ResourceType(0,GameConfig.ARMYCAMP.getAMC1().get(level-1).getElixir(),GameConfig.ARMYCAMP.getAMC1().get(level-1).getDarkElixir(),0);
     }
     public int getLevelTownHallRequiredToUpgrade(){
-        return GameConfig.ARMYCAMP.getAMC1().get(this.upgradingLevel -1).getTownHallLevelRequired() ;
+        return GameConfig.ARMYCAMP.getAMC1().get(this.currentLevel).getTownHallLevelRequired() ;
+    }
+    public String toString(){
+        return "ArmyCamp " + super.toString();
     }
 }

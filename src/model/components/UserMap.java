@@ -5,14 +5,13 @@ import bitzero.util.common.business.Debug;
 import util.Key;
 
 import java.awt.*;
-import java.nio.ByteBuffer;
 import java.util.HashMap;
 
 /**
  * Created by CPU11630_LOCAL on 12/9/2018.
  */
 public class UserMap {
-    public int id;
+//    public int id;
     public HashMap<Integer, Point> mapIdToPosition; // save to DB
     public HashMap<Integer, Key> mapIdToSize; // not save to DB
     public boolean [][] mapGrid; // not save to DB
@@ -20,9 +19,8 @@ public class UserMap {
     // mapGrid is used for checking if a position in map has already had object or not
     // mapGrid is not saved in DB and is not sent to Client
 
-    public UserMap(int id){
-        this.id = id;
-        mapIdToPosition = new HashMap<Integer, Point>();
+    public UserMap(HashMap<Integer, Point> mapIdToPosition){
+        this.mapIdToPosition = mapIdToPosition;
     }
 
     public void loadEachLogin(HashMap<Integer, Area> mapIdToArea){
@@ -39,7 +37,7 @@ public class UserMap {
                 try {
                     for(int i=0;i<size.first;i++){
                         for(int j=0;j<size.second;j++){
-                            if(mapGrid[pos.x+i-1][pos.y+j-1]==false){
+                            if(!mapGrid[pos.x + i - 1][pos.y + j - 1]){
                                 mapGrid[pos.x+i-1][pos.y+j-1]=true;
                             }   else    {
                                 Debug.warn("UserMap - loadObjectSizeAndMapGrid : Area OverLap each other");
@@ -77,7 +75,7 @@ public class UserMap {
         try {
             for(int i=0;i<size.first;i++){
                 for(int j=0;j<size.second;j++){
-                    if(mapGrid[pos.x+i-1][pos.y+j-1]==true){
+                    if(mapGrid[pos.x + i - 1][pos.y + j - 1]){
                         return false;
                     }
                 }
@@ -85,15 +83,58 @@ public class UserMap {
             return true;
         }catch (Exception e){
             Debug.warn(pos + " <" + size.first + "," + size.second + ">");
+            return false;
+        }
+    }
+
+    public boolean checkIfFreeSpaceToMove(int id, Point pos){
+        Key size = this.mapIdToSize.get(id);
+        boolean[][] tempGrid = new boolean[size.first][size.second];
+        try {
+            // backup grid
+            for(int i=0;i<size.first;i++){
+                for(int j=0;j<size.second;j++){
+                    tempGrid[i][j] = mapGrid[pos.x+i-1][pos.y+j-1];
+                    mapGrid[pos.x+i-1][pos.y+j-1] = false;
+                }
+            }
+            // check
+            boolean ans = checkIfFreeSpace(pos,size);
+            // restore grid
+            for(int i=0;i<size.first;i++){
+                for(int j=0;j<size.second;j++){
+                    mapGrid[pos.x+i-1][pos.y+j-1] = tempGrid[i][j];
+                }
+            }
+            return ans;
+        }catch (Exception e){
+            Debug.warn(pos + " <" + size.first + "," + size.second + ">");
             e.printStackTrace();
             return false;
         }
     }
+
     public boolean moveObject(int id, Point newPos){
         // update info of mapIdToPosition and mapGrid
         //...
-
-        return true;
+        try {
+            Key size = this.mapIdToSize.get(id);
+            Point pos = this.mapIdToPosition.get(id);
+            for(int i=0;i<size.first;i++){
+                for(int j=0;j<size.second;j++){
+                    mapGrid[pos.x+i-1][pos.y+j-1] = false;
+                }
+            }
+            for(int i=0;i<size.first;i++){
+                for(int j=0;j<size.second;j++){
+                    mapGrid[newPos.x+i-1][newPos.y+j-1] = true;
+                }
+            }
+            this.mapIdToPosition.replace(id,newPos);
+            return false;
+        }   catch (Exception e){
+            return true;
+        }
     }
     public boolean deleteObject(int id){
         // update info of mapIdToPosition, mapIdToSize and mapGrid
@@ -126,7 +167,7 @@ public class UserMap {
         for (int i=0;i<GameConfig.boardWidth;i++){
             s = "  " + ((i+1)%10) + " |";
             for(int j=0;j<GameConfig.boardHeight;j++){
-                if(mapGrid[i][j]==true){
+                if(mapGrid[i][j]){
                     s += "1";
                 }   else {
                     s += "0";

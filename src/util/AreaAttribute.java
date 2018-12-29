@@ -20,7 +20,6 @@ public class AreaAttribute {
                 resourceType.darkElixir = GameConfig.BARRACK.getBAR().get(type.second-1).get(0).getDarkElixir();
                 break;
             case GameConfig.AreaType.BUILDER_HUT:
-                resourceType.coin = GameConfig.BUILDERHUT.getBDH1().get(0).getCoin();
                 break;
             case GameConfig.AreaType.DEFENSE:
                 resourceType.gold = GameConfig.DEFENSE.getDEF().get(type.second-1).get(0).getGold();
@@ -69,75 +68,5 @@ public class AreaAttribute {
                 return null;
         }
     }
-    public static int getMaxNumberCanBuild(Key type, int levelTownHall){
-        //TODO : get max number of building base on type and levelTownHall
-        switch (type.first){
-            case GameConfig.AreaType.ARMY_CAMP:
-                return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getAMC1();
-            case GameConfig.AreaType.BARRACK:
-                switch (type.second){
-                    case 0:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getBAR1();
-                    case 1:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getBAR2();
-                }
-            case GameConfig.AreaType.BUILDER_HUT:
-                return GameConfig.BUILDERHUT.getBDH1().size();
-            case GameConfig.AreaType.DEFENSE:
-                switch (type.second){
-                    case 1:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF1();
-                    case 2:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF2();
-                    case 3:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF3();
-                    case 4:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF4();
-                    case 5:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF5();
-                    case 6:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF6();
-                    case 7:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF7();
-                    case 8:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF8();
-                    case 9:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF9();
-                    case 10:// no DEF10
-                        return 1;
-                    case 11:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF11();
-                    case 12:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF12();
-                    // TODO : case WALL ...
-                }
 
-            case GameConfig.AreaType.RESOURCE:
-                switch (type.second){
-                    case 1:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getRES1();
-                    case 2:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getRES2();
-                    case 3:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getRES3();
-                }
-
-            case GameConfig.AreaType.STORAGE:
-                switch (type.second){
-                    case 1:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getSTO1();
-                    case 2:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getSTO2();
-                    case 3:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getSTO3();
-                }
-            case GameConfig.AreaType.CLAN_CASTLE:
-                return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getCLC1();
-            case GameConfig.AreaType.LABORATORY:
-                return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getLAB1();
-            default:
-        }
-        // default is 1 building : type = townhall
-        return 1;
-    }
 }
