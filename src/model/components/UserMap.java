@@ -89,13 +89,14 @@ public class UserMap {
 
     public boolean checkIfFreeSpaceToMove(int id, Point pos){
         Key size = this.mapIdToSize.get(id);
+        Point currentPos = this.mapIdToPosition.get(id);
         boolean[][] tempGrid = new boolean[size.first][size.second];
         try {
             // backup grid
             for(int i=0;i<size.first;i++){
                 for(int j=0;j<size.second;j++){
-                    tempGrid[i][j] = mapGrid[pos.x+i-1][pos.y+j-1];
-                    mapGrid[pos.x+i-1][pos.y+j-1] = false;
+                    tempGrid[i][j] = mapGrid[currentPos.x+i-1][currentPos.y+j-1];
+                    mapGrid[currentPos.x+i-1][currentPos.y+j-1] = false;
                 }
             }
             // check
@@ -103,7 +104,7 @@ public class UserMap {
             // restore grid
             for(int i=0;i<size.first;i++){
                 for(int j=0;j<size.second;j++){
-                    mapGrid[pos.x+i-1][pos.y+j-1] = tempGrid[i][j];
+                    mapGrid[currentPos.x+i-1][currentPos.y+j-1] = tempGrid[i][j];
                 }
             }
             return ans;

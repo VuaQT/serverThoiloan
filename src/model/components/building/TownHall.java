@@ -27,7 +27,7 @@ public class TownHall extends Building {
         super.packToByteBuffer(currentByteBuffer);
     }
     public ResourceType getUpgradeResourceRequire(int level){
-        return new ResourceType(GameConfig.TOWN_HALL.getTOW1().get(level-1).getGold(),0,GameConfig.TOWN_HALL.getTOW1().get(level-1).getDarkElixir(),0);
+        return new ResourceType(GameConfig.TOWN_HALL.getTOW1().get(level-1).getGold(),0,GameConfig.TOWN_HALL.getTOW1().get(level-1).getDarkElixir());
     }
     public int getCapacity(int type){
         switch (type){

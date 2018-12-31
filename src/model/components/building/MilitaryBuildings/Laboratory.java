@@ -38,7 +38,7 @@ public class Laboratory extends Building {
         // pack Lab infor later
     }
     public ResourceType getUpgradeResourceRequire(int level){
-        return new ResourceType(0,GameConfig.LABORATORY.getLAB1().get(level-1).getElixir(),GameConfig.LABORATORY.getLAB1().get(level-1).getDarkElixir(),0);
+        return new ResourceType(0,GameConfig.LABORATORY.getLAB1().get(level-1).getElixir(),GameConfig.LABORATORY.getLAB1().get(level-1).getDarkElixir());
     }
     public int getLevelTownHallRequiredToUpgrade(){
         return GameConfig.LABORATORY.getLAB1().get(this.currentLevel).getTownHallLevelRequired() ;

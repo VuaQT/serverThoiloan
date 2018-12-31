@@ -39,7 +39,7 @@ public class DefenseBuilding extends Building {
     }
 
     public ResourceType getUpgradeResourceRequire(int level){
-        return new ResourceType(GameConfig.DEFENSE.getDEF().get(defenseType-1).get(level-1).getGold(),0,GameConfig.DEFENSE.getDEF().get(defenseType-1).get(level-1).getDarkElixir(),0);
+        return new ResourceType(GameConfig.DEFENSE.getDEF().get(defenseType-1).get(level-1).getGold(),0,GameConfig.DEFENSE.getDEF().get(defenseType-1).get(level-1).getDarkElixir());
     }
     public void packToByteBuffer(ByteBuffer currentByteBuffer){
         super.packToByteBuffer(currentByteBuffer);

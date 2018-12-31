@@ -51,7 +51,7 @@ public class Resource extends Building {
         currentByteBuffer.putInt(harvestMoment);
     }
     public ResourceType getUpgradeResourceRequire(int level){
-        return new ResourceType(GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getGold(),GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getElixir(),GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getDarkElixir(),0);
+        return new ResourceType(GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getGold(),GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getElixir(),GameConfig.RESOURCE.getRES().get(this.resourceType-1).get(level-1).getDarkElixir());
     }
     public String toString(){
         return "Resource " + super.toString() + " resourceType : " + resourceType + " harvestMoment :" + harvestMoment;
