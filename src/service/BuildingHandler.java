@@ -246,6 +246,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
             userResources.decreaseResource(resourceRequired);
             building.startUpgrade();
             userData.addAreaBuilderWorking(building);
+            userData.saveArea(building.getId());
             userResources.saveModel(user.getId());
             userData.save(user.getId());
             send(new ResponseStatus(CmdDefine.UPGRADE ,GameConfig.UpgradeStatus.SUCCESS), user);
@@ -290,6 +291,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
             if(building.getUpgradingLevel()>1){
                 // upgrading, not constructing
                 building.stopUpgrade();
+                userData.saveArea(building.getId());
             }   else    {
                 // stop constructing, just need to removeArea from userData
                 userData.removeArea(building.getId());
@@ -325,6 +327,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
 
             // TODO : current allow finish upgrade without checking and decrease coin, need to check and decrease later
             building.finishUpgrade();
+            userData.saveArea(building.getId());
             userResources.saveModel(user.getId());
             userData.save(user.getId());
             send(new ResponseStatus(CmdDefine.UPGRADE_NOW ,GameConfig.UpgradeNowStatus.SUCCESS), user);

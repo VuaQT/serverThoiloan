@@ -374,6 +374,13 @@ public class UserData{
         this.dataModel.mapIdToJsonString.put(id, gson.toJson(area));
     }
 
+    public void saveArea(int id){
+        Area area = this.mapIdToArea.get(id);
+        if(area == null) return;
+        int type = area.getType();
+        this.dataModel.mapIdToClassType.put(id, type);
+        this.dataModel.mapIdToJsonString.put(id, gson.toJson(area));
+    }
     public void removeArea(int id){
         this.dataModel.mapIdToClassType.remove(id);
         this.dataModel.mapIdToJsonString.remove(id);
