@@ -49,4 +49,7 @@ public class Obstacle extends Area {
         currentByteBuffer.putInt(cleanMoment);
         currentByteBuffer.putInt(obstacleType);
     }
+    public String toString(){
+        return "Obstacle " + super.toString() +  " cleanMoment : " + cleanMoment + " obstacleType : " + obstacleType ;
+    }
 }

@@ -58,20 +58,13 @@ public class LoginSuccessHandler extends BaseServerEventHandler {
         UserData userData = null;
         UserResources userResources = null;
         try {
-            userData = UserData.getModel(user.getId());
+            userData = UserData.get(user.getId());
             userResources = (UserResources) DataModel.getModel(user.getId(), UserResources.class);
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        if (userData==null){
-            userData = new UserData(user.getId());
-            try {
-                userData.saveModel(user.getId());
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+        userData.showInfo();
         user.setProperty(ServerConstant.USER_DATA, userData);
 
         if(userResources == null){
