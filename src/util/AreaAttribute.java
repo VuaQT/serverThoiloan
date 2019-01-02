@@ -40,7 +40,7 @@ public class AreaAttribute {
                 resourceType.darkElixir = GameConfig.LABORATORY.getLAB1().get(0).getDarkElixir();
                 break;
             default:
-                return new ResourceType(Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE);
+                return new ResourceType(Integer.MAX_VALUE, Integer.MAX_VALUE, Integer.MAX_VALUE);
         }
         return resourceType;
     }

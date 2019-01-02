@@ -58,7 +58,7 @@ public class Barrack extends Building {
         currentByteBuffer.putInt(barrackType);
     }
     public ResourceType getUpgradeResourceRequire(int level){
-        return new ResourceType(0,GameConfig.BARRACK.getBAR().get(barrackType-1).get(level-1).getElixir(),GameConfig.BARRACK.getBAR().get(barrackType-1).get(level-1).getDarkElixir(),0);
+        return new ResourceType(0,GameConfig.BARRACK.getBAR().get(barrackType-1).get(level-1).getElixir(),GameConfig.BARRACK.getBAR().get(barrackType-1).get(level-1).getDarkElixir());
     }
     public int getLevelTownHallRequiredToUpgrade(){
         return GameConfig.BARRACK.getBAR().get(barrackType-1).get(this.currentLevel).getTownHallLevelRequired() ;

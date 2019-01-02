@@ -17,7 +17,7 @@ public class ResourceType {
         this.gold = this.elixir = this.darkElixir = 0;
     }
 
-    public ResourceType(int gold, int elixir, int darkElixir, int coin) {
+    public ResourceType(int gold, int elixir, int darkElixir) {
         this.gold = gold;
         this.elixir = elixir;
         this.darkElixir = darkElixir;

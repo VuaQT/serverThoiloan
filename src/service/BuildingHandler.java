@@ -186,7 +186,7 @@ public class BuildingHandler extends BaseClientRequestHandler {
                 return;
             }
             // check valid position
-            if(!userData.userMap.checkIfFreeSpaceToMove(area.getId(), newPos)){
+            if(!userData.userMap.checkIfFreeSpaceToMove(id, newPos)){
                 send(new ResponseStatus(CmdDefine.MOVE_BUILDING ,GameConfig.MoveBuildingStatus.FAIL_NOT_VALID_POSITION), user);
                 return;
             }

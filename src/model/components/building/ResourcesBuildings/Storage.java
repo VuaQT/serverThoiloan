@@ -40,7 +40,7 @@ public class Storage extends Building{
         currentByteBuffer.putInt(storageType);
     }
     public ResourceType getUpgradeResourceRequire(int level){
-        return new ResourceType(GameConfig.STORAGE.getSTO().get(storageType-1).get(level-1).getGold(),GameConfig.STORAGE.getSTO().get(storageType-1).get(level-1).getElixir(),GameConfig.STORAGE.getSTO().get(storageType-1).get(level-1).getDarkElixir(),0);
+        return new ResourceType(GameConfig.STORAGE.getSTO().get(storageType-1).get(level-1).getGold(),GameConfig.STORAGE.getSTO().get(storageType-1).get(level-1).getElixir(),GameConfig.STORAGE.getSTO().get(storageType-1).get(level-1).getDarkElixir());
     }
     public int getCapacity(){
         return GameConfig.RESOURCE.getRES().get(this.storageType-1).get(this.currentLevel-1).getCapacity();
