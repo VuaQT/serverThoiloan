@@ -18,7 +18,7 @@ public class PlayerInfo extends DataModel {
         super();
         id = _id;
         name = _name;
-        position = new Point(0, 0);
+        position = new Point(1, 1);
     }
 
     public String toString() {

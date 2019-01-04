@@ -8,6 +8,7 @@ import bitzero.server.entities.User;
 import bitzero.server.extensions.BaseClientRequestHandler;
 import bitzero.server.extensions.data.DataCmd;
 
+import bitzero.util.common.business.Debug;
 import cmd.CmdDefine;
 
 import cmd.receive.user.RequestUserInfo;
@@ -76,6 +77,7 @@ public class UserHandler extends BaseClientRequestHandler {
 
     private void getUserInfo(User user) {
         try {
+            Debug.info("go to getUserInfo");
             PlayerInfo userInfo = (PlayerInfo) user.getProperty(ServerConstant.PLAYER_INFO);
             if (userInfo == null) {
                 userInfo = new PlayerInfo(user.getId(), "username_" + user.getId());

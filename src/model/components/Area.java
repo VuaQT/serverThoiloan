@@ -1,5 +1,9 @@
 package model.components;
 
+import util.Key;
+
+import java.nio.ByteBuffer;
+
 /**
  * Created by CPU11630_LOCAL on 12/8/2018.
  */
@@ -11,8 +15,13 @@ public class Area {
         this.id = id;
         this.type = type;
     }
-    public void updateStatus(){
+    public boolean updateStatus(){
+        // return true if a builder is working on
+        return false;
+    }
 
+    public Key getSize(){
+        return new Key(0,0);
     }
 
     public void setId(int id) {
@@ -29,6 +38,14 @@ public class Area {
 
     public int getType() {
         return type;
+    }
+
+    public void packToByteBuffer(ByteBuffer currentByteBuffer){
+        currentByteBuffer.putInt(id);
+        currentByteBuffer.putInt(type);
+    }
+    public String toString(){
+        return "id : " + id + " type : " + type ;
     }
 }
 

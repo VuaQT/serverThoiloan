@@ -1,7 +1,11 @@
 package model;
 
 import GameConfig.GameConfig;
+import GameConfig.Resource.RE;
+import util.ResourceType;
 import util.database.DataModel;
+
+import java.nio.ByteBuffer;
 
 public class UserResources extends DataModel{
     private int id;
@@ -25,6 +29,19 @@ public class UserResources extends DataModel{
         this.darkElixir = GameConfig.INIT_GAME.getPlayer().getDarkElixir();
     }
 
+    public void decreaseCoin(int amount){
+        this.coin -= amount;
+    }
+    public void decreaseResource(ResourceType resourceType){
+        this.gold -= resourceType.gold;
+        this.elixir -= resourceType.elixir;
+        this.darkElixir -= resourceType.darkElixir;
+    }
+    public void inreaseResource(ResourceType resourceType){
+        this.gold += resourceType.gold ;
+        this.elixir += resourceType.elixir ;
+        this.darkElixir += resourceType.darkElixir ;
+    }
     public void setId(int id) {
         this.id = id;
     }
@@ -97,12 +114,53 @@ public class UserResources extends DataModel{
         return shieldTime;
     }
 
-    public void setGCoin(int gCoin) {
-        this.coin = gCoin;
+    public void setCoin(int coin) {
+        this.coin = coin;
     }
 
-    public int getGCoin() {
+    public int getCoin() {
         return coin;
     }
 
+    public void packToByteBuffer(ByteBuffer currentByteBuffer){
+        currentByteBuffer.putInt(id);
+//        currentByteBuffer.put ... username;
+//        currentByteBuffer.putInt(username.length());
+//        for(int i=0;i<username.length();i++){
+//            currentByteBuffer.putChar(username.charAt(i));
+//        }
+        currentByteBuffer.putInt(levelPoint);
+        currentByteBuffer.putInt(exp);
+        currentByteBuffer.putInt(trophy);
+        currentByteBuffer.putInt(gold);
+        currentByteBuffer.putInt(elixir);
+        currentByteBuffer.putInt(darkElixir);
+        currentByteBuffer.putInt(shieldTime);
+        currentByteBuffer.putInt(coin);
+    }
+    public int getCurrentResource(int type){
+        switch (type){
+            case 1:
+                return this.getGold();
+            case 2:
+                return this.getElixir();
+            case 3:
+                return this.getDarkElixir();
+            case 4:
+                return this.getCoin();
+        }
+        return 0;
+    }
+    public void increaseResource(int type, int amount){
+        switch (type){
+            case 1:
+                this.gold += amount;
+            case 2:
+                this.elixir += amount;
+            case 3:
+                this.darkElixir += amount;
+            case 4:
+                this.coin += amount;
+        }
+    }
 }

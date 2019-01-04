@@ -6,8 +6,8 @@ import bitzero.server.extensions.data.DataCmd;
 import java.nio.ByteBuffer;
 
 public class RequestLogin extends BaseCmd {
-    public String sessionKey = "";
-    public int userId = 0;
+    public int uid; // each user is identified by their uid;
+    public String username = "";
     public RequestLogin(DataCmd dataCmd) {
         super(dataCmd);
     }
@@ -16,8 +16,8 @@ public class RequestLogin extends BaseCmd {
     public void unpackData() {
         ByteBuffer bf = makeBuffer();
         try {
-            sessionKey = readString(bf);
-            userId = readInt(bf);
+            uid = readInt(bf);
+            username = readString(bf);
         } catch (Exception e) {
             
         }
