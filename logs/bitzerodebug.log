@@ -6944,3 +6944,481 @@
 31 Dec 2018 20:02:35,451 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 3
 31 Dec 2018 20:02:35,571 INFO  [bitzero.server.controllers.ExtensionController-3] debug     -  | get resources request received
 31 Dec 2018 20:02:47,817 ERROR [pool-1-thread-2] debug     - java.lang.NullPointerException *** Null ***
+02 Jan 2019 11:27:05,672 INFO  [pool-1-thread-1] debug     -  | getModel UserData with uId = 231313
+02 Jan 2019 11:27:05,694 INFO  [pool-1-thread-1] debug     -  | createInitArea
+02 Jan 2019 11:27:05,723 INFO  [pool-1-thread-1] debug     -  | size : 7
+02 Jan 2019 11:27:05,724 INFO  [pool-1-thread-1] debug     -  | saveModel UserData with uId = 231313
+02 Jan 2019 11:27:05,734 INFO  [pool-1-thread-1] debug     -  | UserMap - showMap:
+02 Jan 2019 11:27:05,734 INFO  [pool-1-thread-1] debug     -  |      123456789012345678901234567890123456789012
+02 Jan 2019 11:27:05,734 INFO  [pool-1-thread-1] debug     -  |     ----------------------------------------
+02 Jan 2019 11:27:05,734 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,735 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,735 INFO  [pool-1-thread-1] debug     -  |   3 |000000001100000000000000000000000000000000
+02 Jan 2019 11:27:05,735 INFO  [pool-1-thread-1] debug     -  |   4 |000000001100000000000000000000000000000000
+02 Jan 2019 11:27:05,735 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,735 INFO  [pool-1-thread-1] debug     -  |   6 |011000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,735 INFO  [pool-1-thread-1] debug     -  |   7 |011000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,735 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,735 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,735 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,735 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,735 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,736 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,736 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,736 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,736 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,736 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,736 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000001100000000000000000000
+02 Jan 2019 11:27:05,736 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000001100000000000000000000
+02 Jan 2019 11:27:05,736 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:05,737 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:05,737 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:05,737 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:05,737 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000001111100000000000000
+02 Jan 2019 11:27:05,737 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:05,737 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:05,737 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:05,739 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,739 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,739 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000111000000000000000000
+02 Jan 2019 11:27:05,739 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000111000000000000000000
+02 Jan 2019 11:27:05,739 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000111000000000000000000
+02 Jan 2019 11:27:05,739 INFO  [pool-1-thread-1] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,740 INFO  [pool-1-thread-1] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,740 INFO  [pool-1-thread-1] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,740 INFO  [pool-1-thread-1] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,740 INFO  [pool-1-thread-1] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,740 INFO  [pool-1-thread-1] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,740 INFO  [pool-1-thread-1] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,740 INFO  [pool-1-thread-1] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,740 INFO  [pool-1-thread-1] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,740 INFO  [pool-1-thread-1] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:05,749 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 231313
+02 Jan 2019 11:27:05,830 INFO  [bitzero.server.controllers.ExtensionController-3] debug     -  | get resources request received
+02 Jan 2019 11:27:19,765 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 1
+02 Jan 2019 11:27:19,772 INFO  [pool-1-thread-3] debug     -  | UserMap - showMap:
+02 Jan 2019 11:27:19,772 INFO  [pool-1-thread-3] debug     -  |      123456789012345678901234567890123456789012
+02 Jan 2019 11:27:19,772 INFO  [pool-1-thread-3] debug     -  |     ----------------------------------------
+02 Jan 2019 11:27:19,772 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,772 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,772 INFO  [pool-1-thread-3] debug     -  |   3 |000000001100000000000000000000000000000000
+02 Jan 2019 11:27:19,772 INFO  [pool-1-thread-3] debug     -  |   4 |000000001100000000000000000000000000000000
+02 Jan 2019 11:27:19,772 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,772 INFO  [pool-1-thread-3] debug     -  |   6 |011000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,772 INFO  [pool-1-thread-3] debug     -  |   7 |011000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,773 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,773 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000111000000000000000
+02 Jan 2019 11:27:19,773 INFO  [pool-1-thread-3] debug     -  |   0 |000000000111000000000000111000000000000000
+02 Jan 2019 11:27:19,773 INFO  [pool-1-thread-3] debug     -  |   1 |000000000111000000000000111000000000000000
+02 Jan 2019 11:27:19,773 INFO  [pool-1-thread-3] debug     -  |   2 |000000000111000000000000000000000000000000
+02 Jan 2019 11:27:19,773 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,773 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,773 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,773 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,773 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000000000000000000011100000
+02 Jan 2019 11:27:19,773 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000001100000000000011100000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000001100000000000011100000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000001111100000000000000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000111000000000000000000
+02 Jan 2019 11:27:19,774 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000111000000000000000000
+02 Jan 2019 11:27:19,775 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000111000000000001110000
+02 Jan 2019 11:27:19,775 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000000000000000000001110000
+02 Jan 2019 11:27:19,775 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000000000000000001110000
+02 Jan 2019 11:27:19,775 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,775 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,775 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000000000000001111000000000
+02 Jan 2019 11:27:19,775 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000001111000000000
+02 Jan 2019 11:27:19,775 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000001111000000000
+02 Jan 2019 11:27:19,775 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000000000001111000000000
+02 Jan 2019 11:27:19,775 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,775 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:19,777 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 1
+02 Jan 2019 11:27:19,883 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  | get resources request received
+02 Jan 2019 11:27:26,365 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |  NEW BUILDING 5,1|java.awt.Point[x=10,y=10]
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  | UserMap - showMap:
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |      123456789012345678901234567890123456789012
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |     ----------------------------------------
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000000001100000000000000000000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000001100000000000000000000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |011000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |011000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000000000111000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000111000000000000111000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000111000000000000111000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000111000000000000000000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,379 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |000000000000000000000000000000000011100000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000001100000000000011100000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000001100000000000011100000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000000000000000000001111100000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,380 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000000000000000111000000000000000000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000000111000000000000000000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000000111000000000001110000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000000000000000000000000000000000001110000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000000000000000000000000000000001110000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |000000000000000000000000000001111000000000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000000000000001111000000000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000000000000001111000000000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000000000000000000000001111000000000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:26,381 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,848 INFO  [pool-1-thread-3] debug     -  | getModel UserData with uId = 213
+02 Jan 2019 11:27:57,850 INFO  [pool-1-thread-3] debug     -  | UserMap - showMap:
+02 Jan 2019 11:27:57,850 INFO  [pool-1-thread-3] debug     -  |      123456789012345678901234567890123456789012
+02 Jan 2019 11:27:57,850 INFO  [pool-1-thread-3] debug     -  |     ----------------------------------------
+02 Jan 2019 11:27:57,850 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000011100000000000000000000
+02 Jan 2019 11:27:57,850 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000011100000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   3 |000000001100000000011100000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   4 |000000001100000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   6 |011000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   7 |011000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   0 |000000000111000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   1 |000000000111000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   2 |000000000111000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000001100000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000001100000000000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000111101111100000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000001111100000000000000
+02 Jan 2019 11:27:57,851 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000111000000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000111000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000111000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000111000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,852 INFO  [pool-1-thread-3] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,853 INFO  [pool-1-thread-3] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,853 INFO  [pool-1-thread-3] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,853 INFO  [pool-1-thread-3] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,853 INFO  [pool-1-thread-3] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:27:57,853 WARN  [pool-1-thread-3] DemoHandler     - processUserLoginSuccess, name = Fresher 213
+02 Jan 2019 11:27:57,965 INFO  [bitzero.server.controllers.ExtensionController-10] debug     -  | get resources request received
+02 Jan 2019 11:28:04,116 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |  NEW BUILDING 5,1|java.awt.Point[x=10,y=10]
+02 Jan 2019 11:28:04,116 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  | UserMap - showMap:
+02 Jan 2019 11:28:04,116 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |      123456789012345678901234567890123456789012
+02 Jan 2019 11:28:04,116 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |     ----------------------------------------
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   1 |000000000000000000011100000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   2 |000000000000000000011100000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   3 |000000001100000000011100000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   4 |000000001100000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   6 |011000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   7 |011000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   0 |000000000111000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   1 |000000000111000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   2 |000000000111000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,117 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   8 |000000000000000000001100000000000000000000
+02 Jan 2019 11:28:04,118 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   9 |000000000000000000001100000000000000000000
+02 Jan 2019 11:28:04,118 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   0 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:04,118 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   1 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:04,118 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   2 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:04,118 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   3 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:04,118 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   4 |000000000000000000000001111100000000000000
+02 Jan 2019 11:28:04,118 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   5 |000000000000000000111000000000000000000000
+02 Jan 2019 11:28:04,118 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   6 |000000000000000000111000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   7 |000000000000000000111000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   0 |000000000000000000000111000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   1 |000000000000000000000111000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   2 |000000000000000000000111000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:04,122 INFO  [bitzero.server.controllers.ExtensionController-1] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,499 INFO  [pool-1-thread-4] debug     -  | getModel UserData with uId = 5789458
+02 Jan 2019 11:28:52,499 INFO  [pool-1-thread-4] debug     -  | createInitArea
+02 Jan 2019 11:28:52,500 INFO  [pool-1-thread-4] debug     -  | size : 7
+02 Jan 2019 11:28:52,500 INFO  [pool-1-thread-4] debug     -  | saveModel UserData with uId = 5789458
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  | UserMap - showMap:
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |      123456789012345678901234567890123456789012
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |     ----------------------------------------
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |   3 |000000001100000000000000000000000000000000
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |   4 |000000001100000000000000000000000000000000
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |   6 |011000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |   7 |011000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,501 INFO  [pool-1-thread-4] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   8 |000000000000000000001100000000000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   9 |000000000000000000001100000000000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   0 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   1 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   2 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   3 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   4 |000000000000000000000001111100000000000000
+02 Jan 2019 11:28:52,502 INFO  [pool-1-thread-4] debug     -  |   5 |000000000000000000111000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   6 |000000000000000000111000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   7 |000000000000000000111000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   0 |000000000000000000000111000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   1 |000000000000000000000111000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   2 |000000000000000000000111000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,503 INFO  [pool-1-thread-4] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:52,504 WARN  [pool-1-thread-4] DemoHandler     - processUserLoginSuccess, name = Fresher 5789458
+02 Jan 2019 11:28:52,613 INFO  [bitzero.server.controllers.ExtensionController-4] debug     -  | get resources request received
+02 Jan 2019 11:28:58,429 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |  NEW BUILDING 5,1|java.awt.Point[x=10,y=10]
+02 Jan 2019 11:28:58,429 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  | saveModel UserData with uId = 5789458
+02 Jan 2019 11:28:58,431 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |  building new success 8
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  | UserMap - showMap:
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |      123456789012345678901234567890123456789012
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |     ----------------------------------------
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   3 |000000001100000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   4 |000000001100000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   6 |011000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   7 |011000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   0 |000000000111000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   1 |000000000111000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   2 |000000000111000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   8 |000000000000000000001100000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   9 |000000000000000000001100000000000000000000
+02 Jan 2019 11:28:58,432 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   0 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   1 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   2 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   3 |000000000000000000111101111100000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   4 |000000000000000000000001111100000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   5 |000000000000000000111000000000000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   6 |000000000000000000111000000000000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   7 |000000000000000000111000000000000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   0 |000000000000000000000111000000000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   1 |000000000000000000000111000000000000000000
+02 Jan 2019 11:28:58,434 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   2 |000000000000000000000111000000000000000000
+02 Jan 2019 11:28:58,435 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,435 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,435 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,435 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,436 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,436 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,436 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,436 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,436 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:28:58,436 INFO  [bitzero.server.controllers.ExtensionController-5] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,966 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |  MOVE BUILDING 8 pos : java.awt.Point[x=1,y=5]
+02 Jan 2019 11:29:18,967 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  | saveModel UserData with uId = 5789458
+02 Jan 2019 11:29:18,967 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  | UserMap - showMap:
+02 Jan 2019 11:29:18,967 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |      123456789012345678901234567890123456789012
+02 Jan 2019 11:29:18,967 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |     ----------------------------------------
+02 Jan 2019 11:29:18,967 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000011100000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000011100000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000011101100000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000001100000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |011000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |011000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000001100000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000001100000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000111101111100000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000111101111100000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000111101111100000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000000000000000000111101111100000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000000000000000000001111100000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000111000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |000000000000000000111000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |000000000000000000111000000000000000000000
+02 Jan 2019 11:29:18,968 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000000111000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000000111000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000000111000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,969 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:29:18,970 INFO  [bitzero.server.controllers.ExtensionController-6] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,578 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |  MOVE BUILDING 8 pos : java.awt.Point[x=1,y=6]
+02 Jan 2019 11:31:14,578 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  | saveModel UserData with uId = 5789458
+02 Jan 2019 11:31:14,578 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  | UserMap - showMap:
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |      123456789012345678901234567890123456789012
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |     ----------------------------------------
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000001110000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000001110000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000001111100000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000001100000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |011000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |011000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,579 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000001100000000000000000000
+02 Jan 2019 11:31:14,580 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000001100000000000000000000
+02 Jan 2019 11:31:14,580 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000000000000111101111100000000000000
+02 Jan 2019 11:31:14,580 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000111101111100000000000000
+02 Jan 2019 11:31:14,580 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000111101111100000000000000
+02 Jan 2019 11:31:14,580 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000000000000000000111101111100000000000000
+02 Jan 2019 11:31:14,580 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000000000000000000001111100000000000000
+02 Jan 2019 11:31:14,580 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000111000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |000000000000000000111000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |000000000000000000111000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000000000000000111000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000000111000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000000111000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:14,583 INFO  [bitzero.server.controllers.ExtensionController-7] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,026 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |  MOVE BUILDING 8 pos : java.awt.Point[x=1,y=7]
+02 Jan 2019 11:31:24,026 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  | UserMap - showMap:
+02 Jan 2019 11:31:24,026 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |      123456789012345678901234567890123456789012
+02 Jan 2019 11:31:24,026 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |     ----------------------------------------
+02 Jan 2019 11:31:24,026 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000001110000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000001110000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000001111100000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000001100000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |011000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |011000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000001100000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000001100000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000111101111100000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000111101111100000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000111101111100000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000000000000000000111101111100000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000000000000000000001111100000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000111000000000000000000000
+02 Jan 2019 11:31:24,027 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |000000000000000000111000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |000000000000000000111000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000000111000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000000111000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000000111000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   3 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   4 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   5 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   6 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   7 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   8 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   9 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   0 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   1 |000000000000000000000000000000000000000000
+02 Jan 2019 11:31:24,032 INFO  [bitzero.server.controllers.ExtensionController-8] debug     -  |   2 |000000000000000000000000000000000000000000
