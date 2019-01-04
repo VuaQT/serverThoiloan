@@ -107,7 +107,7 @@ public class GameConfig {
     public static void loadData(){
         // read json files
         Gson gson = new Gson();
-        String folderName = "res\\Config json";
+        String folderName = "res\\Configjson";
         try {
             boardWidth = 42;
             boardHeight = 42;
