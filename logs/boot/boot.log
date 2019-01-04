@@ -1,6 +1,0 @@
-29 Dec 2018 22:21:58,820 WARN  [main] bootLogger     - Was not able to bind socket: { 0.0.0.0:443, TCP }
-29 Dec 2018 22:21:58,850 ERROR [main] bootLogger     - No bound sockets! Check the boot logs for possible problems!
-02 Jan 2019 11:27:41,758 WARN  [main] bootLogger     - Was not able to bind socket: { 0.0.0.0:443, TCP }
-02 Jan 2019 11:27:41,762 ERROR [main] bootLogger     - No bound sockets! Check the boot logs for possible problems!
-02 Jan 2019 11:28:30,559 WARN  [main] bootLogger     - Was not able to bind socket: { 0.0.0.0:443, TCP }
-02 Jan 2019 11:28:30,562 ERROR [main] bootLogger     - No bound sockets! Check the boot logs for possible problems!
