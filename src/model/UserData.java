@@ -90,7 +90,7 @@ public class UserData{
 
 
         java.util.List<Ob> obs = GameConfig.INIT_GAME.getObs();
-        for (int i = 0; i < 2; i++) { // obs.size()
+        for (int i = 0; i < obs.size(); i++) { // obs.size()
             String typeString = obs.get(i).getType();
             try {
                 int typeObs = Character.getNumericValue(typeString.charAt(4));
@@ -378,6 +378,7 @@ public class UserData{
         Area area = this.mapIdToArea.get(id);
         if(area == null) return;
         int type = area.getType();
+        System.out.println("save id :" + id + " type :" + type + " json : " + gson.toJson(area));
         this.dataModel.mapIdToClassType.put(id, type);
         this.dataModel.mapIdToJsonString.put(id, gson.toJson(area));
     }
@@ -474,9 +475,9 @@ public class UserData{
                 return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getAMC1();
             case GameConfig.AreaType.BARRACK:
                 switch (type.second){
-                    case 0:
-                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getBAR1();
                     case 1:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getBAR1();
+                    case 2:
                         return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getBAR2();
                 }
             case GameConfig.AreaType.BUILDER_HUT:
@@ -487,26 +488,28 @@ public class UserData{
                         return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF1();
                     case 2:
                         return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF2();
-                    case 4:// case WALL ..., defenseType = 4
+                    case 3:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF3();
+                    case 4:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF4();
+                    case 5:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF5();
+                    case 6:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF6();
+                    case 7:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF7();
+                    case 8:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF8();
+                    case 9:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF9();
+                    case 10:// no DEF10
+                        return 1;
+                    case 11:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF11();
+                    case 12:
+                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF12();
+                    case 14:// case WALL ..., defenseType = 14
                         return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getWAL1();
-//                    case 4:
-//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF4();
-//                    case 5:
-//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF5();
-//                    case 6:
-//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF6();
-//                    case 7:
-//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF7();
-//                    case 8:
-//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF8();
-//                    case 9:
-//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF9();
-//                    case 10:// no DEF10
-//                        return 1;
-//                    case 11:
-//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF11();
-//                    case 12:
-//                        return GameConfig.TOWN_HALL.getTOW1().get(levelTownHall-1).getDEF12();
                 }
 
             case GameConfig.AreaType.RESOURCE:
