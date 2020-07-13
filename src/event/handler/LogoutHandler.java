@@ -7,6 +7,7 @@ import bitzero.server.extensions.BaseServerEventHandler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import util.server.ServerConstant;
 
 public class LogoutHandler extends BaseServerEventHandler {
 
@@ -21,6 +22,9 @@ public class LogoutHandler extends BaseServerEventHandler {
     }
 
     private void onLogOut(User user) {
+        System.out.println("LOG OUT RUI, DELETE USER DATA IN CACHE");
+        user.removeProperty(ServerConstant.USER_DATA);
+        user.removeProperty(ServerConstant.USER_RESOURCES);
 //        LogObject logObject = new LogObject(LogObject.ACTION_LOGOUT);
 //        logObject.zingId = Long.valueOf((String) user.getProperty("zingId"));
 //        logObject.zingName = (String) user.getProperty("zingName");

@@ -23,9 +23,8 @@ public class CmdDefine {
     public static final short UPGRADE_NOW = 4005;
 
 
-    public static final short HARVEST = 5001;
-
-
+    public static final short CHEAT_RESOURCE = 5001;
+    public static final short HARVEST = 5002;
 
 
 }

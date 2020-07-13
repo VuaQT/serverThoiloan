@@ -27,15 +27,17 @@ public class RequestAddBuilding extends BaseCmd {
         int p1,p2;
         try {
             p1 = readInt(bf);
-            if(GameConfig.checkHaveType2(p1)){
+            p2 = readInt(bf);
+            pos = new Point(p1,p2);
+
+            p1 = readInt(bf);
+            if(!GameConfig.checkHaveType2(p1)){
                 p2 = 0;
             }   else {
                 p2 = readInt(bf);
             }
             type = new Key(p1,p2);
-            p1 = readInt(bf);
-            p2 = readInt(bf);
-            pos = new Point(p1,p2);
+
         } catch (Exception e) {
             CommonHandle.writeErrLog(e);
         }
